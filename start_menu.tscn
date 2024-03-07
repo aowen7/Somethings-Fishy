@@ -1,5 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://f7blx43nw6h"]
+[gd_scene load_steps=3 format=3 uid="uid://f7blx43nw6h"]
 
+[ext_resource type="Script" path="res://start_menu.gd" id="1_lprii"]
 [ext_resource type="FontFile" uid="uid://bl14xf3d25n0d" path="res://monogram.ttf" id="1_yay00"]
 
 [node name="StartMenu" type="Control"]
@@ -9,6 +10,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_lprii")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 1
