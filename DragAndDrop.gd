@@ -1,0 +1,29 @@
+extends TextureRect
+
+func _get_drag_data(at_position):
+	# triggers when you click and drag
+	# when you drag slightly away from the box the item you drag with snap back minto position after you let go
+	
+	var preview_texture = TextureRect.new()
+	
+	preview_texture.texture = texture
+	preview_texture.expand_mode = 1
+	preview_texture.size = Vector2(30, 30)
+	
+	var preview = Control.new()
+	preview.add_child(preview_texture)
+	
+	set_drag_preview(preview)
+	texture = null
+	
+	return preview_texture.texture 
+	
+	
+func _can_drop_data(_pos, data):
+	# the drag
+	return data is Texture2D
+	
+	
+func _drop_data(_pos, data):
+	# the snap and drop
+	texture = data 
