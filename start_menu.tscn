@@ -74,3 +74,6 @@ layout_mode = 2
 theme_override_fonts/font = ExtResource("1_yay00")
 theme_override_font_sizes/font_size = 75
 text = "Close"
+
+[connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]
