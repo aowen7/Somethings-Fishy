@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://bf0jovukyeo5d"]
+[gd_scene load_steps=3 format=3 uid="uid://5qa0gn865hxh"]
 
-[ext_resource type="PackedScene" uid="uid://bn8pdqx320ih7" path="res://DragAndDrop.tscn" id="1_65wqc"]
-[ext_resource type="Texture2D" uid="uid://dh6rgubccwapy" path="res://icon.svg" id="2_xdbw6"]
+[ext_resource type="PackedScene" uid="uid://brkga2etxoqut" path="res://DragAndDrop.tscn" id="1_65wqc"]
+[ext_resource type="Texture2D" uid="uid://c5aks5tmw81kj" path="res://Miso Soup-export.png" id="2_i3f12"]
 
 [node name="DragAndDropTest" type="Node"]
 
@@ -10,7 +10,7 @@ offset_left = 733.0
 offset_top = 371.0
 offset_right = 773.0
 offset_bottom = 411.0
-texture = ExtResource("2_xdbw6")
+texture = ExtResource("2_i3f12")
 
 [node name="TextureRect2" parent="." instance=ExtResource("1_65wqc")]
 offset_left = 478.0
