@@ -52,6 +52,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Hotkey" type="Label" parent="MarginContainer/VBoxContainer"]
+visible = false
 custom_minimum_size = Vector2(2.08165e-12, 2.08165e-12)
 layout_mode = 2
 size_flags_vertical = 8
