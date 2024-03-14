@@ -1,7 +1,8 @@
 [gd_scene load_steps=3 format=3 uid="uid://bf0jovukyeo5d"]
 
-[ext_resource type="PackedScene" uid="uid://bn8pdqx320ih7" path="res://DragAndDrop.tscn" id="1_65wqc"]
-[ext_resource type="Texture2D" uid="uid://dh6rgubccwapy" path="res://icon.svg" id="2_xdbw6"]
+[ext_resource type="PackedScene" uid="uid://bn8pdqx320ih7" path="res://scenes/DragAndDrop.tscn" id="1_65wqc"]
+[ext_resource type="Texture2D" uid="uid://dh6rgubccwapy" path="res://assests/icon.svg" id="2_xdbw6"]
+
 
 [node name="DragAndDropTest" type="Node"]
 

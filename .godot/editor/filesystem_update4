@@ -1,5 +1,6 @@
-res://start_menu.gd
-res://start_menu.tscn
-res://world.tscn
-res://DragAndDrop.tscn
-res://drag_and_drop_test.tscn
+res://scripts/global.gd
+res://Slot.gd
+res://Food.gd
+res://scenes/world.tscn
+res://scenes/slot.tscn
+res://scenes/food.tscn
