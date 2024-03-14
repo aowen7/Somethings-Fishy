@@ -1,27 +1,29 @@
-[gd_scene load_steps=5 format=3 uid="uid://dd736nqnm3l6v"]
+[gd_scene load_steps=6 format=3 uid="uid://dd736nqnm3l6v"]
 
 [ext_resource type="Texture2D" uid="uid://i080bptfa22d" path="res://assests/sushi resurant enlarged.png" id="1_f34eq"]
 [ext_resource type="PackedScene" uid="uid://byxhio87yfra4" path="res://scenes/slot.tscn" id="1_mhkxd"]
 [ext_resource type="PackedScene" uid="uid://p4dbl04xfvjv" path="res://scenes/food.tscn" id="2_i0mue"]
+[ext_resource type="Texture2D" uid="uid://ogei2tdvq5yt" path="res://assests/resized plate 800.png" id="2_xmtmk"]
 [ext_resource type="PackedScene" uid="uid://bmmapknon0gfq" path="res://scenes/green_tea.tscn" id="4_lmi36"]
 
 [node name="World" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(967, 595)
-scale = Vector2(0.748047, 0.677778)
+position = Vector2(959, 544.5)
+scale = Vector2(0.75, 0.747917)
 texture = ExtResource("1_f34eq")
 
-[node name="Slot" parent="." instance=ExtResource("1_mhkxd")]
-position = Vector2(846, 989)
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(934, 980)
+texture = ExtResource("2_xmtmk")
 
-[node name="Slot2" parent="." instance=ExtResource("1_mhkxd")]
-position = Vector2(998, 989)
+[node name="Slot" parent="." instance=ExtResource("1_mhkxd")]
+position = Vector2(932, 936)
 
 [node name="Miso" parent="." instance=ExtResource("2_i0mue")]
-position = Vector2(1807, 672)
+position = Vector2(1801, 630)
 scale = Vector2(0.6, 0.6)
 
 [node name="GreenTea" parent="." instance=ExtResource("4_lmi36")]
-position = Vector2(1641, 759)
+position = Vector2(1632, 734)
 scale = Vector2(0.7, 0.7)
