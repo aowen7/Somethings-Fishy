@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://dd736nqnm3l6v"]
+[gd_scene load_steps=5 format=3 uid="uid://dd736nqnm3l6v"]
 
 [ext_resource type="Texture2D" uid="uid://i080bptfa22d" path="res://assests/sushi resurant enlarged.png" id="1_f34eq"]
 [ext_resource type="PackedScene" uid="uid://byxhio87yfra4" path="res://scenes/slot.tscn" id="1_mhkxd"]
 [ext_resource type="PackedScene" uid="uid://p4dbl04xfvjv" path="res://scenes/food.tscn" id="2_i0mue"]
+[ext_resource type="PackedScene" uid="uid://bmmapknon0gfq" path="res://scenes/green_tea.tscn" id="4_lmi36"]
 
 [node name="World" type="Node2D"]
 
@@ -12,8 +13,15 @@ scale = Vector2(0.748047, 0.677778)
 texture = ExtResource("1_f34eq")
 
 [node name="Slot" parent="." instance=ExtResource("1_mhkxd")]
-position = Vector2(939, 989)
+position = Vector2(846, 989)
 
-[node name="Food" parent="." instance=ExtResource("2_i0mue")]
+[node name="Slot2" parent="." instance=ExtResource("1_mhkxd")]
+position = Vector2(998, 989)
+
+[node name="Miso" parent="." instance=ExtResource("2_i0mue")]
 position = Vector2(1807, 672)
 scale = Vector2(0.6, 0.6)
+
+[node name="GreenTea" parent="." instance=ExtResource("4_lmi36")]
+position = Vector2(1641, 759)
+scale = Vector2(0.7, 0.7)
