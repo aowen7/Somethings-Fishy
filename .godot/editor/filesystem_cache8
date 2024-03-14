@@ -1,18 +1,20 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1710376630
+::res://::1710379128
 monogram.ttf::FontFile::3213973957411908233::1710374163::1710374163::1::::<><>::
 README.md::TextFile::-1::1710196905::0::1::::<><>::
+Food.gd::GDScript::-1::1710379128::0::1::::<>Node2D<>::
 Slot.gd::GDScript::-1::1710376421::0::1::::<>StaticBody2D<>::
 ::res://assests/::1710376644
 icon.svg::CompressedTexture2D::7715623622668058214::1710196905::1710375997::1::::<><>::
 Miso Soup-export-export.png::CompressedTexture2D::8369019529937021632::1710376644::1710376644::1::::<><>::
 sushi resurant enlarged.png::CompressedTexture2D::615168575130072437::1710376623::1710376631::1::::<><>::
-::res://scenes/::1710376630
+::res://scenes/::1710379492
 DragAndDrop.tscn::PackedScene::3367917106358075238::1710375986::0::1::::<><>::res://scripts/DragAndDrop.gd
 drag_and_drop_test.tscn::PackedScene::2789546934157366167::1710375997::0::1::::<><>::uid://bn8pdqx320ih7::::res://scenes/DragAndDrop.tscn<>uid://dh6rgubccwapy::::res://assests/icon.svg
-slot.tscn::PackedScene::4118873712441527113::1710376421::0::1::::<><>::res://Slot.gd
+food.tscn::PackedScene::1112884163935969683::1710379492::0::1::::<><>::res://Food.gd<>uid://driar8pa4xyay::::res://assests/Miso Soup-export-export.png
+slot.tscn::PackedScene::4118873712441527113::1710379593::0::1::::<><>::res://Slot.gd
 start_menu.tscn::PackedScene::12267232975665925::1710375988::0::1::::<><>::res://scripts/start_menu.gd<>uid://bl14xf3d25n0d::::res://monogram.ttf
-world.tscn::PackedScene::7437644813660059295::1710346261::0::1::::<><>::
+world.tscn::PackedScene::7437644813660059295::1710379492::0::1::::<><>::uid://i080bptfa22d::::res://assests/sushi resurant enlarged.png<>uid://byxhio87yfra4::::res://scenes/slot.tscn<>uid://p4dbl04xfvjv::::res://scenes/food.tscn
 ::res://scripts/::1710376421
 DragAndDrop.gd::GDScript::-1::1710374163::0::1::::<>TextureRect<>::
 global.gd::GDScript::-1::1710376421::0::1::::<>Node<>::
