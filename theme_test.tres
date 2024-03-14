@@ -1,7 +1,17 @@
-[gd_resource type="Theme" format=3 uid="uid://dcjodoxs0ph8s"]
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://dcjodoxs0ph8s"]
+
+[ext_resource type="Texture2D" uid="uid://b7wm6xsny5eoi" path="res://9slice_test4.png" id="1_p401q"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jkb6k"]
+texture = ExtResource("1_p401q")
+texture_margin_left = 3.0
+texture_margin_top = 2.0
+texture_margin_right = 3.0
+texture_margin_bottom = 2.0
 
 [resource]
 Button/colors/font_color = Color(0.0901961, 0.0784314, 0.0705882, 1)
 Button/colors/font_focus_color = Color(1, 0.933333, 0.898039, 1)
 Button/colors/font_hover_color = Color(1, 0.933333, 0.898039, 1)
 Button/colors/font_pressed_color = Color(0.0901961, 0.0784314, 0.0705882, 1)
+Button/styles/normal = SubResource("StyleBoxTexture_jkb6k")
