@@ -1,6 +1,7 @@
+AnimationPlayer
+ColorRect
 Sprite2D
 Node2D
-ColorRect
 CollisionShape2D
 Area2D
 StaticBody2D
