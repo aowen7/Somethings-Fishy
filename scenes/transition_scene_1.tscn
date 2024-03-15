@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://4yn200w56y3a"]
 
-[ext_resource type="Script" path="res://TransitionScene1.gd" id="1_ufe3o"]
+[ext_resource type="Script" path="res://scripts/TransitionScene1.gd" id="1_ufe3o"]
 [ext_resource type="PackedScene" uid="uid://q55x757aqv2u" path="res://scenes/start_to_main_screen.tscn" id="2_bog7k"]
 
 [node name="TransitionScene1" type="CanvasLayer"]
