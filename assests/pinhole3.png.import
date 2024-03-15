@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dq28oeqbgq0p8"
-path="res://.godot/imported/pinhole2.png-f8a0d89293a2fd3f75aa078a2f0b2946.ctex"
+uid="uid://cvwn7no2whbm1"
+path="res://.godot/imported/pinhole3.png-91fa90aeca504612d0f48d9777a391eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assests/pinhole2.png"
-dest_files=["res://.godot/imported/pinhole2.png-f8a0d89293a2fd3f75aa078a2f0b2946.ctex"]
+source_file="res://assests/pinhole3.png"
+dest_files=["res://.godot/imported/pinhole3.png-91fa90aeca504612d0f48d9777a391eb.ctex"]
 
 [params]
 

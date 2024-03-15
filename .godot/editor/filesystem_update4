@@ -1,2 +1,11 @@
+res://scenes/start_to_main_screen.tscn
 res://StartToMainScene.gdshader
-res://start_to_main_screen.tscn
+res://scripts/StartToMainScene.gdshader
+res://scenes/world.tscn
+res://scripts/start_menu.gd
+res://scenes/slot.tscn
+res://scenes/food.tscn
+res://scenes/green_tea.tscn
+res://scenes/start_menu.tscn
+res://TransitionScene1.gd
+res://transition_scene_1.tscn
