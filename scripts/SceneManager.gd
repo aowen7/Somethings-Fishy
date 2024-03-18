@@ -8,6 +8,7 @@ func _process(delta):
 		
 
 func _on_transition_scene_transitioned():
-	$StartMenuScene.get_child(0).queue_free()
-	$StartMenuScene.add_child(MainScene.instantiate())
+	get_tree().change_scene_to_file("res://scenes/world.tscn")
+	#$StartMenuScene.get_child(0).queue_free()
+	#$StartMenuScene.add_child(MainScene.instantiate())
 	

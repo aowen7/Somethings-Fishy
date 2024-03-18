@@ -5,6 +5,6 @@ res://scenes/food.tscn
 res://scenes/green_tea.tscn
 res://scenes/start_menu.tscn
 res://scenes/transition_scene.tscn
-res://scripts/transition_scene.gd
-res://SceneManager.gd
 res://scenes/scene_manager.tscn
+res://scripts/start_menu.gd
+res://scripts/SceneManager.gd
