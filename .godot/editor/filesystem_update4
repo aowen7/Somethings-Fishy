@@ -1,10 +1,9 @@
-res://scenes/world.tscn
+res://scenes/start_menu.tscn
 res://scripts/Trasition.gdshader
+res://theme_test.tres
+res://scenes/world.tscn
 res://scenes/slot.tscn
 res://scenes/food.tscn
 res://scenes/green_tea.tscn
-res://scenes/start_menu.tscn
 res://scenes/transition_scene.tscn
-res://scripts/transition_scene.gd
-res://SceneManager.gd
 res://scenes/scene_manager.tscn
