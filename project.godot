@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Something's Fishy!"
-run/main_scene="res://scenes/world.tscn"
+run/main_scene="res://scenes/start_menu.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://assests/icon.svg"
 
