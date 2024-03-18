@@ -1,5 +1,5 @@
-res://start_menu.tscn
-res://theme_test.tres
 res://world.tscn
+res://theme_test.tres
 res://DragAndDrop.tscn
 res://drag_and_drop_test.tscn
+res://start_menu.tscn
