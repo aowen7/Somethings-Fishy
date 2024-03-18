@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://f7blx43nw6h"]
+[gd_scene load_steps=4 format=3 uid="uid://f7blx43nw6h"]
 
 [ext_resource type="Script" path="res://scripts/start_menu.gd" id="1_lprii"]
 [ext_resource type="FontFile" uid="uid://bl14xf3d25n0d" path="res://monogram.ttf" id="1_yay00"]
+[ext_resource type="Texture2D" uid="uid://1f3q5blocm2q" path="res://beach background.png" id="2_dxhsc"]
 
 
 [node name="StartMenu" type="Control"]
@@ -20,6 +21,8 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+texture = ExtResource("2_dxhsc")
+expand_mode = 1
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
@@ -35,16 +38,29 @@ theme_override_constants/margin_bottom = 12
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
 layout_mode = 2
-theme_override_constants/separation = 100
+theme_override_constants/separation = 150
 
 [node name="Separator" type="Control" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+[node name="GameTitle" type="Label" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("1_yay00")
-theme_override_font_sizes/font_size = 100
+theme_override_font_sizes/font_size = 125
 text = "Something's Fishy!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Hotkey" type="Label" parent="MarginContainer/VBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(2.08165e-12, 2.08165e-12)
+layout_mode = 2
+size_flags_vertical = 8
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_yay00")
+theme_override_font_sizes/font_size = 50
+text = "Press Enter to Start"
 horizontal_alignment = 1
 vertical_alignment = 1
 
