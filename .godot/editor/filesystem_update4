@@ -8,3 +8,4 @@ res://scenes/start_menu.tscn
 res://scenes/transition_scene.tscn
 res://scenes/scene_manager.tscn
 res://scripts/start_menu.gd
+res://assests/theme_test.tres
