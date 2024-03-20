@@ -38,9 +38,15 @@ theme_override_constants/margin_bottom = 12
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
 layout_mode = 2
-theme_override_constants/separation = 150
+theme_override_constants/separation = 120
+
+[node name="Separator3" type="Control" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
 
 [node name="Separator" type="Control" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Separator2" type="Control" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 
 [node name="GameTitle" type="Label" parent="MarginContainer/VBoxContainer"]
@@ -71,8 +77,14 @@ alignment = 1
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 4
-theme_override_constants/separation = 50
+theme_override_constants/separation = 75
 alignment = 1
+
+[node name="Separator2" type="Control" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Separator3" type="Control" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
 
 [node name="Separator" type="Control" parent="MarginContainer/HBoxContainer/VBoxContainer"]
 layout_mode = 2
