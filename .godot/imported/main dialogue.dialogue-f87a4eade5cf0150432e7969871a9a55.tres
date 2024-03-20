@@ -1,0 +1,135 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_4xhf1"]
+
+[resource]
+script = ExtResource("1_4xhf1")
+using_states = PackedStringArray()
+titles = {
+"start": "3"
+}
+character_names = PackedStringArray("Grandpa")
+first_title = "3"
+lines = {
+"1": {
+"id": "1",
+"next_id": "3",
+"text": "start",
+"type": "title"
+},
+"10": {
+"character": "Grandpa",
+"character_replacements": Array[Dictionary]([]),
+"id": "10",
+"next_id": "12",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Here, for being a good sport, take this LIFETIME SUPPLY OF EGGS! Use it however.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Here, for being a good sport, take this LIFETIME SUPPLY OF EGGS! Use it however.",
+"type": "dialogue"
+},
+"12": {
+"id": "12",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"3": {
+"character": "Grandpa",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "4",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Wow! Finally, someone is going to do something this run down hunk of junk..",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Wow! Finally, someone is going to do something this run down hunk of junk..",
+"type": "dialogue"
+},
+"4": {
+"character": "Grandpa",
+"character_replacements": Array[Dictionary]([]),
+"id": "4",
+"next_id": "5",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "...",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "...",
+"type": "dialogue"
+},
+"5": {
+"character": "Grandpa",
+"character_replacements": Array[Dictionary]([]),
+"id": "5",
+"next_id": "6",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Well.. thank you for taking this old place off my hands, kid.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Well.. thank you for taking this old place off my hands, kid.",
+"type": "dialogue"
+},
+"6": {
+"character": "Grandpa",
+"character_replacements": Array[Dictionary]([]),
+"id": "6",
+"next_id": "7",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "I don't know what you're going to do with it, and I don't want to know.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "I don't know what you're going to do with it, and I don't want to know.",
+"type": "dialogue"
+},
+"7": {
+"character": "Grandpa",
+"character_replacements": Array[Dictionary]([]),
+"id": "7",
+"next_id": "8",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "You must promise me one thing",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "You must promise me one thing",
+"type": "dialogue"
+},
+"8": {
+"character": "Grandpa",
+"character_replacements": Array[Dictionary]([]),
+"id": "8",
+"next_id": "9",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Please keep this pigsty going. Your grandma built this from scratch.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Please keep this pigsty going. Your grandma built this from scratch.",
+"type": "dialogue"
+},
+"9": {
+"character": "Grandpa",
+"character_replacements": Array[Dictionary]([]),
+"id": "9",
+"next_id": "10",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "...",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "...",
+"type": "dialogue"
+}
+}
+raw_text = "~ start
+
+Grandpa: Wow! Finally, someone is going to do something this run down hunk of junk..
+Grandpa: ...
+Grandpa: Well.. thank you for taking this old place off my hands, kid.
+Grandpa: I don't know what you're going to do with it, and I don't want to know.
+Grandpa: You must promise me one thing
+Grandpa: Please keep this pigsty going. Your grandma built this from scratch.
+Grandpa: ...
+Grandpa: Here, for being a good sport, take this LIFETIME SUPPLY OF EGGS! Use it however.
+
+=> END"
+metadata/dialogue_manager_version = "2.36.0"
