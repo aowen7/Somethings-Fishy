@@ -1,12 +1,12 @@
-res://scenes/world.tscn
-res://theme_test.tres
+res://default_theme.tres
 res://scripts/Trasition.gdshader
+res://scenes/world.tscn
+res://scenes/world.gd
 res://scenes/slot.tscn
 res://scenes/food.tscn
 res://scenes/green_tea.tscn
 res://scenes/start_menu.tscn
 res://scenes/transition_scene.tscn
 res://scenes/scene_manager.tscn
-res://scripts/start_menu.gd
-res://assests/theme_test.tres
-res://default_theme.tres
+res://scenes/pause_menu.tscn
+res://scenes/pause_menu.gd

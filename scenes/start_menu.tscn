@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/start_menu.gd" id="1_lprii"]
 [ext_resource type="FontFile" uid="uid://bl14xf3d25n0d" path="res://monogram.ttf" id="1_yay00"]
-[ext_resource type="Texture2D" path="res://assests/beach background.png" id="2_2j3v1"]
+[ext_resource type="Texture2D" uid="uid://dcsign8rm2vbw" path="res://assests/beach background.png" id="2_2j3v1"]
 [ext_resource type="Theme" uid="uid://dhsvpdf2vu5ba" path="res://default_theme.tres" id="4_scwe2"]
 
 [node name="StartMenu" type="Control"]

@@ -1,7 +1,10 @@
+ColorRect
+Button
+VBoxContainer
+MarginContainer
 Node2D
 Node
 AnimationPlayer
-ColorRect
 CanvasLayer
 Sprite2D
 CollisionShape2D
