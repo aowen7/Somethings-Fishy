@@ -1,8 +1,8 @@
 ~ start
 
-Grandpa: [speed=0.3]Wow! Finally, someone is going to do something with this run down hunk of junk..
+Grandpa: [speed=0.3]Wow! Finally,[wait=1] someone is going to do something with this run down hunk of[wait=0.5] junk..
 Grandpa: [speed=0.6]...
-Grandpa: [speed=0.3]Well.. thank you for taking this old place off my hands, kid.
+Grandpa: [speed=0.3]Well.. [wait=1]thank you for taking this old place off my hands, kid.
 Grandpa: [speed=0.3]I don't know what you're going to do with it, and I don't want to know.
 Grandpa: [speed=0.3]You must promise me one thing
 Grandpa: [speed=0.3]Please keep this pigsty going. Your grandma built this from scratch.

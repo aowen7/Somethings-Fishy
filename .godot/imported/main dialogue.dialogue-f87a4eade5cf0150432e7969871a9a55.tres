@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_4xhf1"]
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_qkco3"]
 
 [resource]
-script = ExtResource("1_4xhf1")
+script = ExtResource("1_qkco3")
 using_states = PackedStringArray()
 titles = {
 "start": "3"
@@ -42,9 +42,9 @@ lines = {
 "next_id": "4",
 "notes": "",
 "tags": PackedStringArray(),
-"text": "[speed=0.3]Wow! Finally, someone is going to do something with this run down hunk of junk..",
+"text": "[speed=0.3]Wow! Finally,[wait=1] someone is going to do something with this run down hunk of[wait=0.5] junk..",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "[speed=0.3]Wow! Finally, someone is going to do something with this run down hunk of junk..",
+"translation_key": "[speed=0.3]Wow! Finally,[wait=1] someone is going to do something with this run down hunk of[wait=0.5] junk..",
 "type": "dialogue"
 },
 "4": {
@@ -66,9 +66,9 @@ lines = {
 "next_id": "6",
 "notes": "",
 "tags": PackedStringArray(),
-"text": "[speed=0.3]Well.. thank you for taking this old place off my hands, kid.",
+"text": "[speed=0.3]Well.. [wait=1]thank you for taking this old place off my hands, kid.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "[speed=0.3]Well.. thank you for taking this old place off my hands, kid.",
+"translation_key": "[speed=0.3]Well.. [wait=1]thank you for taking this old place off my hands, kid.",
 "type": "dialogue"
 },
 "6": {
@@ -122,9 +122,9 @@ lines = {
 }
 raw_text = "~ start
 
-Grandpa: [speed=0.3]Wow! Finally, someone is going to do something with this run down hunk of junk..
+Grandpa: [speed=0.3]Wow! Finally,[wait=1] someone is going to do something with this run down hunk of[wait=0.5] junk..
 Grandpa: [speed=0.6]...
-Grandpa: [speed=0.3]Well.. thank you for taking this old place off my hands, kid.
+Grandpa: [speed=0.3]Well.. [wait=1]thank you for taking this old place off my hands, kid.
 Grandpa: [speed=0.3]I don't know what you're going to do with it, and I don't want to know.
 Grandpa: [speed=0.3]You must promise me one thing
 Grandpa: [speed=0.3]Please keep this pigsty going. Your grandma built this from scratch.
