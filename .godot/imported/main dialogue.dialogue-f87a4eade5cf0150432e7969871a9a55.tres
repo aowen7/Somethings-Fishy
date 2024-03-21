@@ -21,7 +21,19 @@ lines = {
 "character": "Grandpa",
 "character_replacements": Array[Dictionary]([]),
 "id": "10",
-"next_id": "12",
+"next_id": "11",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "[speed=0.6]...",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "[speed=0.6]...",
+"type": "dialogue"
+},
+"11": {
+"character": "Grandpa",
+"character_replacements": Array[Dictionary]([]),
+"id": "11",
+"next_id": "13",
 "notes": "",
 "tags": PackedStringArray(),
 "text": "[speed=0.3]Here, for being a good sport, take this LIFETIME SUPPLY OF EGGS! Use it however.",
@@ -29,8 +41,8 @@ lines = {
 "translation_key": "[speed=0.3]Here, for being a good sport, take this LIFETIME SUPPLY OF EGGS! Use it however.",
 "type": "dialogue"
 },
-"12": {
-"id": "12",
+"13": {
+"id": "13",
 "is_snippet": false,
 "next_id": "end",
 "type": "goto"
@@ -42,9 +54,9 @@ lines = {
 "next_id": "4",
 "notes": "",
 "tags": PackedStringArray(),
-"text": "[speed=0.3]Wow! Finally,[wait=1] someone is going to do something with this run down hunk of[wait=0.5] junk..",
+"text": "[speed=0.3]Wow! Finally,[wait=1] someone is going to do something with this run down hunk of-",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "[speed=0.3]Wow! Finally,[wait=1] someone is going to do something with this run down hunk of[wait=0.5] junk..",
+"translation_key": "[speed=0.3]Wow! Finally,[wait=1] someone is going to do something with this run down hunk of-",
 "type": "dialogue"
 },
 "4": {
@@ -54,9 +66,9 @@ lines = {
 "next_id": "5",
 "notes": "",
 "tags": PackedStringArray(),
-"text": "[speed=0.6]...",
+"text": "-junk..",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "[speed=0.6]...",
+"translation_key": "-junk..",
 "type": "dialogue"
 },
 "5": {
@@ -66,9 +78,9 @@ lines = {
 "next_id": "6",
 "notes": "",
 "tags": PackedStringArray(),
-"text": "[speed=0.3]Well.. [wait=1]thank you for taking this old place off my hands, kid.",
+"text": "[speed=0.6]...",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "[speed=0.3]Well.. [wait=1]thank you for taking this old place off my hands, kid.",
+"translation_key": "[speed=0.6]...",
 "type": "dialogue"
 },
 "6": {
@@ -78,9 +90,9 @@ lines = {
 "next_id": "7",
 "notes": "",
 "tags": PackedStringArray(),
-"text": "[speed=0.3]I don't know what you're going to do with it, and I don't want to know.",
+"text": "[speed=0.3]Well.. [wait=1]thank you for taking this old place off my hands, kid.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "[speed=0.3]I don't know what you're going to do with it, and I don't want to know.",
+"translation_key": "[speed=0.3]Well.. [wait=1]thank you for taking this old place off my hands, kid.",
 "type": "dialogue"
 },
 "7": {
@@ -90,9 +102,9 @@ lines = {
 "next_id": "8",
 "notes": "",
 "tags": PackedStringArray(),
-"text": "[speed=0.3]You must promise me one thing",
+"text": "[speed=0.3]I don't know what you're going to do with it, and I don't want to know.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "[speed=0.3]You must promise me one thing",
+"translation_key": "[speed=0.3]I don't know what you're going to do with it, and I don't want to know.",
 "type": "dialogue"
 },
 "8": {
@@ -102,9 +114,9 @@ lines = {
 "next_id": "9",
 "notes": "",
 "tags": PackedStringArray(),
-"text": "[speed=0.3]Please keep this pigsty going. Your grandma built this from scratch.",
+"text": "[speed=0.3]You must promise me one thing",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "[speed=0.3]Please keep this pigsty going. Your grandma built this from scratch.",
+"translation_key": "[speed=0.3]You must promise me one thing",
 "type": "dialogue"
 },
 "9": {
@@ -114,15 +126,16 @@ lines = {
 "next_id": "10",
 "notes": "",
 "tags": PackedStringArray(),
-"text": "[speed=0.6]...",
+"text": "[speed=0.3]Please keep this pigsty going. Your grandma built this from scratch.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "[speed=0.6]...",
+"translation_key": "[speed=0.3]Please keep this pigsty going. Your grandma built this from scratch.",
 "type": "dialogue"
 }
 }
 raw_text = "~ start
 
-Grandpa: [speed=0.3]Wow! Finally,[wait=1] someone is going to do something with this run down hunk of[wait=0.5] junk..
+Grandpa: [speed=0.3]Wow! Finally,[wait=1] someone is going to do something with this run down hunk of-
+Grandpa: -junk..
 Grandpa: [speed=0.6]...
 Grandpa: [speed=0.3]Well.. [wait=1]thank you for taking this old place off my hands, kid.
 Grandpa: [speed=0.3]I don't know what you're going to do with it, and I don't want to know.
