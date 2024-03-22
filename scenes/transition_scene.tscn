@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://df1hv1gsr0vfw"]
+[gd_scene load_steps=10 format=3 uid="uid://df1hv1gsr0vfw"]
 
 [ext_resource type="Script" path="res://scripts/transition_scene.gd" id="1_an7co"]
 [ext_resource type="Shader" path="res://scripts/Trasition.gdshader" id="1_gf1xy"]
@@ -54,8 +54,12 @@ tracks/0/keys = {
 "values": [0.0]
 }
 
+[sub_resource type="Animation" id="Animation_fluil"]
+resource_name = "CatPinHoleTransition"
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_sqiyg"]
 _data = {
+"CatPinHoleTransition": SubResource("Animation_fluil"),
 "FadeFromBlack": SubResource("Animation_jitga"),
 "FadeToBlack": SubResource("Animation_a1oab"),
 "RESET": SubResource("Animation_lvkas")
@@ -77,5 +81,6 @@ color = Color(0, 0, 0, 1)
 libraries = {
 "": SubResource("AnimationLibrary_sqiyg")
 }
+speed_scale = 0.7
 
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]
