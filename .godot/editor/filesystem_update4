@@ -1,3 +1,8 @@
-res://scenes/scene_manager.tscn
+res://scenes/world.tscn
 res://scripts/Trasition.gdshader
-res://Node2D.gd
+res://scenes/start_menu.tscn
+res://scenes/transition_scene.tscn
+res://scenes/scene_manager.tscn
+res://scripts/start_menu.gd
+res://scripts/transition_scene.gd
+res://scripts/SceneManager.gd
