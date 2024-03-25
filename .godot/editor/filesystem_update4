@@ -5,3 +5,4 @@ res://scenes/world.tscn
 res://scenes/start_menu.tscn
 res://scenes/transition_scene.tscn
 res://scenes/scene_manager.tscn
+res://default_theme.tres
