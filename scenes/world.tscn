@@ -1,21 +1,15 @@
 [gd_scene load_steps=8 format=3 uid="uid://dd736nqnm3l6v"]
 
+[ext_resource type="Script" path="res://scripts/world.gd" id="1_c7ua5"]
 [ext_resource type="Texture2D" uid="uid://i080bptfa22d" path="res://assests/sushi resurant enlarged.png" id="1_f34eq"]
-[ext_resource type="Script" path="res://scenes/world.gd" id="1_ljjr4"]
 [ext_resource type="PackedScene" uid="uid://byxhio87yfra4" path="res://scenes/slot.tscn" id="1_mhkxd"]
 [ext_resource type="PackedScene" uid="uid://p4dbl04xfvjv" path="res://scenes/food.tscn" id="2_i0mue"]
 [ext_resource type="Texture2D" uid="uid://ogei2tdvq5yt" path="res://assests/resized plate 800.png" id="2_xmtmk"]
 [ext_resource type="PackedScene" uid="uid://bmmapknon0gfq" path="res://scenes/green_tea.tscn" id="4_lmi36"]
-[ext_resource type="PackedScene" uid="uid://d1setqgolsp06" path="res://scenes/pause_menu.tscn" id="7_0okx4"]
+[ext_resource type="PackedScene" uid="uid://d1setqgolsp06" path="res://scenes/pause_menu.tscn" id="7_h5tgj"]
 
 [node name="World" type="Node2D"]
-script = ExtResource("1_ljjr4")
-
-[node name="PauseMenu" parent="." instance=ExtResource("7_0okx4")]
-offset_left = 308.0
-offset_top = 168.0
-offset_right = 308.0
-offset_bottom = 168.0
+script = ExtResource("1_c7ua5")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(959, 544.5)
@@ -36,3 +30,11 @@ scale = Vector2(0.6, 0.6)
 [node name="GreenTea" parent="." instance=ExtResource("4_lmi36")]
 position = Vector2(1632, 734)
 scale = Vector2(0.7, 0.7)
+
+[node name="PauseMenu" parent="." instance=ExtResource("7_h5tgj")]
+visible = false
+visibility_layer = 2
+offset_left = 959.0
+offset_top = 608.0
+offset_right = 959.0
+offset_bottom = 608.0
