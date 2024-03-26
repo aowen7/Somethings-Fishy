@@ -1,10 +1,11 @@
-[gd_scene load_steps=12 format=3 uid="uid://df1hv1gsr0vfw"]
+[gd_scene load_steps=13 format=3 uid="uid://df1hv1gsr0vfw"]
 
 [ext_resource type="Script" path="res://scripts/transition_scene.gd" id="1_an7co"]
 [ext_resource type="Shader" path="res://scripts/Trasition.gdshader" id="1_gf1xy"]
 [ext_resource type="Texture2D" uid="uid://bnbyisjvitq5m" path="res://assests/pinhole3.png" id="2_g21so"]
 [ext_resource type="Texture2D" uid="uid://dcsign8rm2vbw" path="res://assests/beach background.png" id="2_raggu"]
-[ext_resource type="Texture2D" uid="uid://i080bptfa22d" path="res://assests/sushi resurant enlarged.png" id="3_oi82n"]
+[ext_resource type="Texture2D" uid="uid://d2f6gmwmevtqn" path="res://assests/resurant interior.png" id="3_5hird"]
+[ext_resource type="Texture2D" uid="uid://cjnt6krl1advq" path="res://assests/sushi resurant no toppings 800.png" id="3_ct64t"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ieon7"]
 shader = ExtResource("1_gf1xy")
@@ -71,20 +72,26 @@ _data = {
 script = ExtResource("1_an7co")
 
 [node name="StartMenu" type="Sprite2D" parent="."]
-position = Vector2(962.5, 543.5)
-scale = Vector2(0.755078, 0.735417)
+position = Vector2(959, 540.5)
+scale = Vector2(0.749219, 0.750694)
 texture = ExtResource("2_raggu")
 
+[node name="Interior" type="Sprite2D" parent="."]
+position = Vector2(959, 540.5)
+scale = Vector2(0.749219, 0.750695)
+texture = ExtResource("3_5hird")
+
 [node name="MainGame" type="Sprite2D" parent="."]
-position = Vector2(964.5, 545.5)
-scale = Vector2(0.760547, 0.747917)
-texture = ExtResource("3_oi82n")
+position = Vector2(959, 540.5)
+scale = Vector2(0.749219, 0.750695)
+texture = ExtResource("3_ct64t")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 material = SubResource("ShaderMaterial_ieon7")
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_right = -2.0
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 1)
@@ -93,6 +100,6 @@ color = Color(0, 0, 0, 1)
 libraries = {
 "": SubResource("AnimationLibrary_sqiyg")
 }
-speed_scale = 0.7
+speed_scale = 0.8
 
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]
