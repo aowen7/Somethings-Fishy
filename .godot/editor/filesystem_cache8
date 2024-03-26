@@ -1,27 +1,31 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1711489527
-Food.gd::GDScript::-1::1711489518::0::1::::<>Node2D<>::
-monogram.ttf::FontFile::3213973957411908233::1710798768::1711489518::1::::<><>::
+::res://::1711491312
 README.md::TextFile::-1::1709759605::0::1::::<><>::
-::res://assests/::1711489518
+::res://assests/::1711491312
 greentea800-export-export.png::CompressedTexture2D::6626590783042235624::1710798768::1710798768::1::::<><>::
 icon.svg::CompressedTexture2D::7715623622668058214::1710798768::1710965100::1::::<><>::
+Minecraft.ttf::FontFile::6158692359002543647::1711490789::1711490830::1::::<><>::
 Miso Soup-export-export.png::CompressedTexture2D::8369019529937021632::1710798768::1710798768::1::::<><>::
+monogram.ttf::FontFile::3213973957411908233::1710798768::1711490843::1::::<><>::
 resized plate 800.png::CompressedTexture2D::995288679425888555::1710798768::1710798768::1::::<><>::
 sushi resurant enlarged.png::CompressedTexture2D::615168575130072437::1710798768::1710798768::1::::<><>::
-::res://scenes/::1711489615
-DragAndDrop.tscn::PackedScene::3367917106358075238::1710798768::0::1::::<><>::res://scripts/DragAndDrop.gd
+timerui1.png::CompressedTexture2D::3545198721907309872::1711491289::1711491312::1::::<><>::
+timerui2.png::CompressedTexture2D::732222702236284072::1711491296::1711491312::1::::<><>::
+timerui3.png::CompressedTexture2D::3277474073985070207::1711491300::1711491312::1::::<><>::
+timerui4.png::CompressedTexture2D::310018694092682998::1711491303::1711491312::1::::<><>::
+::res://scenes/::1711490856
+DragAndDrop.tscn::PackedScene::3367917106358075238::1711490789::0::1::::<><>::res://scripts/DragAndDrop.gd
 drag_and_drop_test.tscn::PackedScene::2789546934157366167::1710798768::0::1::::<><>::uid://bn8pdqx320ih7::::res://scenes/DragAndDrop.tscn<>uid://dh6rgubccwapy::::res://assests/icon.svg
-food.tscn::PackedScene::1112884163935969683::1711489518::0::1::::<><>::res://Food.gd<>uid://driar8pa4xyay::::res://assests/Miso Soup-export-export.png
-green_tea.tscn::PackedScene::3253486673277197290::1711489518::0::1::::<><>::res://Food.gd<>uid://c1n78nic8b0ue::::res://assests/greentea800-export-export.png
-LevelTimer.gd::GDScript::-1::1711489518::0::1::::<>Node<>::
-Minecraft.ttf::FontFile::6158692359002543647::1711489615::1711489615::1::::<><>::
-slot.tscn::PackedScene::4118873712441527113::1711489518::0::1::::<><>::res://scripts/Slot.gd
-start_menu.tscn::PackedScene::12267232975665925::1711489518::0::1::::<><>::res://scripts/start_menu.gd<>uid://bl14xf3d25n0d::::res://monogram.ttf
-world.tscn::PackedScene::7437644813660059295::1711489518::0::1::::<><>::uid://i080bptfa22d::::res://assests/sushi resurant enlarged.png<>uid://byxhio87yfra4::::res://scenes/slot.tscn<>uid://p4dbl04xfvjv::::res://scenes/food.tscn<>uid://ogei2tdvq5yt::::res://assests/resized plate 800.png<>uid://bmmapknon0gfq::::res://scenes/green_tea.tscn<>res://scenes/LevelTimer.gd
-::res://scripts/::1711489518
+food.tscn::PackedScene::1112884163935969683::1711490856::0::1::::<><>::res://scripts/Food.gd<>uid://driar8pa4xyay::::res://assests/Miso Soup-export-export.png
+green_tea.tscn::PackedScene::3253486673277197290::1711490856::0::1::::<><>::res://scripts/Food.gd<>uid://c1n78nic8b0ue::::res://assests/greentea800-export-export.png
+slot.tscn::PackedScene::4118873712441527113::1711490789::0::1::::<><>::res://scripts/Slot.gd
+start_menu.tscn::PackedScene::12267232975665925::1711490843::0::1::::<><>::res://scripts/start_menu.gd<>uid://bl14xf3d25n0d::::res://assests/monogram.ttf
+world.tscn::PackedScene::7437644813660059295::1711490829::0::1::::<><>::uid://i080bptfa22d::::res://assests/sushi resurant enlarged.png<>uid://byxhio87yfra4::::res://scenes/slot.tscn<>uid://p4dbl04xfvjv::::res://scenes/food.tscn<>uid://ogei2tdvq5yt::::res://assests/resized plate 800.png<>uid://bmmapknon0gfq::::res://scenes/green_tea.tscn<>res://scripts/LevelTimer.gd<>uid://ct0k07o733xit::::res://assests/Minecraft.ttf
+::res://scripts/::1711490886
 DragAndDrop.gd::GDScript::-1::1710798768::0::1::::<>TextureRect<>::
+Food.gd::GDScript::-1::1711490789::0::1::::<>Node2D<>::
 global.gd::GDScript::-1::1710965960::0::1::::<>Node<>::
+LevelTimer.gd::GDScript::-1::1711490789::0::1::::<>Node<>::
 Slot.gd::GDScript::-1::1710965960::0::1::::<>StaticBody2D<>::
-start_menu.gd::GDScript::-1::1711489518::0::1::::StartMenu<>Control<>::
-Trasition.gdshader::Shader::-1::1711489506::0::1::::<><>::
+start_menu.gd::GDScript::-1::1711490789::0::1::::StartMenu<>Control<>::
+Trasition.gdshader::Shader::-1::1711490856::0::1::::<><>::

@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bmmapknon0gfq"]
 
-[ext_resource type="Script" path="res://Food.gd" id="1_d0rwu"]
+[ext_resource type="Script" path="res://scripts/Food.gd" id="1_d0rwu"]
 [ext_resource type="Texture2D" uid="uid://c1n78nic8b0ue" path="res://assests/greentea800-export-export.png" id="2_lxwba"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_v3mua"]

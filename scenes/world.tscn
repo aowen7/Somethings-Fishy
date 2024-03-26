@@ -5,8 +5,8 @@
 [ext_resource type="PackedScene" uid="uid://p4dbl04xfvjv" path="res://scenes/food.tscn" id="2_i0mue"]
 [ext_resource type="Texture2D" uid="uid://ogei2tdvq5yt" path="res://assests/resized plate 800.png" id="2_xmtmk"]
 [ext_resource type="PackedScene" uid="uid://bmmapknon0gfq" path="res://scenes/green_tea.tscn" id="4_lmi36"]
-[ext_resource type="Script" path="res://scenes/LevelTimer.gd" id="6_qad8e"]
-[ext_resource type="FontFile" uid="uid://ct0k07o733xit" path="res://scenes/Minecraft.ttf" id="7_8bu7e"]
+[ext_resource type="Script" path="res://scripts/LevelTimer.gd" id="6_qad8e"]
+[ext_resource type="FontFile" uid="uid://ct0k07o733xit" path="res://assests/Minecraft.ttf" id="7_8bu7e"]
 
 [node name="World" type="Node2D"]
 
