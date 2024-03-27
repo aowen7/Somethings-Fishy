@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dl3k2tm2ilb7v"
-path="res://.godot/imported/uiguide.png-723591e68cccda72e019570eb0318d05.ctex"
+uid="uid://b617twrj05adb"
+path="res://.godot/imported/catcounter.png-d48c31eee0a6e8607d8968a30c7b2bbe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assests/uiguide.png"
-dest_files=["res://.godot/imported/uiguide.png-723591e68cccda72e019570eb0318d05.ctex"]
+source_file="res://assests/catcounter.png"
+dest_files=["res://.godot/imported/catcounter.png-d48c31eee0a6e8607d8968a30c7b2bbe.ctex"]
 
 [params]
 

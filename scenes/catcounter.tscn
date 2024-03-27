@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cd0dsr6i800bm"]
+
+[ext_resource type="Texture2D" uid="uid://b617twrj05adb" path="res://assests/catcounter.png" id="1_t55ka"]
+
+[node name="catcounter" type="Node2D"]
+
+[node name="Catcounter" type="Sprite2D" parent="."]
+position = Vector2(1672, 72)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_t55ka")
