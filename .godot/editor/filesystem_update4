@@ -1,5 +1,4 @@
-res://scenes/catcounter.tscn
+res://scenes/world.tscn
 res://scenes/pause_menu.gdshader
 res://default_theme.tres
 res://scripts/Trasition.gdshader
-res://scenes/world.tscn

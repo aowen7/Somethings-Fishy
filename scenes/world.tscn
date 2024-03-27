@@ -12,6 +12,8 @@
 [node name="World" type="Node2D"]
 script = ExtResource("1_c7ua5")
 
+[node name="catcounter" parent="." instance=ExtResource("8_mun5y")]
+
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(959, 544.5)
 scale = Vector2(0.75, 0.747917)
@@ -39,5 +41,3 @@ offset_left = 959.0
 offset_top = 608.0
 offset_right = 959.0
 offset_bottom = 608.0
-
-[node name="catcounter" parent="." instance=ExtResource("8_mun5y")]
