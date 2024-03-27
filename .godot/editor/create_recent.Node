@@ -1,4 +1,5 @@
 Sprite2D
+CollisionShape2D
 Node2D
 ColorRect
 Button
@@ -7,7 +8,6 @@ MarginContainer
 Node
 AnimationPlayer
 CanvasLayer
-CollisionShape2D
 Area2D
 StaticBody2D
 TextureRect
