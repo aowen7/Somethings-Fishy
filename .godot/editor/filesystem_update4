@@ -1,7 +1,2 @@
 res://scenes/world.tscn
 res://scripts/Trasition.gdshader
-res://scenes/level_timer.tscn
-res://scenes/slot.tscn
-res://scenes/food.tscn
-res://scenes/green_tea.tscn
-res://scenes/start_menu.tscn

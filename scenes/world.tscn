@@ -26,7 +26,7 @@ scale = Vector2(0.6, 0.6)
 position = Vector2(1632, 734)
 scale = Vector2(0.7, 0.7)
 
-[node name="Uiguide" type="Sprite2D" parent="."]
+[node name="sushi restaurant bg" type="Sprite2D" parent="."]
 position = Vector2(959, 544.5)
 scale = Vector2(0.75, 0.75)
 texture = ExtResource("1_f34eq")
