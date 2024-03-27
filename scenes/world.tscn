@@ -1,14 +1,15 @@
-[gd_scene load_steps=8 format=3 uid="uid://dd736nqnm3l6v"]
+[gd_scene load_steps=7 format=3 uid="uid://dd736nqnm3l6v"]
 
 [ext_resource type="Texture2D" uid="uid://i080bptfa22d" path="res://assests/sushi resurant enlarged.png" id="1_f34eq"]
 [ext_resource type="PackedScene" uid="uid://byxhio87yfra4" path="res://scenes/slot.tscn" id="1_mhkxd"]
 [ext_resource type="PackedScene" uid="uid://p4dbl04xfvjv" path="res://scenes/food.tscn" id="2_i0mue"]
 [ext_resource type="Texture2D" uid="uid://ogei2tdvq5yt" path="res://assests/resized plate 800.png" id="2_xmtmk"]
 [ext_resource type="PackedScene" uid="uid://bmmapknon0gfq" path="res://scenes/green_tea.tscn" id="4_lmi36"]
-[ext_resource type="Script" path="res://scripts/LevelTimer.gd" id="6_qad8e"]
-[ext_resource type="FontFile" uid="uid://ct0k07o733xit" path="res://assests/Minecraft.ttf" id="7_8bu7e"]
+[ext_resource type="PackedScene" uid="uid://bdbmwv1ioekyr" path="res://scenes/level_timer.tscn" id="6_4jsyb"]
 
 [node name="World" type="Node2D"]
+
+[node name="LevelTimer" parent="." instance=ExtResource("6_4jsyb")]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(959, 544.5)
@@ -29,28 +30,3 @@ scale = Vector2(0.6, 0.6)
 [node name="GreenTea" parent="." instance=ExtResource("4_lmi36")]
 position = Vector2(1632, 734)
 scale = Vector2(0.7, 0.7)
-
-[node name="LevelTimer" type="Node" parent="."]
-script = ExtResource("6_qad8e")
-
-[node name="Label" type="Label" parent="LevelTimer"]
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -704.0
-offset_top = -540.0
-offset_right = -576.0
-offset_bottom = -476.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_fonts/font = ExtResource("7_8bu7e")
-theme_override_font_sizes/font_size = 45
-text = "00:00"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="Timer" type="Timer" parent="LevelTimer"]
-wait_time = 300.0
-one_shot = true
