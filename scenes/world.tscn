@@ -41,4 +41,3 @@ offset_right = 959.0
 offset_bottom = 608.0
 
 [node name="catcounter" parent="." instance=ExtResource("8_mun5y")]
-scale = Vector2(0.8, 0.8)
