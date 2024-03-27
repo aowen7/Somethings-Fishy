@@ -1,0 +1,47 @@
+[gd_scene load_steps=7 format=3 uid="uid://bdbmwv1ioekyr"]
+
+[ext_resource type="Script" path="res://scripts/LevelTimer.gd" id="1_bga7n"]
+[ext_resource type="FontFile" uid="uid://ct0k07o733xit" path="res://assests/Minecraft.ttf" id="2_n80vp"]
+[ext_resource type="Texture2D" uid="uid://eof7y06tnmly" path="res://assests/timerui4.png" id="3_xw31w"]
+[ext_resource type="Texture2D" uid="uid://bmxvrwe2u8whr" path="res://assests/timerui3.png" id="4_4gdhy"]
+[ext_resource type="Texture2D" uid="uid://koxuow3b7kdk" path="res://assests/timerui2.png" id="5_h7o1x"]
+[ext_resource type="Texture2D" uid="uid://bqrk51fypgfjk" path="res://assests/timerui1.png" id="6_jthlx"]
+
+[node name="LevelTimer" type="Node"]
+script = ExtResource("1_bga7n")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 300.0
+one_shot = true
+
+[node name="Timerui4" type="Sprite2D" parent="."]
+position = Vector2(295, 73)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("3_xw31w")
+
+[node name="Timerui3" type="Sprite2D" parent="."]
+position = Vector2(295, 73)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("4_4gdhy")
+
+[node name="Timerui2" type="Sprite2D" parent="."]
+position = Vector2(295, 73)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("5_h7o1x")
+
+[node name="Timerui1" type="Sprite2D" parent="."]
+position = Vector2(295, 73)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("6_jthlx")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 288.0
+offset_top = 56.0
+offset_right = 399.0
+offset_bottom = 102.0
+theme_override_colors/font_color = Color(0.686275, 0.686275, 0.686275, 1)
+theme_override_fonts/font = ExtResource("2_n80vp")
+theme_override_font_sizes/font_size = 45
+text = "00:00"
+horizontal_alignment = 1
+vertical_alignment = 1
