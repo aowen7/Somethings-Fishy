@@ -1,13 +1,13 @@
-Node
+Sprite2D
+CollisionShape2D
+Node2D
 ColorRect
 Button
 VBoxContainer
 MarginContainer
-Node2D
+Node
 AnimationPlayer
 CanvasLayer
-Sprite2D
-CollisionShape2D
 Area2D
 StaticBody2D
 TextureRect
