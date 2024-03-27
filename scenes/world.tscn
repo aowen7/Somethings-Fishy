@@ -1,15 +1,18 @@
-[gd_scene load_steps=8 format=3 uid="uid://dd736nqnm3l6v"]
+[gd_scene load_steps=9 format=3 uid="uid://dd736nqnm3l6v"]
 
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_c7ua5"]
 [ext_resource type="Texture2D" uid="uid://i080bptfa22d" path="res://assests/sushi resurant enlarged.png" id="1_f34eq"]
 [ext_resource type="PackedScene" uid="uid://byxhio87yfra4" path="res://scenes/slot.tscn" id="1_mhkxd"]
 [ext_resource type="PackedScene" uid="uid://p4dbl04xfvjv" path="res://scenes/food.tscn" id="2_i0mue"]
+[ext_resource type="PackedScene" uid="uid://ce03wtbeq45qw" path="res://scenes/star_bar.tscn" id="2_j474d"]
 [ext_resource type="Texture2D" uid="uid://ogei2tdvq5yt" path="res://assests/resized plate 800.png" id="2_xmtmk"]
 [ext_resource type="PackedScene" uid="uid://bmmapknon0gfq" path="res://scenes/green_tea.tscn" id="4_lmi36"]
 [ext_resource type="PackedScene" uid="uid://d1setqgolsp06" path="res://scenes/pause_menu.tscn" id="7_h5tgj"]
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_c7ua5")
+
+[node name="StarBar" parent="." instance=ExtResource("2_j474d")]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(959, 544.5)

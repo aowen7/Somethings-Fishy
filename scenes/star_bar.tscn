@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=3 uid="uid://ce03wtbeq45qw"]
+
+[ext_resource type="Texture2D" uid="uid://bbk428eoiq1iw" path="res://assests/starbar1.png" id="1_e0iy2"]
+[ext_resource type="Texture2D" uid="uid://cm7v3sgba26g0" path="res://assests/starbar2.png" id="2_6m63r"]
+[ext_resource type="Texture2D" uid="uid://bmuc8jtfes81n" path="res://assests/starbar3.png" id="3_oxt4j"]
+[ext_resource type="Texture2D" uid="uid://csgtlganf8tto" path="res://assests/starbar4.png" id="4_us6q8"]
+[ext_resource type="Texture2D" uid="uid://daoubw6jop2kb" path="res://assests/starbar5.png" id="5_5mkoj"]
+
+[node name="StarBar" type="Node"]
+
+[node name="starbar1" type="Sprite2D" parent="."]
+position = Vector2(960, 72)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_e0iy2")
+
+[node name="starbar2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(1184, 791)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("2_6m63r")
+
+[node name="starbar3" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(1184, 791)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("3_oxt4j")
+
+[node name="starbar4" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(1184, 791)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("4_us6q8")
+
+[node name="starbar5" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(1184, 791)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("5_5mkoj")
