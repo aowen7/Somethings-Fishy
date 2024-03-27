@@ -86,8 +86,8 @@ position = Vector2(1611, 956)
 scale = Vector2(0.5, 0.5)
 
 [node name="RiceCooker" type="Sprite2D" parent="."]
-position = Vector2(81.6287, 735)
-scale = Vector2(0.746562, 0.746324)
+position = Vector2(81.1287, 735)
+scale = Vector2(0.751192, 0.746324)
 texture = ExtResource("13_0eo3r")
 
 [node name="EggOverlay" type="Sprite2D" parent="."]
