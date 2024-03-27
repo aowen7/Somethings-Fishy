@@ -1,6 +1,6 @@
 [gd_resource type="Theme" load_steps=7 format=3 uid="uid://dhsvpdf2vu5ba"]
 
-[ext_resource type="FontFile" uid="uid://bl14xf3d25n0d" path="res://monogram.ttf" id="1_ljrng"]
+[ext_resource type="FontFile" uid="uid://bl14xf3d25n0d" path="res://assests/monogram.ttf" id="1_ljrng"]
 [ext_resource type="Texture2D" uid="uid://cqrukgree6mu7" path="res://assests/hover_9slice.png" id="2_t76bp"]
 [ext_resource type="Texture2D" uid="uid://bacbnauj3jpch" path="res://assests/9slice_test4.png" id="3_korn4"]
 

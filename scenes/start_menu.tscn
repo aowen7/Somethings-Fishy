@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://f7blx43nw6h"]
 
 [ext_resource type="Script" path="res://scripts/start_menu.gd" id="1_lprii"]
-[ext_resource type="FontFile" uid="uid://bl14xf3d25n0d" path="res://monogram.ttf" id="1_yay00"]
+[ext_resource type="FontFile" uid="uid://bl14xf3d25n0d" path="res://assests/monogram.ttf" id="1_yay00"]
 [ext_resource type="Texture2D" uid="uid://dcsign8rm2vbw" path="res://assests/beach background.png" id="2_dxhsc"]
 [ext_resource type="Theme" uid="uid://dhsvpdf2vu5ba" path="res://default_theme.tres" id="4_48b74"]
 
