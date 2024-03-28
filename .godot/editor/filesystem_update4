@@ -1,10 +1,12 @@
+res://textbox.tscn
 res://scenes/pause_menu.gdshader
 res://default_theme.tres
 res://scripts/Trasition.gdshader
-res://textbox.tscn
+res://textbox.gd
 res://scenes/world.tscn
 res://scenes/start_menu.tscn
 res://scenes/transition_scene.tscn
 res://scenes/scene_manager.tscn
 res://scenes/pause_menu.tscn
-res://textbox.gd
+res://dialogue.tscn
+res://dialogue.gd

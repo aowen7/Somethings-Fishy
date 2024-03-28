@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://p4dbl04xfvjv"]
 
-[ext_resource type="Texture2D" uid="uid://driar8pa4xyay" path="res://assests/Miso Soup-export-export.png" id="2_hdv5i"]
+[ext_resource type="Texture2D" uid="uid://driar8pa4xyay" path="res://assets/Miso Soup-export-export.png" id="2_hdv5i"]
 
 [sub_resource type="GDScript" id="GDScript_wjd6i"]
 script/source = "extends Node2D

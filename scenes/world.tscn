@@ -1,10 +1,10 @@
 [gd_scene load_steps=8 format=3 uid="uid://dd736nqnm3l6v"]
 
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_c7ua5"]
-[ext_resource type="Texture2D" uid="uid://i080bptfa22d" path="res://assests/sushi resurant enlarged.png" id="1_f34eq"]
 [ext_resource type="PackedScene" uid="uid://byxhio87yfra4" path="res://scenes/slot.tscn" id="1_mhkxd"]
 [ext_resource type="PackedScene" uid="uid://p4dbl04xfvjv" path="res://scenes/food.tscn" id="2_i0mue"]
-[ext_resource type="Texture2D" uid="uid://ogei2tdvq5yt" path="res://assests/resized plate 800.png" id="2_xmtmk"]
+[ext_resource type="Texture2D" uid="uid://i080bptfa22d" path="res://assets/sushi resurant enlarged.png" id="2_ujrc4"]
+[ext_resource type="Texture2D" uid="uid://ogei2tdvq5yt" path="res://assets/resized plate 800.png" id="3_3stba"]
 [ext_resource type="PackedScene" uid="uid://bmmapknon0gfq" path="res://scenes/green_tea.tscn" id="4_lmi36"]
 [ext_resource type="PackedScene" uid="uid://d1setqgolsp06" path="res://scenes/pause_menu.tscn" id="7_h5tgj"]
 
@@ -14,11 +14,11 @@ script = ExtResource("1_c7ua5")
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(959, 544.5)
 scale = Vector2(0.75, 0.747917)
-texture = ExtResource("1_f34eq")
+texture = ExtResource("2_ujrc4")
 
 [node name="Sprite2D2" type="Sprite2D" parent="."]
 position = Vector2(934, 980)
-texture = ExtResource("2_xmtmk")
+texture = ExtResource("3_3stba")
 
 [node name="Slot" parent="." instance=ExtResource("1_mhkxd")]
 position = Vector2(932, 936)
