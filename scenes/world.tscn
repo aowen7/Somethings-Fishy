@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://dd736nqnm3l6v"]
+[gd_scene load_steps=29 format=3 uid="uid://dd736nqnm3l6v"]
 
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_c7ua5"]
 [ext_resource type="PackedScene" uid="uid://byxhio87yfra4" path="res://scenes/slot.tscn" id="1_mhkxd"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://cjnt6krl1advq" path="res://assests/sushi resurant no toppings 800.png" id="2_48qfi"]
 [ext_resource type="PackedScene" uid="uid://p4dbl04xfvjv" path="res://scenes/food.tscn" id="2_i0mue"]
 [ext_resource type="Texture2D" uid="uid://d2f6gmwmevtqn" path="res://assests/resurant interior.png" id="2_lfti3"]
+[ext_resource type="PackedScene" uid="uid://cfa61apx1rxa2" path="res://scenes/customerorder.tscn" id="2_qwmg8"]
 [ext_resource type="Texture2D" uid="uid://ogei2tdvq5yt" path="res://assests/resized plate 800.png" id="2_xmtmk"]
 [ext_resource type="PackedScene" uid="uid://bdbmwv1ioekyr" path="res://scenes/level_timer.tscn" id="3_uxpmm"]
 [ext_resource type="PackedScene" uid="uid://bmmapknon0gfq" path="res://scenes/green_tea.tscn" id="4_lmi36"]
@@ -30,6 +31,8 @@
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_c7ua5")
+
+[node name="customerorder" parent="." instance=ExtResource("2_qwmg8")]
 
 [node name="StarBar" parent="." instance=ExtResource("2_7cct0")]
 

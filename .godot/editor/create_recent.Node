@@ -1,11 +1,11 @@
 Sprite2D
+Node
 CollisionShape2D
 Node2D
 ColorRect
 Button
 VBoxContainer
 MarginContainer
-Node
 AnimationPlayer
 CanvasLayer
 Area2D

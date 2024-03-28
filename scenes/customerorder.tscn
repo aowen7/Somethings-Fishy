@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfa61apx1rxa2"]
+
+[ext_resource type="Texture2D" uid="uid://crq1j4hxk3mvt" path="res://assests/orderbubble.png" id="1_18dps"]
+
+[node name="customerorder" type="Node"]
+
+[node name="orderbubble" type="Sprite2D" parent="."]
+position = Vector2(1423.2, 366.4)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("1_18dps")
+
+[node name="orderbubble2" type="Sprite2D" parent="."]
+position = Vector2(943.2, 366.4)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("1_18dps")
+
+[node name="orderbubble3" type="Sprite2D" parent="."]
+position = Vector2(463.2, 366.4)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("1_18dps")
