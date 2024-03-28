@@ -43,3 +43,4 @@ func _on_area_2d_body_exited(body):
 		is_inside_dropable = false
 		body.modulate = Color(Color.MEDIUM_PURPLE, 0.7)
 	
+	
