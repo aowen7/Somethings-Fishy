@@ -55,19 +55,19 @@ texture = ExtResource("2_48qfi")
 
 [node name="Shrimp2" parent="." instance=ExtResource("9_rqgp6")]
 position = Vector2(498, 813)
-scale = Vector2(0.678309, 0.678409)
+scale = Vector2(0.5, 0.5)
 
 [node name="Salmon2" parent="." instance=ExtResource("6_5ykpr")]
 position = Vector2(718, 810)
-scale = Vector2(0.74614, 0.746324)
+scale = Vector2(0.5, 0.5)
 
 [node name="Uni2" parent="." instance=ExtResource("8_kgvvk")]
 position = Vector2(1433, 811)
-scale = Vector2(0.678309, 0.746324)
+scale = Vector2(0.5, 0.55)
 
 [node name="Tuna2" parent="." instance=ExtResource("6_8si5x")]
 position = Vector2(954, 812)
-scale = Vector2(0.7, 0.7)
+scale = Vector2(-0.5, -0.5)
 
 [node name="Egg" parent="." instance=ExtResource("5_a1q48")]
 position = Vector2(271, 813)
@@ -75,11 +75,11 @@ scale = Vector2(0.7, 0.7)
 
 [node name="Roe2" parent="." instance=ExtResource("9_h8q8u")]
 position = Vector2(1192, 799)
-scale = Vector2(0.678309, 0.746324)
+scale = Vector2(0.5, 0.55)
 
 [node name="Rice2" parent="." instance=ExtResource("11_ecghx")]
-position = Vector2(61, 687)
-scale = Vector2(0.5, 0.5)
+position = Vector2(40, 687)
+scale = Vector2(0.4, 0.4)
 
 [node name="Seaweed2" parent="." instance=ExtResource("11_jctca")]
 position = Vector2(1611, 956)
@@ -130,7 +130,7 @@ scale = Vector2(0.678309, 0.746324)
 texture = ExtResource("12_63m2r")
 
 [node name="Slot" parent="." instance=ExtResource("1_mhkxd")]
-position = Vector2(932, 936)
+position = Vector2(927, 976)
 
 [node name="Miso" parent="." instance=ExtResource("2_i0mue")]
 position = Vector2(1817, 632)

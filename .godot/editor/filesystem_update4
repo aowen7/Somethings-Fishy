@@ -3,5 +3,4 @@ res://scenes/pause_menu.gdshader
 res://scripts/Trasition.gdshader
 res://scenes/seaweed.tscn
 res://scenes/rice.tscn
-res://scripts/DragAndDrop.gd
 res://scenes/shrimp.tscn
