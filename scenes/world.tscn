@@ -39,7 +39,7 @@ script = ExtResource("1_c7ua5")
 [node name="LevelTimer" parent="." instance=ExtResource("3_uxpmm")]
 
 [node name="Interior" type="Sprite2D" parent="."]
-position = Vector2(960, 544)
+position = Vector2(960, 539)
 scale = Vector2(0.747656, 0.747222)
 texture = ExtResource("2_lfti3")
 
