@@ -1,14 +1,14 @@
+Label
+MarginContainer
+NinePatchRect
 ColorRect
 TextEdit
 TextureRect
 Control
-Label
 HBoxContainer
 Panel
-MarginContainer
 CanvasLayer
 Button
 VBoxContainer
 Node2D
 Node
-AnimationPlayer
