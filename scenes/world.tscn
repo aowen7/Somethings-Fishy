@@ -40,16 +40,15 @@ position = Vector2(960, 544)
 scale = Vector2(0.747656, 0.747222)
 texture = ExtResource("2_lfti3")
 
-[node name="Plate" type="Sprite2D" parent="Interior"]
-visible = false
-position = Vector2(-34.7754, 583.495)
-scale = Vector2(1.33751, 1.33829)
-texture = ExtResource("2_xmtmk")
-
 [node name="WorkStation" type="Sprite2D" parent="Interior"]
 position = Vector2(-2.00647, 0.66919)
 scale = Vector2(1.00157, 1.00093)
 texture = ExtResource("2_48qfi")
+
+[node name="Plate" type="Sprite2D" parent="."]
+position = Vector2(934, 980)
+scale = Vector2(0.999997, 1)
+texture = ExtResource("2_xmtmk")
 
 [node name="catcounter" parent="." instance=ExtResource("7_cfjh0")]
 
@@ -69,7 +68,7 @@ scale = Vector2(0.5, 0.55)
 position = Vector2(954, 812)
 scale = Vector2(-0.5, -0.5)
 
-[node name="Egg" parent="." instance=ExtResource("5_a1q48")]
+[node name="Egg2" parent="." instance=ExtResource("5_a1q48")]
 position = Vector2(271, 813)
 scale = Vector2(0.7, 0.7)
 

@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cudsv746617qb"]
+
+[ext_resource type="Script" path="res://scripts/Food.gd" id="1_s4q0x"]
+[ext_resource type="Texture2D" uid="uid://cehufolrtatw6" path="res://assests/egg no seaweed.png" id="2_5he3l"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_646pl"]
+radius = 93.0
+height = 348.0
+
+[node name="rice+egg" type="Node2D"]
+script = ExtResource("1_s4q0x")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_5he3l")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_646pl")

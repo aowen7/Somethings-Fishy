@@ -1,5 +1,6 @@
 Sprite2D
 CollisionShape2D
+Area2D
 Node2D
 ColorRect
 Button
@@ -8,7 +9,6 @@ MarginContainer
 Node
 AnimationPlayer
 CanvasLayer
-Area2D
 StaticBody2D
 TextureRect
 Panel
