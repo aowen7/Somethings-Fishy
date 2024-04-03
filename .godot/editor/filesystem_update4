@@ -1,3 +1,5 @@
 res://scenes/pause_menu.gdshader
 res://default_theme.tres
 res://scripts/Trasition.gdshader
+res://textbox.tscn
+res://textbox.gd
