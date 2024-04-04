@@ -1,8 +1,10 @@
 3acdcc5cb6df755358dde907981ccea8
-::res://::1712162140
-default_theme.tres::Theme::7689044766424987818::1711647540::0::1::::<><>::uid://bl14xf3d25n0d::::res://assets/monogram.ttf<>uid://cqrukgree6mu7::::res://assets/hover_9slice.png<>uid://bacbnauj3jpch::::res://assets/9slice_test4.png
+::res://::1712249949
+default_theme.tres::Theme::7689044766424987818::1712162191::0::1::::<><>::uid://bl14xf3d25n0d::::res://assets/monogram.ttf<>uid://cqrukgree6mu7::::res://assets/hover_9slice.png<>uid://bacbnauj3jpch::::res://assets/9slice_test4.png
 opening_dialogue.dialogue::Resource::5803004603155337580::1711406118::1711406118::1::::<><>::
 README.md::TextFile::-1::1709247411::0::1::::<><>::
+textbox.gd::GDScript::-1::1712162744::0::1::::<>MarginContainer<>::
+textbox.tscn::PackedScene::1085777274062404042::1712162744::0::1::::<><>::res://textbox.gd<>uid://hle804d1iu2::::res://assets/textbox.png<>uid://bl14xf3d25n0d::::res://assets/monogram.ttf
 ::res://addons/::1711406118
 ::res://addons/dialogue_manager/::1711491446
 constants.gd::GDScript::-1::1711406118::0::1::::<>Node<>::
@@ -82,19 +84,19 @@ timerui1.png::CompressedTexture2D::3545198721907309872::1711492850::1711647471::
 timerui2.png::CompressedTexture2D::732222702236284072::1711492850::1711647471::1::::<><>::
 timerui3.png::CompressedTexture2D::3277474073985070207::1711492850::1711647471::1::::<><>::
 timerui4.png::CompressedTexture2D::310018694092682998::1711492850::1711647471::1::::<><>::
-::res://scenes/::1711648997
+::res://scenes/::1712162798
 DragAndDrop.tscn::PackedScene::3367917106358075238::1711404631::0::1::::<><>::res://scripts/DragAndDrop.gd
 drag_and_drop_test.tscn::PackedScene::2789546934157366167::1711647471::0::1::::<><>::uid://bn8pdqx320ih7::::res://scenes/DragAndDrop.tscn<>uid://dh6rgubccwapy::::res://assets/icon.svg
 food.tscn::PackedScene::1112884163935969683::1711647471::0::1::::<><>::uid://driar8pa4xyay::::res://assets/Miso Soup-export-export.png
 green_tea.tscn::PackedScene::3253486673277197290::1711647471::0::1::::<><>::uid://c1n78nic8b0ue::::res://assets/greentea800-export-export.png
-pause_menu.gdshader::Shader::-1::1711648997::0::1::::<><>::
+pause_menu.gdshader::Shader::-1::1712162798::0::1::::<><>::
 pause_menu.tscn::PackedScene::9021608433590430125::1711648862::0::1::::<><>::res://scripts/pause_menu.gd<>res://scenes/pause_menu.gdshader
 scene_manager.tscn::PackedScene::2827367804490770825::1711648862::0::1::::<><>::res://scripts/SceneManager.gd<>uid://df1hv1gsr0vfw::::res://scenes/transition_scene.tscn
 slot.tscn::PackedScene::4118873712441527113::1711492850::0::1::::<><>::res://scripts/Slot.gd
 start_menu.tscn::PackedScene::12267232975665925::1711648862::0::1::::<><>::res://scripts/start_menu.gd<>uid://bl14xf3d25n0d::::res://assets/monogram.ttf<>uid://dcsign8rm2vbw::::res://assets/beach background.png<>uid://dhsvpdf2vu5ba::::res://default_theme.tres
 transition_scene.tscn::PackedScene::7564343987213879980::1711648862::0::1::::<><>::res://scripts/transition_scene.gd<>res://scripts/Trasition.gdshader<>uid://bnbyisjvitq5m::::res://assets/pinhole3.png<>uid://dcsign8rm2vbw::::res://assets/beach background.png<>uid://i080bptfa22d::::res://assets/sushi resurant enlarged.png
 world.tscn::PackedScene::7437644813660059295::1711648862::0::1::::<><>::res://scripts/world.gd<>uid://byxhio87yfra4::::res://scenes/slot.tscn<>uid://p4dbl04xfvjv::::res://scenes/food.tscn<>uid://i080bptfa22d::::res://assets/sushi resurant enlarged.png<>uid://ogei2tdvq5yt::::res://assets/resized plate 800.png<>uid://bmmapknon0gfq::::res://scenes/green_tea.tscn<>uid://d1setqgolsp06::::res://scenes/pause_menu.tscn
-::res://scripts/::1711648997
+::res://scripts/::1712162798
 DragAndDrop.gd::GDScript::-1::1710799324::0::1::::<>TextureRect<>::
 Food.gd::GDScript::-1::1710799548::0::1::::<>Node2D<>::
 global.gd::GDScript::-1::1710799324::0::1::::<>Node<>::
@@ -104,5 +106,5 @@ SceneManager.gd::GDScript::-1::1711492617::0::1::::<>Node<>::
 Slot.gd::GDScript::-1::1710799324::0::1::::<>StaticBody2D<>::
 start_menu.gd::GDScript::-1::1711568349::0::1::::StartMenu<>Control<>::
 transition_scene.gd::GDScript::-1::1711404631::0::1::::<>CanvasLayer<>::
-Trasition.gdshader::Shader::-1::1711648997::0::1::::<><>::
+Trasition.gdshader::Shader::-1::1712162798::0::1::::<><>::
 world.gd::GDScript::-1::1711404631::0::1::::<>Node2D<>::
