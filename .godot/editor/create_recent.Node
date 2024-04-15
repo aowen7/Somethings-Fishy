@@ -1,3 +1,7 @@
+CollisionShape2D
+Area2D
+Sprite2D
+Node2D
 Label
 HBoxContainer
 Panel
@@ -8,7 +12,4 @@ TextureRect
 Control
 ColorRect
 TextEdit
-Sprite2D
 Node
-CollisionShape2D
-Node2D
