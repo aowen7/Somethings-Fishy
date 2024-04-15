@@ -1,6 +1,6 @@
 extends CanvasLayer
 
-const CHAR_READ_RATE = 0.05
+const CHAR_READ_RATE = 0.1
 
 @onready var textbox_container = $TextboxContainer
 @onready var start_symbol = $TextboxContainer/MarginContainer/HBoxContainer/Start
@@ -22,10 +22,15 @@ var time_accumulator = 0.0
 func _ready():
 	print("Starting state: State.READY")
 	hide_textbox()
-	queue_text("Excuse me wanderer where can I find the bathroom?")
-	queue_text("Why do we not look like the others?")
-	queue_text("Because we are free assets from opengameart!")
-	queue_text("Thanks for watching!")
+	queue_text("Wow! Finally, someone is going to do something with this run down hunk of-")
+	queue_text("-Junk")
+	queue_text("...")
+	queue_text("Well... thank you for taking this old place off my hands, kid.")
+	queue_text("I don't know what you're gonna do with it, and I don't wanna know.")
+	queue_text("You must promise me one thing.")
+	queue_text("Please keep this pigsty going. Your grandma built it from scratch.")
+	queue_text("...")
+	queue_text("Here, for being a good sport, take this LIFETIME SUPPLY OF EGGS! Use it however.")
 
 func _process(delta):
 	match current_state:
@@ -42,7 +47,8 @@ func _process(delta):
 					end_symbol.text = "v"
 					change_state(State.FINISHED)
 		State.FINISHED:
-			pass
+			if text_queue.size() > 0:
+				display_text()
 
 func queue_text(next_text):
 	text_queue.append(next_text)
@@ -60,9 +66,14 @@ func show_textbox():
 func display_text():
 	text_index = 0
 	time_accumulator = 0.0
-	current_text = text_queue.pop_front()
-	change_state(State.READING)
-	show_textbox()
+	if text_queue.size() > 0:
+		current_text = text_queue.pop_front()
+		change_state(State.READING)
+		show_textbox()
+		print("Displaying text:", current_text)
+	else:
+		change_state(State.FINISHED)
+		print("No more texts in the queue")
 
 func change_state(next_state):
 	current_state = next_state
