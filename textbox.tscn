@@ -59,7 +59,6 @@ size_flags_vertical = 1
 theme_override_fonts/font = ExtResource("1_8sc1n")
 theme_override_font_sizes/font_size = 100
 text = "Placeholder text. The quick brown fox jumped over the lazy dog."
-vertical_alignment = 3
 autowrap_mode = 3
 clip_text = true
 

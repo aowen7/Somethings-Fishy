@@ -1,11 +1,11 @@
+TextureRect
+Control
 Label
 HBoxContainer
 Panel
 MarginContainer
 CanvasLayer
 Timer
-TextureRect
-Control
 ColorRect
 TextEdit
 Sprite2D

@@ -27,10 +27,11 @@ func _ready():
 	queue_text("...")
 	queue_text("Well... thank you for taking this old place off my hands, kid.")
 	queue_text("I don't know what you're gonna do with it, and I don't wanna know.")
-	queue_text("You must promise me one thing.")
+	queue_text("But, you must promise me one thing.")
 	queue_text("Please keep this pigsty going. Your grandma built it from scratch.")
 	queue_text("...")
-	queue_text("Here, for being a good sport, take this LIFETIME SUPPLY OF EGGS! Use it however.")
+	queue_text("Here, for being a good sport, take this LIFETIME SUPPLY OF EGGS!")
+	queue_text("Use it however.")
 
 func _process(delta):
 	match current_state:
