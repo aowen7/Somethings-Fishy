@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://cfa61apx1rxa2"]
+[gd_scene load_steps=2 format=3 uid="uid://kychbxnsdume"]
 
-[ext_resource type="Texture2D" uid="uid://crq1j4hxk3mvt" path="res://assests/orderbubble.png" id="1_18dps"]
+[ext_resource type="Texture2D" path="res://assests/orderbubble.png" id="1_18dps"]
 
 [node name="customerorder" type="Node"]
 

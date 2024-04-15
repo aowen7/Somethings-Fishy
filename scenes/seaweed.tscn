@@ -1,6 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://txpkgov1i6o1"]
+[gd_scene load_steps=4 format=3 uid="uid://dj264copk6lmq"]
 
-[ext_resource type="Texture2D" uid="uid://csnlrye6f6pqi" path="res://assests/seaweed icon.png" id="1_08rod"]
+[ext_resource type="Texture2D" path="res://assests/seaweed icon.png" id="1_08rod"]
 
 [sub_resource type="GDScript" id="GDScript_wjd6i"]
 script/source = "extends Node2D

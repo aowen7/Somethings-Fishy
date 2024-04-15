@@ -1,6 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://dkyhgsid80vgp"]
+[gd_scene load_steps=4 format=3 uid="uid://blyh2bv7p260j"]
 
-[ext_resource type="Texture2D" uid="uid://de05g2dhuhs8g" path="res://assests/shrimp topping drag.png" id="1_j4bi5"]
+[ext_resource type="Texture2D" path="res://assests/shrimp topping drag.png" id="1_j4bi5"]
 
 [sub_resource type="GDScript" id="GDScript_wjd6i"]
 script/source = "extends Node2D

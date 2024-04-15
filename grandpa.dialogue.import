@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://clrusvxk1noqj"
+path="res://.godot/imported/grandpa.dialogue-1d21251c935720b1f8a2560e0586a3b9.tres"
+
+[deps]
+
+source_file="res://grandpa.dialogue"
+dest_files=["res://.godot/imported/grandpa.dialogue-1d21251c935720b1f8a2560e0586a3b9.tres"]
+
+[params]
+
+defaults=true
