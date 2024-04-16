@@ -9,3 +9,6 @@ res://scenes/world.tscn
 res://textbox.tscn
 res://cutscene.tscn
 res://scenes/scene_manager.tscn
+res://scenes/transition_scene.tscn
+res://textbox.gd
+res://scripts/transition_scene.gd

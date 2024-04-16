@@ -2,6 +2,8 @@ extends CanvasLayer
 
 const CHAR_READ_RATE = 0.1
 
+signal transitioned
+
 @onready var textbox_container = $TextboxContainer
 @onready var start_symbol = $TextboxContainer/MarginContainer/HBoxContainer/Start
 @onready var end_symbol = $TextboxContainer/MarginContainer/HBoxContainer/End
@@ -85,3 +87,7 @@ func change_state(next_state):
 			print("Changing state to: State.READING")
 		State.FINISHED:
 			print("Changing state to: State.FINISHED")
+			
+func over():
+	if Input.is_action_just_pressed("click"):
+		transition()

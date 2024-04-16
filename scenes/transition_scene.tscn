@@ -1,11 +1,10 @@
-[gd_scene load_steps=13 format=3 uid="uid://df1hv1gsr0vfw"]
+[gd_scene load_steps=12 format=3 uid="uid://df1hv1gsr0vfw"]
 
 [ext_resource type="Script" path="res://scripts/transition_scene.gd" id="1_an7co"]
 [ext_resource type="Shader" path="res://scripts/Trasition.gdshader" id="1_gf1xy"]
+[ext_resource type="Texture2D" uid="uid://cothpnopf3ppb" path="res://assests/outside of resturant.png" id="2_ccp41"]
 [ext_resource type="Texture2D" uid="uid://bnbyisjvitq5m" path="res://assests/pinhole3.png" id="2_g21so"]
-[ext_resource type="Texture2D" uid="uid://dcsign8rm2vbw" path="res://assests/beach background.png" id="2_raggu"]
-[ext_resource type="Texture2D" uid="uid://d2f6gmwmevtqn" path="res://assests/resurant interior.png" id="3_5hird"]
-[ext_resource type="Texture2D" uid="uid://cjnt6krl1advq" path="res://assests/sushi resurant no toppings 800.png" id="3_ct64t"]
+[ext_resource type="Texture2D" uid="uid://dcc36d5qqyyqn" path="res://scenes/granpa cat.png" id="3_2tutr"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ieon7"]
 shader = ExtResource("1_gf1xy")
@@ -71,27 +70,25 @@ _data = {
 [node name="TransitionScene" type="CanvasLayer"]
 script = ExtResource("1_an7co")
 
-[node name="StartMenu" type="Sprite2D" parent="."]
+[node name="Outside" type="Sprite2D" parent="."]
 position = Vector2(959, 540.5)
 scale = Vector2(0.749219, 0.750694)
-texture = ExtResource("2_raggu")
+texture = ExtResource("2_ccp41")
 
-[node name="Interior" type="Sprite2D" parent="."]
-position = Vector2(959, 540.5)
-scale = Vector2(0.749219, 0.750695)
-texture = ExtResource("3_5hird")
-
-[node name="MainGame" type="Sprite2D" parent="."]
-position = Vector2(959, 540.5)
-scale = Vector2(0.749219, 0.750695)
-texture = ExtResource("3_ct64t")
+[node name="Grandpa" type="Sprite2D" parent="."]
+position = Vector2(1018, 728)
+scale = Vector2(0.598, 0.6)
+texture = ExtResource("3_2tutr")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 material = SubResource("ShaderMaterial_ieon7")
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_right = -2.0
+offset_left = 464.0
+offset_top = 930.0
+offset_right = 462.0
+offset_bottom = 930.0
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 1)
