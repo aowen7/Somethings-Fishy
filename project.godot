@@ -18,6 +18,7 @@ config/icon="res://assests/icon.svg"
 [autoload]
 
 global="*res://scripts/global.gd"
+Transition="*res://transition.tscn"
 
 [display]
 
