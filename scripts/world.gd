@@ -5,9 +5,10 @@ extends Node2D
 @onready var pause_menu = $PauseMenu
 
 @onready var restaurant_bg = $MusicPack/restaurantbg
+
 var paused = false
 
-func ready():
+func _ready():
 	restaurant_bg.play()
 	
 func _process(delta):
@@ -23,3 +24,8 @@ func PauseMenu():
 		Engine.time_scale = 0
 		
 	paused = !paused
+	
+func game_over():
+	if game_over:
+		restaurant_bg.stop()
+	

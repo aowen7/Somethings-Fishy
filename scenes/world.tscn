@@ -156,4 +156,4 @@ offset_bottom = 608.0
 
 [node name="restaurantbg" type="AudioStreamPlayer2D" parent="MusicPack"]
 stream = ExtResource("29_oijvv")
-volume_db = 16.0
+volume_db = 10.0
