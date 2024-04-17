@@ -2,12 +2,14 @@ extends CanvasLayer
 
 const CHAR_READ_RATE = 0.1
 
-signal transitioned
+
 
 @onready var textbox_container = $TextboxContainer
 @onready var start_symbol = $TextboxContainer/MarginContainer/HBoxContainer/Start
 @onready var end_symbol = $TextboxContainer/MarginContainer/HBoxContainer/End
 @onready var label = $TextboxContainer/MarginContainer/HBoxContainer/Label
+@onready var next_button = $NextButton
+
 
 enum State {
 	READY,
@@ -20,6 +22,7 @@ var text_queue = []
 var current_text = ""
 var text_index = 0
 var time_accumulator = 0.0
+var can_progress = false
 
 func _ready():
 	print("Starting state: State.READY")
@@ -49,9 +52,6 @@ func _process(delta):
 				if text_index > current_text.length():
 					end_symbol.text = "v"
 					change_state(State.FINISHED)
-		State.FINISHED:
-			if text_queue.size() > 0:
-				display_text()
 
 func queue_text(next_text):
 	text_queue.append(next_text)
@@ -67,12 +67,11 @@ func show_textbox():
 	textbox_container.show()
 
 func display_text():
-	text_index = 0
-	time_accumulator = 0.0
 	if text_queue.size() > 0:
 		current_text = text_queue.pop_front()
-		change_state(State.READING)
+		label.text = current_text
 		show_textbox()
+		change_state(State.READING)
 		print("Displaying text:", current_text)
 	else:
 		change_state(State.FINISHED)
@@ -83,11 +82,20 @@ func change_state(next_state):
 	match current_state:
 		State.READY:
 			print("Changing state to: State.READY")
+			next_button.show()
+			can_progress = false
 		State.READING:
 			print("Changing state to: State.READING")
+			next_button.hide()
+			can_progress = false
 		State.FINISHED:
 			print("Changing state to: State.FINISHED")
+			next_button.show()
+			can_progress = false
 			
-func over():
-	if Input.is_action_just_pressed("click"):
-		transition()
+
+
+
+func _on_next_button_pressed():
+	if current_state == State.FINISHED:
+		display_text()
