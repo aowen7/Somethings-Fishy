@@ -28,7 +28,7 @@
 [ext_resource type="Texture2D" uid="uid://dl4tvy6p74260" path="res://assests/dead urchin.png" id="12_63m2r"]
 [ext_resource type="Texture2D" uid="uid://dpjyct1p7fmsn" path="res://assests/seaweed.png" id="12_oqylb"]
 [ext_resource type="Texture2D" uid="uid://b6o2ucy7gdnsg" path="res://assests/rice with cooker.png" id="13_0eo3r"]
-[ext_resource type="AudioStream" uid="uid://ud1pakd33rc0" path="res://assests/Oneul - Fruit Cup.mp3" id="29_oijvv"]
+[ext_resource type="AudioStream" uid="uid://ud1pakd33rc0" path="res://audio/Oneul - Fruit Cup.mp3" id="29_3ye1h"]
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_c7ua5")
@@ -155,5 +155,5 @@ offset_bottom = 608.0
 [node name="MusicPack" type="Node" parent="."]
 
 [node name="restaurantbg" type="AudioStreamPlayer2D" parent="MusicPack"]
-stream = ExtResource("29_oijvv")
+stream = ExtResource("29_3ye1h")
 volume_db = 10.0
