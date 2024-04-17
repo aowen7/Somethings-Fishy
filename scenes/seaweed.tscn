@@ -31,9 +31,7 @@ func _on_area_2d_mouse_entered(body):
 	if not global.is_dragging:
 		draggable = true
 		scale = Vector2(1.05, 1.05)
-	if body.name == \"Rice\" and $Egg.is_overlapping(body):
-		combineObjects(body, $Egg, $Seaweed)
-	
+
 
 func _on_area_2d_mouse_exited():
 	if not global.is_dragging:
@@ -55,27 +53,6 @@ func _on_area_2d_body_exited(body):
 
 
 
-func _on_Rice_body_entered(body):
-	if body.name == \"Egg\" and $Seaweed.is_overlapping(body):
-		combineObjects($Rice, body, $Seaweed)
-
-func _on_Egg_body_entered(body):
-	if body.name == \"Rice\" and $Seaweed.is_overlapping(body):
-		combineObjects(body, $Egg, $Seaweed)
-
-func _on_Seaweed_body_entered(body):
-	pass
-	
-	
-func combineObjects(rice, egg, seaweed):
-	var newPosition = (rice.position + egg.position + seaweed.position) / 3
-	rice.queue_free()
-	egg.queue_free()
-	seaweed.queue_free()
-	
-	var RiceAndEgg = load(\"res://scenes/rice+egg.tscn\").instance()
-	add_child(RiceAndEgg)
-	RiceAndEgg.position = newPosition
 "
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fxui5"]
