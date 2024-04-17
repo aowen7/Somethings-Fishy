@@ -1,7 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://bae5ljmfjttu0"]
+[gd_scene load_steps=4 format=3 uid="uid://bae5ljmfjttu0"]
 
 [ext_resource type="Texture2D" uid="uid://cothpnopf3ppb" path="res://assests/outside of resturant.png" id="1_6f87d"]
-[ext_resource type="Script" path="res://scenes/cutscene.gd" id="1_ncvm1"]
 [ext_resource type="PackedScene" uid="uid://rp366ckuvfs8" path="res://textbox.tscn" id="2_xfw7r"]
 [ext_resource type="Texture2D" uid="uid://dcc36d5qqyyqn" path="res://scenes/granpa cat.png" id="3_dtoiw"]
 
@@ -12,7 +11,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_ncvm1")
 
 [node name="Background" type="TextureRect" parent="."]
 layout_mode = 1

@@ -14,3 +14,4 @@ res://scenes/cutscene.tscn
 res://scripts/start_menu.gd
 res://textbox.gd
 res://scenes/cutscene.gd
+res://scripts/transition_scene.gd

@@ -95,7 +95,10 @@ func change_state(next_state):
 			
 
 
-
 func _on_next_button_pressed():
 	if current_state == State.FINISHED:
-		display_text()
+		if text_queue.size() == 0: 
+			get_tree().change_scene_to_file("res://scenes/transition_scene.tscn")
+		else:
+			display_text()
+		
