@@ -1,6 +1,6 @@
 extends CanvasLayer
 
-const CHAR_READ_RATE = 0.1
+const CHAR_READ_RATE = 0.05
 
 
 
