@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://xlo7uaf20tjr"]
+[gd_scene load_steps=4 format=3 uid="uid://0podscchu6bb"]
 
 [ext_resource type="Texture2D" uid="uid://cothpnopf3ppb" path="res://assests/outside of resturant.png" id="1_6f87d"]
 [ext_resource type="PackedScene" uid="uid://rp366ckuvfs8" path="res://textbox.tscn" id="2_xfw7r"]

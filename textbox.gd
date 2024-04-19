@@ -90,11 +90,11 @@ func change_state(next_state):
 			can_progress = false
 		State.FINISHED:
 			print("Changing state to: State.FINISHED")
-			next_button.show()
 			can_progress = false
 			
 
 
+			next_button.show()
 func _on_next_button_pressed():
 	if current_state == State.FINISHED:
 		if text_queue.size() == 0: 
