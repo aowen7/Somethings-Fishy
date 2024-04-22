@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://d2f6gmwmevtqn" path="res://assests/resurant interior.png" id="2_1rxa8"]
 [ext_resource type="Texture2D" uid="uid://cothpnopf3ppb" path="res://assests/outside of resturant.png" id="2_ccp41"]
 [ext_resource type="Texture2D" uid="uid://bnbyisjvitq5m" path="res://assests/pinhole3.png" id="2_g21so"]
-[ext_resource type="Texture2D" path="res://scenes/granpa cat.png" id="3_2tutr"]
+[ext_resource type="Texture2D" uid="uid://dcc36d5qqyyqn" path="res://scenes/granpa cat.png" id="3_2tutr"]
 [ext_resource type="Texture2D" uid="uid://i080bptfa22d" path="res://assests/sushi resurant enlarged.png" id="3_kq5n4"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ieon7"]
