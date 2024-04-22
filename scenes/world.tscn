@@ -6,7 +6,6 @@
 [ext_resource type="Texture2D" uid="uid://cjnt6krl1advq" path="res://assests/sushi resurant no toppings 800.png" id="2_48qfi"]
 [ext_resource type="PackedScene" uid="uid://p4dbl04xfvjv" path="res://scenes/food.tscn" id="2_i0mue"]
 [ext_resource type="Texture2D" uid="uid://d2f6gmwmevtqn" path="res://assests/resurant interior.png" id="2_lfti3"]
-[ext_resource type="PackedScene" uid="uid://kychbxnsdume" path="res://scenes/customerorder.tscn" id="2_qwmg8"]
 [ext_resource type="Texture2D" uid="uid://ogei2tdvq5yt" path="res://assests/resized plate 800.png" id="2_xmtmk"]
 [ext_resource type="PackedScene" uid="uid://bdbmwv1ioekyr" path="res://scenes/level_timer.tscn" id="3_uxpmm"]
 [ext_resource type="PackedScene" uid="uid://bmmapknon0gfq" path="res://scenes/green_tea.tscn" id="4_lmi36"]
@@ -28,11 +27,10 @@
 [ext_resource type="Texture2D" uid="uid://dl4tvy6p74260" path="res://assests/dead urchin.png" id="12_63m2r"]
 [ext_resource type="Texture2D" uid="uid://dpjyct1p7fmsn" path="res://assests/seaweed.png" id="12_oqylb"]
 [ext_resource type="Texture2D" uid="uid://b6o2ucy7gdnsg" path="res://assests/rice with cooker.png" id="13_0eo3r"]
+[ext_resource type="Script" path="res://scripts/Food.gd" id="13_mv48p"]
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_c7ua5")
-
-[node name="customerorder" parent="." instance=ExtResource("2_qwmg8")]
 
 [node name="StarBar" parent="." instance=ExtResource("2_7cct0")]
 
@@ -59,34 +57,42 @@ texture = ExtResource("2_48qfi")
 [node name="Shrimp2" parent="." instance=ExtResource("9_rqgp6")]
 position = Vector2(498, 813)
 scale = Vector2(0.678309, 0.678409)
+script = ExtResource("13_mv48p")
 
 [node name="Salmon2" parent="." instance=ExtResource("6_5ykpr")]
 position = Vector2(718, 810)
 scale = Vector2(0.74614, 0.746324)
+script = ExtResource("13_mv48p")
 
 [node name="Uni2" parent="." instance=ExtResource("8_kgvvk")]
 position = Vector2(1433, 811)
 scale = Vector2(0.678309, 0.746324)
+script = ExtResource("13_mv48p")
 
 [node name="Tuna2" parent="." instance=ExtResource("6_8si5x")]
 position = Vector2(954, 812)
 scale = Vector2(0.7, 0.7)
+script = ExtResource("13_mv48p")
 
 [node name="Egg" parent="." instance=ExtResource("5_a1q48")]
 position = Vector2(271, 813)
 scale = Vector2(0.7, 0.7)
+script = ExtResource("13_mv48p")
 
 [node name="Roe2" parent="." instance=ExtResource("9_h8q8u")]
 position = Vector2(1192, 799)
 scale = Vector2(0.678309, 0.746324)
+script = ExtResource("13_mv48p")
 
 [node name="Rice2" parent="." instance=ExtResource("11_ecghx")]
 position = Vector2(61, 687)
 scale = Vector2(0.5, 0.5)
+script = ExtResource("13_mv48p")
 
 [node name="Seaweed2" parent="." instance=ExtResource("11_jctca")]
 position = Vector2(1611, 956)
 scale = Vector2(0.5, 0.5)
+script = ExtResource("13_mv48p")
 
 [node name="RiceCooker" type="Sprite2D" parent="."]
 position = Vector2(81.1287, 735)
@@ -133,15 +139,17 @@ scale = Vector2(0.678309, 0.746324)
 texture = ExtResource("12_63m2r")
 
 [node name="Slot" parent="." instance=ExtResource("1_mhkxd")]
-position = Vector2(932, 936)
+position = Vector2(930, 986)
 
 [node name="Miso" parent="." instance=ExtResource("2_i0mue")]
 position = Vector2(1817, 632)
 scale = Vector2(0.6, 0.6)
+script = ExtResource("13_mv48p")
 
 [node name="GreenTea" parent="." instance=ExtResource("4_lmi36")]
 position = Vector2(1646, 734)
 scale = Vector2(0.7, 0.7)
+script = ExtResource("13_mv48p")
 
 [node name="PauseMenu" parent="." instance=ExtResource("7_h5tgj")]
 visible = false

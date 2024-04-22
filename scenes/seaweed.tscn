@@ -27,11 +27,10 @@ func _process(delta):
 			else:
 				tween.tween_property(self,\"global_position\",initialPos,0.2).set_ease(Tween.EASE_OUT)
 
-func _on_area_2d_mouse_entered(body):
+func _on_area_2d_mouse_entered():
 	if not global.is_dragging:
 		draggable = true
 		scale = Vector2(1.05, 1.05)
-
 
 func _on_area_2d_mouse_exited():
 	if not global.is_dragging:
@@ -49,10 +48,6 @@ func _on_area_2d_body_exited(body):
 		is_inside_dropable = false
 		body.modulate = Color(Color.MEDIUM_PURPLE, 0.7)
 	
-
-
-
-
 "
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fxui5"]
@@ -64,7 +59,7 @@ script = SubResource("GDScript_wjd6i")
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_08rod")
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="Area2D" type="Area2D" parent="." groups=["dropable"]]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2(1.5, -1)
