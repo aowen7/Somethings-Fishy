@@ -1,8 +1,5 @@
 res://scenes/world.tscn
 res://scenes/pause_menu.gdshader
 res://scripts/Trasition.gdshader
+res://scenes/seaweed.tscn
 res://scripts/Food.gd
-res://scenes/rice.tscn
-res://scenes/egg.tscn
-res://scenes/rice_and_egg.tscn
-res://scripts/Slot.gd
