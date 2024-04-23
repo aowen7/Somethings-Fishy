@@ -134,7 +134,7 @@ scale = Vector2(0.678309, 0.746324)
 texture = ExtResource("12_63m2r")
 
 [node name="Slot" parent="." instance=ExtResource("1_mhkxd")]
-position = Vector2(932, 936)
+position = Vector2(930, 986)
 
 [node name="Miso" parent="." instance=ExtResource("2_i0mue")]
 position = Vector2(1817, 632)
