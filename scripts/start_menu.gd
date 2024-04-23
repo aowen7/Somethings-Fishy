@@ -5,7 +5,7 @@ extends Control
 @onready var start_button = $MarginContainer/HBoxContainer/VBoxContainer/StartButton
 @onready var quit_button = $MarginContainer/HBoxContainer/VBoxContainer/QuitButton
 
-@onready var opening_waves = $MusicPack/openingwavesx
+@onready var opening_waves = $MusicPack/openingwaves
 
 func _onready():
 	opening_waves.play()
