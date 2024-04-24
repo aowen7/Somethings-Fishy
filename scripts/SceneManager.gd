@@ -2,6 +2,7 @@ extends Node
 
 
 const MainScene = preload("res://scenes/world.tscn")
+#const CutScene = preload("res://scenes/cutscene.tscn")
 
 
 func _ready():
