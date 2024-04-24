@@ -25,12 +25,12 @@ func _process(delta):
 func _on_area_2d_mouse_entered():
 	if not global.is_dragging:
 		draggable = true
-		scale = Vector2(1.05, 1.05)
+		#scale = Vector2(1.05, 1.05)
 
 func _on_area_2d_mouse_exited():
 	if not global.is_dragging:
 		draggable = false
-		scale = Vector2(1,1)
+		#scale = Vector2(1,1)
 
 func _on_area_2d_body_entered(body:StaticBody2D):
 	if body.is_in_group('dropable'):
