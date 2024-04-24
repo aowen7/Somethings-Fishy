@@ -1,17 +1,4 @@
-res://scenes/world.tscn
-res://scenes/pause_menu.gdshader
+res://scenes/start_menu.tscn
 res://default_theme.tres
-res://scripts/Trasition.gdshader
-<<<<<<< Updated upstream
-res://scenes/cutscene.tscn
-res://scenes/transition_scene.tscn
 res://textbox.tscn
-res://scenes/start_menu.tscn
-res://scenes/tuna.tscn
-=======
-res://textbox.tscn
-res://cutscene.tscn
-res://scenes/start_menu.tscn
-res://scenes/scene_manager.tscn
-res://scenes/rice.tscn
->>>>>>> Stashed changes
+res://textbox.gd

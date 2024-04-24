@@ -58,12 +58,13 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 1
 theme_override_fonts/font = ExtResource("1_8sc1n")
-theme_override_font_sizes/font_size = 100
+theme_override_font_sizes/font_size = 90
 text = "Placeholder text. The quick brown fox jumped over the lazy dog."
 autowrap_mode = 3
 clip_text = true
 
 [node name="End" type="Label" parent="TextboxContainer/MarginContainer/HBoxContainer"]
+visible = false
 custom_minimum_size = Vector2(7, 0)
 layout_mode = 2
 size_flags_vertical = 8
