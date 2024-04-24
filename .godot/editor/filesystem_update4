@@ -2,3 +2,14 @@ res://scenes/world.tscn
 res://scenes/pause_menu.gdshader
 res://scripts/Trasition.gdshader
 res://scripts/Food.gd
+res://scripts/world.gd
+res://scenes/pause_menu.tscn
+res://scripts/foodmovement.gd
+res://scenes/shrimp.tscn
+res://scenes/seaweed.tscn
+res://scenes/salmon.tscn
+res://scenes/uni.tscn
+res://scenes/tuna.tscn
+res://scenes/egg.tscn
+res://scenes/roe.tscn
+res://scenes/rice.tscn

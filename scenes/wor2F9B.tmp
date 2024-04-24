@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=3 uid="uid://dd736nqnm3l6v"]
+[gd_scene load_steps=30 format=3 uid="uid://dd736nqnm3l6v"]
 
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_c7ua5"]
 [ext_resource type="PackedScene" uid="uid://byxhio87yfra4" path="res://scenes/slot.tscn" id="1_mhkxd"]
@@ -28,6 +28,7 @@
 [ext_resource type="Texture2D" uid="uid://dl4tvy6p74260" path="res://assests/dead urchin.png" id="12_63m2r"]
 [ext_resource type="Texture2D" uid="uid://dpjyct1p7fmsn" path="res://assests/seaweed.png" id="12_oqylb"]
 [ext_resource type="Texture2D" uid="uid://b6o2ucy7gdnsg" path="res://assests/rice with cooker.png" id="13_0eo3r"]
+[ext_resource type="Script" path="res://scripts/Food.gd" id="13_mv48p"]
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_c7ua5")
@@ -94,16 +95,6 @@ position = Vector2(1611, 956)
 scale = Vector2(0.5, 0.5)
 script = ExtResource("9_eukmb")
 
-[node name="Miso" parent="." instance=ExtResource("2_i0mue")]
-position = Vector2(1817, 632)
-scale = Vector2(0.6, 0.6)
-script = ExtResource("9_eukmb")
-
-[node name="GreenTea" parent="." instance=ExtResource("4_lmi36")]
-position = Vector2(1646, 734)
-scale = Vector2(0.7, 0.7)
-script = ExtResource("9_eukmb")
-
 [node name="RiceCooker" type="Sprite2D" parent="."]
 position = Vector2(81.1287, 735)
 scale = Vector2(0.751192, 0.746324)
@@ -150,6 +141,16 @@ texture = ExtResource("12_63m2r")
 
 [node name="Slot" parent="." instance=ExtResource("1_mhkxd")]
 position = Vector2(930, 986)
+
+[node name="Miso" parent="." instance=ExtResource("2_i0mue")]
+position = Vector2(1817, 632)
+scale = Vector2(0.6, 0.6)
+script = ExtResource("13_mv48p")
+
+[node name="GreenTea" parent="." instance=ExtResource("4_lmi36")]
+position = Vector2(1646, 734)
+scale = Vector2(0.7, 0.7)
+script = ExtResource("13_mv48p")
 
 [node name="PauseMenu" parent="." instance=ExtResource("7_h5tgj")]
 visible = false

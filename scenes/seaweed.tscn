@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://dj264copk6lmq"]
+[gd_scene load_steps=4 format=3 uid="uid://txpkgov1i6o1"]
 
 [ext_resource type="Texture2D" uid="uid://csnlrye6f6pqi" path="res://assests/seaweed icon.png" id="1_08rod"]
 
@@ -30,12 +30,12 @@ func _process(delta):
 func _on_area_2d_mouse_entered():
 	if not global.is_dragging:
 		draggable = true
-		scale = Vector2(1.05, 1.05)
+		#scale = Vector2(1.05, 1.05)
 
 func _on_area_2d_mouse_exited():
 	if not global.is_dragging:
 		draggable = false
-		scale = Vector2(1,1)
+		#scale = Vector2(1,1)
 
 func _on_area_2d_body_entered(body:StaticBody2D):
 	if body.is_in_group('dropable'):
