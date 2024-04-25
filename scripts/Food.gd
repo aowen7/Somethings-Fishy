@@ -23,11 +23,13 @@ func _process(delta):
 				tween.tween_property(self,"global_position",initialPos,0.2).set_ease(Tween.EASE_OUT)
 
 func _on_area_2d_mouse_entered():
+	printerr("mouse entered")
 	if not global.is_dragging:
 		draggable = true
 		scale = Vector2(1.05, 1.05)
 
 func _on_area_2d_mouse_exited():
+	printerr("mouse exit")
 	if not global.is_dragging:
 		draggable = false
 		scale = Vector2(1,1)

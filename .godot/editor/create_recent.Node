@@ -1,7 +1,10 @@
+CollisionShape2D
+Area2D
+Sprite2D
+Node2D
 Control
 Button
 ColorRect
-Sprite2D
 Node
 CanvasLayer
 AnimationPlayer
@@ -10,5 +13,3 @@ Label
 HBoxContainer
 Panel
 MarginContainer
-Timer
-TextEdit

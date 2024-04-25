@@ -1,17 +1,20 @@
-res://scenes/world.tscn
-res://scenes/pause_menu.gdshader
+res://scenes/start_menu.tscn
 res://default_theme.tres
-res://scripts/Trasition.gdshader
-<<<<<<< Updated upstream
-res://scenes/cutscene.tscn
-res://scenes/transition_scene.tscn
 res://textbox.tscn
-res://scenes/start_menu.tscn
-res://scenes/tuna.tscn
-=======
-res://textbox.tscn
-res://cutscene.tscn
-res://scenes/start_menu.tscn
-res://scenes/scene_manager.tscn
+res://scenes/world.tscn
+res://scenes/shrimp.tscn
+res://scripts/Food.gd
+res://scenes/seaweed.tscn
+res://scenes/salmon.tscn
+res://scenes/uni.tscn
 res://scenes/rice.tscn
->>>>>>> Stashed changes
+res://scenes/roe.tscn
+res://scenes/egg.tscn
+res://scenes/tuna.tscn
+res://scenes/food.tscn
+res://scenes/green_tea.tscn
+res://scenes/slot.tscn
+res://scenes/level_timer.tscn
+res://scenes/star_bar.tscn
+res://scenes/customerorder.tscn
+res://scenes/catcounter.tscn

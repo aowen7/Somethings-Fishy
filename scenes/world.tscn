@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=3 uid="uid://dd736nqnm3l6v"]
+[gd_scene load_steps=32 format=3 uid="uid://dd736nqnm3l6v"]
 
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_c7ua5"]
 [ext_resource type="PackedScene" uid="uid://byxhio87yfra4" path="res://scenes/slot.tscn" id="1_mhkxd"]
@@ -22,12 +22,17 @@
 [ext_resource type="PackedScene" uid="uid://btf5lrct6u1l7" path="res://scenes/roe.tscn" id="9_h8q8u"]
 [ext_resource type="PackedScene" uid="uid://blyh2bv7p260j" path="res://scenes/shrimp.tscn" id="9_rqgp6"]
 [ext_resource type="Texture2D" uid="uid://87cdnhfa2v47" path="res://assests/shrimp stack.png" id="10_2fw5a"]
+[ext_resource type="Script" path="res://scripts/Food.gd" id="10_jryiv"]
 [ext_resource type="Texture2D" uid="uid://b78ppk1g1u0t3" path="res://assests/bowl of roe-export.png" id="11_2scey"]
 [ext_resource type="PackedScene" uid="uid://dqpgd8kqvlnwg" path="res://scenes/rice.tscn" id="11_ecghx"]
 [ext_resource type="PackedScene" uid="uid://dj264copk6lmq" path="res://scenes/seaweed.tscn" id="11_jctca"]
 [ext_resource type="Texture2D" uid="uid://dl4tvy6p74260" path="res://assests/dead urchin.png" id="12_63m2r"]
 [ext_resource type="Texture2D" uid="uid://dpjyct1p7fmsn" path="res://assests/seaweed.png" id="12_oqylb"]
 [ext_resource type="Texture2D" uid="uid://b6o2ucy7gdnsg" path="res://assests/rice with cooker.png" id="13_0eo3r"]
+[ext_resource type="Texture2D" uid="uid://de05g2dhuhs8g" path="res://assests/shrimp topping drag.png" id="30_omiek"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_eopj1"]
+radius = 183.497
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_c7ua5")
@@ -143,10 +148,26 @@ scale = Vector2(0.6, 0.6)
 position = Vector2(1646, 734)
 scale = Vector2(0.7, 0.7)
 
+[node name="NewFood" type="Node2D" parent="."]
+position = Vector2(726, 268)
+script = ExtResource("10_jryiv")
+
+[node name="Sprite2D" type="Sprite2D" parent="NewFood"]
+texture = ExtResource("30_omiek")
+
+[node name="Area2D" type="Area2D" parent="NewFood"]
+collision_priority = 100.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NewFood/Area2D"]
+position = Vector2(12, -0.5)
+shape = SubResource("CircleShape2D_eopj1")
+
 [node name="PauseMenu" parent="." instance=ExtResource("7_h5tgj")]
 visible = false
-visibility_layer = 2
-offset_left = 959.0
-offset_top = 608.0
-offset_right = 959.0
-offset_bottom = 608.0
+offset_left = 731.0
+offset_top = 498.0
+offset_right = 731.0
+offset_bottom = 498.0
+
+[connection signal="mouse_entered" from="NewFood/Area2D" to="NewFood" method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_exited" from="NewFood/Area2D" to="NewFood" method="_on_area_2d_mouse_exited"]
