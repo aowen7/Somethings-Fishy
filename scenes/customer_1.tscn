@@ -1,3 +1,10 @@
-[gd_scene format=3 uid="uid://iq6h34d0ybo"]
+[gd_scene load_steps=2 format=3 uid="uid://iq6h34d0ybo"]
+
+[ext_resource type="Texture2D" uid="uid://cawkfnpugrkm2" path="res://assests/Cats(800).png" id="1_4xwoi"]
 
 [node name="customer1" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1056, 528)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_4xwoi")
