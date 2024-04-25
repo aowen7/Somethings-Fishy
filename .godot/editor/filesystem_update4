@@ -1,4 +1,4 @@
 res://scenes/start_menu.tscn
 res://default_theme.tres
 res://textbox.tscn
-res://textbox.gd
+res://scenes/cutscene.tscn

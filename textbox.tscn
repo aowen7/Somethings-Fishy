@@ -2,7 +2,7 @@
 
 [ext_resource type="FontFile" uid="uid://bl14xf3d25n0d" path="res://assests/monogram.ttf" id="1_8sc1n"]
 [ext_resource type="Script" path="res://textbox.gd" id="1_yahej"]
-[ext_resource type="Theme" uid="uid://dhsvpdf2vu5ba" path="res://default_theme.tres" id="3_j2dea"]
+[ext_resource type="Texture2D" uid="uid://3hm83l128l6b" path="res://assests/whiteplay.png" id="3_dfrme"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a1bdm"]
 bg_color = Color(0, 0, 0, 1)
@@ -74,19 +74,22 @@ text = "v"
 
 [node name="NextButton" type="Button" parent="."]
 anchors_preset = -1
-anchor_left = 0.796
-anchor_top = 0.889
-anchor_right = 0.892
-anchor_bottom = 0.933
-offset_left = -8.32012
-offset_top = -8.12006
-offset_right = -0.640038
-offset_bottom = 0.35997
+anchor_left = 0.854
+anchor_top = 0.885
+anchor_right = 0.883
+anchor_bottom = 0.925
+offset_left = 0.319939
+offset_top = -11.8001
+offset_right = -0.360031
+offset_bottom = 12.9999
 grow_horizontal = 0
 grow_vertical = 0
-theme = ExtResource("3_j2dea")
 theme_override_fonts/font = ExtResource("1_8sc1n")
 theme_override_font_sizes/font_size = 50
-text = "Next"
+
+[node name="Sprite2D" type="Sprite2D" parent="NextButton"]
+position = Vector2(24, 34)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_dfrme")
 
 [connection signal="pressed" from="NextButton" to="." method="_on_next_button_pressed"]
