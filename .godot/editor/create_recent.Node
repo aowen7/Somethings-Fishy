@@ -1,3 +1,6 @@
+Label
+Panel
+MarginContainer
 Sprite2D
 Control
 Button
@@ -6,9 +9,6 @@ Node
 CanvasLayer
 AnimationPlayer
 TextureRect
-Label
 HBoxContainer
-Panel
-MarginContainer
 Timer
 TextEdit
