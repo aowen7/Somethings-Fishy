@@ -1,10 +1,10 @@
 3acdcc5cb6df755358dde907981ccea8
-::res://::1714082107
-default_theme.tres::Theme::7689044766424987818::1714081658::0::1::::<><>::uid://bl14xf3d25n0d::::res://assests/monogram.ttf<>uid://cqrukgree6mu7::::res://assests/hover_9slice.png<>uid://bacbnauj3jpch::::res://assests/9slice_test4.png
+::res://::1714428939
+default_theme.tres::Theme::7689044766424987818::1714428939::0::1::::<><>::uid://bl14xf3d25n0d::::res://assests/monogram.ttf<>uid://cqrukgree6mu7::::res://assests/hover_9slice.png<>uid://bacbnauj3jpch::::res://assests/9slice_test4.png
 grandpa.dialogue::Resource::5581260692379673193::1713217952::1713822843::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
 README.md::TextFile::-1::1709247411::0::1::::<><>::
-textbox.gd::GDScript::-1::1713988905::0::1::::<>CanvasLayer<>::
-textbox.tscn::PackedScene::1225933075361336001::1714082107::0::1::::<><>::uid://bl14xf3d25n0d::::res://assests/monogram.ttf<>res://textbox.gd<>uid://1554nsibchag::::res://assests/play.png
+textbox.gd::GDScript::-1::1714082419::0::1::::<>CanvasLayer<>::
+textbox.tscn::PackedScene::1225933075361336001::1714428939::0::1::::<><>::uid://bl14xf3d25n0d::::res://assests/monogram.ttf<>res://textbox.gd<>uid://3hm83l128l6b::::res://assests/whiteplay.png
 transition.gd::GDScript::-1::1713305826::0::1::::<>Node<>::
 transition.tscn::PackedScene::654238580996080587::1713305826::0::1::::<><>::res://transition.gd
 ::res://addons/::1711406118
@@ -68,7 +68,7 @@ main_view.gd::GDScript::-1::1713217952::0::1::::<>Control<>::
 main_view.tscn::PackedScene::4884668666408697448::1713217952::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u::::res://addons/dialogue_manager/components/code_edit.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn<>uid://ctns6ouwwd68i::::res://addons/dialogue_manager/components/title_list.tscn<>uid://co8yl23idiwbi::::res://addons/dialogue_manager/components/update_button.tscn<>uid://gr8nakpbrhby::::res://addons/dialogue_manager/components/search_and_replace.tscn<>uid://cs8pwrxr5vxix::::res://addons/dialogue_manager/components/errors_panel.tscn<>res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>uid://cpg4lg1r3ff6m::::res://addons/dialogue_manager/views/settings_view.tscn<>uid://0n7hwviyyly4::::res://addons/dialogue_manager/components/find_in_files.tscn
 settings_view.gd::GDScript::-1::1713217952::0::1::::<>TabContainer<>::
 settings_view.tscn::PackedScene::5839841081119266502::1711406118::0::1::::<><>::res://addons/dialogue_manager/views/settings_view.gd
-::res://assests/::1714082145
+::res://assests/::1714430011
 9slice_test4.png::CompressedTexture2D::2390633402857546415::1713217952::1713217952::1::::<><>::
 100.png::CompressedTexture2D::2742689404379866662::1713217952::1713217952::1::::<><>::
 beach background.png::CompressedTexture2D::7337295723205626372::1713217952::1713217952::1::::<><>::
@@ -112,15 +112,16 @@ timerui1.png::CompressedTexture2D::3545198721907309872::1713217952::1713217952::
 timerui2.png::CompressedTexture2D::732222702236284072::1713217952::1713217952::1::::<><>::
 timerui3.png::CompressedTexture2D::3277474073985070207::1713217952::1713217952::1::::<><>::
 timerui4.png::CompressedTexture2D::310018694092682998::1713217952::1713217952::1::::<><>::
+title screen words (1).png::CompressedTexture2D::8402189359926788662::1714430011::1714430011::1::::<><>::
 tuna800.png::CompressedTexture2D::1670141207905365866::1713217952::1713217952::1::::<><>::
 tuna stack.png::CompressedTexture2D::775594178298821084::1713217952::1713217952::1::::<><>::
 uiguide.png::CompressedTexture2D::7989798312293617425::1713217952::1713217952::1::::<><>::
 uni800-export.png::CompressedTexture2D::7880244765018858066::1713217952::1713217952::1::::<><>::
-whiteplay.png::CompressedTexture2D::1980527290120749827::1714082145::1714082145::1::::<><>::
-::res://scenes/::1714082107
+whiteplay.png::CompressedTexture2D::1980527290120749827::1714082832::1714082832::1::::<><>::
+::res://scenes/::1714428939
 catcounter.tscn::PackedScene::3571157264984372905::1713217952::0::1::::<><>::res://assests/catcounter.png
 customerorder.tscn::PackedScene::751567525689333380::1713217952::0::1::::<><>::res://assests/orderbubble.png
-cutscene.tscn::PackedScene::1786543101153109999::1714082107::0::1::::<><>::uid://cothpnopf3ppb::::res://assests/outside of resturant.png<>uid://rp366ckuvfs8::::res://textbox.tscn<>uid://dcc36d5qqyyqn::::res://scenes/granpa cat.png
+cutscene.tscn::PackedScene::1786543101153109999::1714428939::0::1::::<><>::uid://cothpnopf3ppb::::res://assests/outside of resturant.png<>uid://rp366ckuvfs8::::res://textbox.tscn<>uid://dcc36d5qqyyqn::::res://scenes/granpa cat.png<>uid://bl14xf3d25n0d::::res://assests/monogram.ttf
 DragAndDrop.tscn::PackedScene::3367917106358075238::1711404631::0::1::::<><>::res://scripts/DragAndDrop.gd
 drag_and_drop_test.tscn::PackedScene::2789546934157366167::1713217952::0::1::::<><>::uid://bn8pdqx320ih7::::res://scenes/DragAndDrop.tscn<>uid://dh6rgubccwapy::::res://assests/icon.svg
 egg.tscn::PackedScene::7486630620104630927::1713382322::0::1::::<><>::uid://cwgksjawr8va2::::res://assests/egg.png
@@ -130,7 +131,7 @@ green_tea.tscn::PackedScene::3253486673277197290::1713217952::0::1::::<><>::uid:
 level_timer.tscn::PackedScene::2599820627277992809::1713217952::0::1::::<><>::res://scripts/LevelTimer.gd<>uid://ct0k07o733xit::::res://assests/Minecraft.ttf<>uid://eof7y06tnmly::::res://assests/timerui4.png<>uid://bmxvrwe2u8whr::::res://assests/timerui3.png<>uid://koxuow3b7kdk::::res://assests/timerui2.png<>uid://bqrk51fypgfjk::::res://assests/timerui1.png
 pause_menu.gdshader::Shader::-1::1713826044::0::1::::<><>::
 pause_menu.tscn::PackedScene::9021608433590430125::1712251592::0::1::::<><>::res://scripts/pause_menu.gd<>res://scenes/pause_menu.gdshader
-play.png::CompressedTexture2D::1379997208818821439::1714081913::1714081913::1::::<><>::
+play.png::CompressedTexture2D::1379997208818821439::1714082832::1714082832::1::::<><>::
 rice.tscn::PackedScene::8313620624411108302::1713987918::0::1::::<><>::uid://cpaadh5oyg3hf::::res://assests/ricenoplate.png
 roe.tscn::PackedScene::3732172651994040302::1713217952::0::1::::<><>::uid://vcyo17gh66xl::::res://assests/lumpofroe.png
 salmon.tscn::PackedScene::6282375196325152151::1713217952::0::1::::<><>::uid://bjv8o2nrnklio::::res://assests/salmon.png
@@ -138,7 +139,7 @@ scene_manager.tscn::PackedScene::2827367804490770825::1713479450::0::1::::<><>::
 seaweed.tscn::PackedScene::7848633985350299340::1713217952::0::1::::<><>::res://assests/seaweed icon.png
 shrimp.tscn::PackedScene::3208516351633008735::1713217952::0::1::::<><>::res://assests/shrimp topping drag.png
 slot.tscn::PackedScene::4118873712441527113::1711492850::0::1::::<><>::res://scripts/Slot.gd
-start_menu.tscn::PackedScene::12267232975665925::1714082107::0::1::::<><>::res://scripts/start_menu.gd<>uid://bl14xf3d25n0d::::res://assests/monogram.ttf<>uid://dcsign8rm2vbw::::res://assests/beach background.png<>uid://dhsvpdf2vu5ba::::res://default_theme.tres
+start_menu.tscn::PackedScene::12267232975665925::1714428939::0::1::::<><>::res://scripts/start_menu.gd<>uid://bl14xf3d25n0d::::res://assests/monogram.ttf<>uid://dcsign8rm2vbw::::res://assests/beach background.png<>uid://dhsvpdf2vu5ba::::res://default_theme.tres
 star_bar.tscn::PackedScene::5106946548745950038::1713217952::0::1::::<><>::uid://bbk428eoiq1iw::::res://assests/starbar1.png<>uid://cm7v3sgba26g0::::res://assests/starbar2.png<>uid://bmuc8jtfes81n::::res://assests/starbar3.png<>uid://csgtlganf8tto::::res://assests/starbar4.png<>uid://daoubw6jop2kb::::res://assests/starbar5.png
 transition_scene.tscn::PackedScene::7564343987213879980::1713823504::0::1::::<><>::res://scripts/transition_scene.gd<>res://scripts/Trasition.gdshader<>uid://d2f6gmwmevtqn::::res://assests/resurant interior.png<>uid://cothpnopf3ppb::::res://assests/outside of resturant.png<>uid://bnbyisjvitq5m::::res://assests/pinhole3.png<>uid://dcc36d5qqyyqn::::res://scenes/granpa cat.png<>uid://i080bptfa22d::::res://assests/sushi resurant enlarged.png
 tuna.tscn::PackedScene::1639312502535426362::1713823504::0::1::::<><>::uid://x2a8m3da3ls1::::res://assests/tuna800.png

@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/start_menu.gd" id="1_lprii"]
 [ext_resource type="FontFile" uid="uid://bl14xf3d25n0d" path="res://assests/monogram.ttf" id="1_yay00"]
-[ext_resource type="Texture2D" uid="uid://dcsign8rm2vbw" path="res://assests/beach background.png" id="2_dxhsc"]
+[ext_resource type="Texture2D" uid="uid://dryc3i32pm3aw" path="res://assests/title screen words (1).png" id="2_qutfw"]
 [ext_resource type="Theme" uid="uid://dhsvpdf2vu5ba" path="res://default_theme.tres" id="4_48b74"]
 
 [node name="StartMenu" type="Control"]
@@ -21,78 +21,46 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_dxhsc")
+texture = ExtResource("2_qutfw")
 expand_mode = 1
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
+[node name="StartButton" type="Button" parent="."]
+custom_minimum_size = Vector2(300, 100)
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_constants/margin_left = 12
-theme_override_constants/margin_top = 12
-theme_override_constants/margin_right = 12
-theme_override_constants/margin_bottom = 12
-
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
-layout_mode = 2
-theme_override_constants/separation = 150
-
-[node name="Separator" type="Control" parent="MarginContainer/VBoxContainer"]
-layout_mode = 2
-
-[node name="GameTitle" type="Label" parent="MarginContainer/VBoxContainer"]
-layout_mode = 2
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("1_yay00")
-theme_override_font_sizes/font_size = 125
-text = "Something's Fishy!"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="Hotkey" type="Label" parent="MarginContainer/VBoxContainer"]
-visible = false
-custom_minimum_size = Vector2(2.08165e-12, 2.08165e-12)
-layout_mode = 2
-size_flags_vertical = 8
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("1_yay00")
-theme_override_font_sizes/font_size = 50
-text = "Press Enter to Start"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
-layout_mode = 2
-alignment = 1
-
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
-layout_mode = 2
-size_flags_vertical = 4
-theme_override_constants/separation = 50
-alignment = 1
-
-[node name="Separator" type="Control" parent="MarginContainer/HBoxContainer/VBoxContainer"]
-layout_mode = 2
-
-[node name="StartButton" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
-custom_minimum_size = Vector2(250, 75)
-layout_mode = 2
+anchors_preset = -1
+anchor_left = 0.312
+anchor_top = 0.77
+anchor_right = 0.462
+anchor_bottom = 0.859
+offset_left = -7.04001
+offset_top = 0.399956
+offset_right = 4.95998
+offset_bottom = 5.27997
+grow_vertical = 0
 theme = ExtResource("4_48b74")
 theme_override_fonts/font = ExtResource("1_yay00")
-theme_override_font_sizes/font_size = 75
+theme_override_font_sizes/font_size = 120
 text = "Open"
 icon_alignment = 1
 
-[node name="QuitButton" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
-custom_minimum_size = Vector2(250, 75)
-layout_mode = 2
+[node name="QuitButton" type="Button" parent="."]
+custom_minimum_size = Vector2(300, 100)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.537
+anchor_top = 0.778
+anchor_right = 0.687
+anchor_bottom = 0.859
+offset_left = -7.04
+offset_top = -8.24006
+offset_right = 4.95993
+offset_bottom = 4.27997
+grow_horizontal = 0
+grow_vertical = 0
 theme = ExtResource("4_48b74")
 theme_override_fonts/font = ExtResource("1_yay00")
-theme_override_font_sizes/font_size = 75
+theme_override_font_sizes/font_size = 120
 text = "Close"
 
-[connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
-[connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]
