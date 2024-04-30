@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://f7blx43nw6h"]
 
 [ext_resource type="Script" path="res://scripts/start_menu.gd" id="1_lprii"]
-[ext_resource type="FontFile" uid="uid://bl14xf3d25n0d" path="res://assests/monogram.ttf" id="1_yay00"]
 [ext_resource type="Texture2D" uid="uid://dryc3i32pm3aw" path="res://assests/title screen words (1).png" id="2_qutfw"]
-[ext_resource type="Theme" uid="uid://dhsvpdf2vu5ba" path="res://default_theme.tres" id="4_48b74"]
+[ext_resource type="Texture2D" uid="uid://c6pnp31iyovma" path="res://assests/openbuttont.png" id="3_f30yb"]
+[ext_resource type="Texture2D" uid="uid://djn5ubec5wiro" path="res://assests/closebutton.png" id="4_jcmdy"]
 
 [node name="StartMenu" type="Control"]
 layout_mode = 3
@@ -25,42 +25,41 @@ texture = ExtResource("2_qutfw")
 expand_mode = 1
 
 [node name="StartButton" type="Button" parent="."]
-custom_minimum_size = Vector2(300, 100)
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.312
-anchor_top = 0.77
-anchor_right = 0.462
-anchor_bottom = 0.859
-offset_left = -7.04001
-offset_top = 0.399956
-offset_right = 4.95998
-offset_bottom = 5.27997
-grow_vertical = 0
-theme = ExtResource("4_48b74")
-theme_override_fonts/font = ExtResource("1_yay00")
-theme_override_font_sizes/font_size = 120
-text = "Open"
+anchor_left = 0.358
+anchor_top = 0.778
+anchor_right = 0.475
+anchor_bottom = 0.867
+offset_left = 16.64
+offset_top = -8.24006
+offset_right = -16.0
+offset_bottom = -3.36005
+grow_horizontal = 2
+grow_vertical = 2
 icon_alignment = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="StartButton"]
+position = Vector2(96, 56)
+texture = ExtResource("3_f30yb")
+
 [node name="QuitButton" type="Button" parent="."]
-custom_minimum_size = Vector2(300, 100)
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.537
+anchor_left = 0.525
 anchor_top = 0.778
 anchor_right = 0.687
-anchor_bottom = 0.859
-offset_left = -7.04
+anchor_bottom = 0.867
+offset_left = 15.9999
 offset_top = -8.24006
-offset_right = 4.95993
-offset_bottom = 4.27997
+offset_right = -103.04
+offset_bottom = -3.36011
 grow_horizontal = 0
 grow_vertical = 0
-theme = ExtResource("4_48b74")
-theme_override_fonts/font = ExtResource("1_yay00")
-theme_override_font_sizes/font_size = 120
-text = "Close"
+
+[node name="Sprite2D" type="Sprite2D" parent="QuitButton"]
+position = Vector2(96, 56.0001)
+texture = ExtResource("4_jcmdy")
 
 [connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]
