@@ -1,43 +1,36 @@
-[gd_scene load_steps=32 format=3 uid="uid://dd736nqnm3l6v"]
+[gd_scene load_steps=29 format=3 uid="uid://dd736nqnm3l6v"]
 
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_c7ua5"]
-[ext_resource type="PackedScene" uid="uid://byxhio87yfra4" path="res://scenes/slot.tscn" id="1_mhkxd"]
 [ext_resource type="PackedScene" uid="uid://ce03wtbeq45qw" path="res://scenes/star_bar.tscn" id="2_7cct0"]
 [ext_resource type="Texture2D" uid="uid://cjnt6krl1advq" path="res://assests/sushi resurant no toppings 800.png" id="2_48qfi"]
-[ext_resource type="PackedScene" uid="uid://p4dbl04xfvjv" path="res://scenes/food.tscn" id="2_i0mue"]
 [ext_resource type="Texture2D" uid="uid://d2f6gmwmevtqn" path="res://assests/resurant interior.png" id="2_lfti3"]
 [ext_resource type="PackedScene" uid="uid://kychbxnsdume" path="res://scenes/customerorder.tscn" id="2_qwmg8"]
 [ext_resource type="Texture2D" uid="uid://ogei2tdvq5yt" path="res://assests/resized plate 800.png" id="2_xmtmk"]
 [ext_resource type="PackedScene" uid="uid://bdbmwv1ioekyr" path="res://scenes/level_timer.tscn" id="3_uxpmm"]
-[ext_resource type="PackedScene" uid="uid://bmmapknon0gfq" path="res://scenes/green_tea.tscn" id="4_lmi36"]
-[ext_resource type="PackedScene" uid="uid://dewtyhwhakl24" path="res://scenes/egg.tscn" id="5_a1q48"]
-[ext_resource type="PackedScene" uid="uid://cvrh2iw0vaid8" path="res://scenes/salmon.tscn" id="6_5ykpr"]
-[ext_resource type="PackedScene" uid="uid://xmdicpf2kg3k" path="res://scenes/tuna.tscn" id="6_8si5x"]
 [ext_resource type="Texture2D" uid="uid://xiaisokwjels" path="res://assests/egg stack.png" id="6_akbvm"]
 [ext_resource type="PackedScene" uid="uid://bq45o5167riir" path="res://scenes/catcounter.tscn" id="7_cfjh0"]
 [ext_resource type="PackedScene" uid="uid://d1setqgolsp06" path="res://scenes/pause_menu.tscn" id="7_h5tgj"]
-[ext_resource type="PackedScene" uid="uid://bu7qhxbsr6s22" path="res://scenes/uni.tscn" id="8_kgvvk"]
 [ext_resource type="Texture2D" uid="uid://lbx6m01acley" path="res://assests/tuna stack.png" id="8_v53ek"]
 [ext_resource type="Texture2D" uid="uid://lv1cwogjutwn" path="res://assests/salmon stack.png" id="9_3pbfg"]
-[ext_resource type="PackedScene" uid="uid://btf5lrct6u1l7" path="res://scenes/roe.tscn" id="9_h8q8u"]
-[ext_resource type="PackedScene" uid="uid://blyh2bv7p260j" path="res://scenes/shrimp.tscn" id="9_rqgp6"]
+[ext_resource type="PackedScene" uid="uid://bn8pdqx320ih7" path="res://scenes/DragAndDrop.tscn" id="9_jjr1t"]
 [ext_resource type="Texture2D" uid="uid://87cdnhfa2v47" path="res://assests/shrimp stack.png" id="10_2fw5a"]
-[ext_resource type="Script" path="res://scripts/Food.gd" id="10_jryiv"]
 [ext_resource type="Texture2D" uid="uid://b78ppk1g1u0t3" path="res://assests/bowl of roe-export.png" id="11_2scey"]
-[ext_resource type="PackedScene" uid="uid://dqpgd8kqvlnwg" path="res://scenes/rice.tscn" id="11_ecghx"]
-[ext_resource type="PackedScene" uid="uid://dj264copk6lmq" path="res://scenes/seaweed.tscn" id="11_jctca"]
+[ext_resource type="Texture2D" uid="uid://cwgksjawr8va2" path="res://assests/egg.png" id="11_wcpxu"]
 [ext_resource type="Texture2D" uid="uid://dl4tvy6p74260" path="res://assests/dead urchin.png" id="12_63m2r"]
 [ext_resource type="Texture2D" uid="uid://dpjyct1p7fmsn" path="res://assests/seaweed.png" id="12_oqylb"]
+[ext_resource type="Texture2D" uid="uid://dkjiqk3oc72lq" path="res://assests/uni800-export.png" id="12_xvrrs"]
 [ext_resource type="Texture2D" uid="uid://b6o2ucy7gdnsg" path="res://assests/rice with cooker.png" id="13_0eo3r"]
+[ext_resource type="Texture2D" uid="uid://cpaadh5oyg3hf" path="res://assests/ricenoplate.png" id="13_d86m0"]
+[ext_resource type="Texture2D" uid="uid://bjv8o2nrnklio" path="res://assests/salmon.png" id="14_xm5lf"]
+[ext_resource type="Texture2D" uid="uid://vcyo17gh66xl" path="res://assests/lumpofroe.png" id="15_0jocu"]
+[ext_resource type="Texture2D" uid="uid://x2a8m3da3ls1" path="res://assests/tuna800.png" id="16_stvkh"]
+[ext_resource type="Texture2D" uid="uid://csnlrye6f6pqi" path="res://assests/seaweed icon.png" id="17_o0sur"]
+[ext_resource type="Texture2D" uid="uid://driar8pa4xyay" path="res://assests/Miso Soup-export-export.png" id="18_7yukt"]
+[ext_resource type="Texture2D" uid="uid://c1n78nic8b0ue" path="res://assests/greentea800-export-export.png" id="19_v3yh4"]
 [ext_resource type="Texture2D" uid="uid://de05g2dhuhs8g" path="res://assests/shrimp topping drag.png" id="30_omiek"]
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_eopj1"]
-radius = 183.497
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_c7ua5")
-
-[node name="customerorder" parent="." instance=ExtResource("2_qwmg8")]
 
 [node name="StarBar" parent="." instance=ExtResource("2_7cct0")]
 
@@ -61,37 +54,129 @@ texture = ExtResource("2_48qfi")
 
 [node name="catcounter" parent="." instance=ExtResource("7_cfjh0")]
 
-[node name="Shrimp2" parent="." instance=ExtResource("9_rqgp6")]
-position = Vector2(498, 813)
-scale = Vector2(0.678309, 0.678409)
+[node name="Slot" parent="." instance=ExtResource("9_jjr1t")]
+offset_left = 869.0
+offset_top = 911.0
+offset_right = 909.0
+offset_bottom = 951.0
+scale = Vector2(3.4, 3.4)
+stretch_mode = 5
 
-[node name="Salmon2" parent="." instance=ExtResource("6_5ykpr")]
-position = Vector2(718, 810)
-scale = Vector2(0.74614, 0.746324)
+[node name="Slot2" parent="." instance=ExtResource("9_jjr1t")]
+offset_left = 1040.0
+offset_top = 307.0
+offset_right = 1080.0
+offset_bottom = 347.0
+scale = Vector2(3.4, 3.4)
+stretch_mode = 5
 
-[node name="Uni2" parent="." instance=ExtResource("8_kgvvk")]
-position = Vector2(1433, 811)
-scale = Vector2(0.678309, 0.746324)
+[node name="Slot3" parent="." instance=ExtResource("9_jjr1t")]
+offset_left = 1513.0
+offset_top = 302.0
+offset_right = 1553.0
+offset_bottom = 342.0
+scale = Vector2(3.4, 3.4)
+stretch_mode = 5
 
-[node name="Tuna2" parent="." instance=ExtResource("6_8si5x")]
-position = Vector2(954, 812)
-scale = Vector2(0.7, 0.7)
+[node name="Slot4" parent="." instance=ExtResource("9_jjr1t")]
+offset_left = 556.0
+offset_top = 311.0
+offset_right = 596.0
+offset_bottom = 351.0
+scale = Vector2(3.4, 3.4)
+stretch_mode = 5
 
-[node name="Egg" parent="." instance=ExtResource("5_a1q48")]
-position = Vector2(271, 813)
-scale = Vector2(0.7, 0.7)
+[node name="shrimp" parent="." instance=ExtResource("9_jjr1t")]
+offset_left = 431.0
+offset_top = 741.0
+offset_right = 471.0
+offset_bottom = 781.0
+scale = Vector2(3.4, 3.4)
+texture = ExtResource("30_omiek")
+stretch_mode = 5
 
-[node name="Roe2" parent="." instance=ExtResource("9_h8q8u")]
-position = Vector2(1192, 799)
-scale = Vector2(0.678309, 0.746324)
+[node name="egg" parent="." instance=ExtResource("9_jjr1t")]
+offset_left = 209.0
+offset_top = 730.0
+offset_right = 249.0
+offset_bottom = 770.0
+scale = Vector2(3.4, 3.4)
+texture = ExtResource("11_wcpxu")
+stretch_mode = 5
 
-[node name="Rice2" parent="." instance=ExtResource("11_ecghx")]
-position = Vector2(61, 687)
-scale = Vector2(0.5, 0.5)
+[node name="uni" parent="." instance=ExtResource("9_jjr1t")]
+offset_left = 1366.0
+offset_top = 742.0
+offset_right = 1406.0
+offset_bottom = 782.0
+scale = Vector2(3.4, 3.4)
+texture = ExtResource("12_xvrrs")
+stretch_mode = 5
 
-[node name="Seaweed2" parent="." instance=ExtResource("11_jctca")]
-position = Vector2(1611, 956)
-scale = Vector2(0.5, 0.5)
+[node name="rice" parent="." instance=ExtResource("9_jjr1t")]
+offset_left = 5.99998
+offset_top = 666.0
+offset_right = 46.0
+offset_bottom = 706.0
+scale = Vector2(3.4, 3.4)
+texture = ExtResource("13_d86m0")
+stretch_mode = 5
+
+[node name="salmon" parent="." instance=ExtResource("9_jjr1t")]
+offset_left = 645.0
+offset_top = 738.0
+offset_right = 685.0
+offset_bottom = 778.0
+scale = Vector2(3.4, 3.4)
+texture = ExtResource("14_xm5lf")
+stretch_mode = 5
+
+[node name="roe" parent="." instance=ExtResource("9_jjr1t")]
+offset_left = 1122.0
+offset_top = 735.0
+offset_right = 1162.0
+offset_bottom = 775.0
+scale = Vector2(3.4, 3.4)
+texture = ExtResource("15_0jocu")
+stretch_mode = 5
+
+[node name="tuna" parent="." instance=ExtResource("9_jjr1t")]
+offset_left = 896.0
+offset_top = 746.0
+offset_right = 936.0
+offset_bottom = 786.0
+scale = Vector2(3.4, 3.4)
+texture = ExtResource("16_stvkh")
+stretch_mode = 5
+
+[node name="seaweed" parent="." instance=ExtResource("9_jjr1t")]
+offset_left = 1526.0
+offset_top = 896.0
+offset_right = 1566.0
+offset_bottom = 936.0
+scale = Vector2(3.4, 3.4)
+texture = ExtResource("17_o0sur")
+stretch_mode = 5
+
+[node name="miso" parent="." instance=ExtResource("9_jjr1t")]
+offset_left = 1753.0
+offset_top = 549.0
+offset_right = 1793.0
+offset_bottom = 589.0
+scale = Vector2(3.4, 3.4)
+texture = ExtResource("18_7yukt")
+stretch_mode = 5
+
+[node name="tea2" parent="." instance=ExtResource("9_jjr1t")]
+offset_left = 1578.0
+offset_top = 664.0
+offset_right = 1618.0
+offset_bottom = 704.0
+scale = Vector2(3.4, 3.4)
+texture = ExtResource("19_v3yh4")
+stretch_mode = 5
+
+[node name="customerorder" parent="." instance=ExtResource("2_qwmg8")]
 
 [node name="RiceCooker" type="Sprite2D" parent="."]
 position = Vector2(81.1287, 735)
@@ -137,30 +222,7 @@ position = Vector2(1427, 807)
 scale = Vector2(0.678309, 0.746324)
 texture = ExtResource("12_63m2r")
 
-[node name="Slot" parent="." instance=ExtResource("1_mhkxd")]
-position = Vector2(930, 986)
-
-[node name="Miso" parent="." instance=ExtResource("2_i0mue")]
-position = Vector2(1817, 632)
-scale = Vector2(0.6, 0.6)
-
-[node name="GreenTea" parent="." instance=ExtResource("4_lmi36")]
-position = Vector2(1646, 734)
-scale = Vector2(0.7, 0.7)
-
-[node name="NewFood" type="Node2D" parent="."]
-position = Vector2(726, 268)
-script = ExtResource("10_jryiv")
-
-[node name="Sprite2D" type="Sprite2D" parent="NewFood"]
-texture = ExtResource("30_omiek")
-
-[node name="Area2D" type="Area2D" parent="NewFood"]
-collision_priority = 100.0
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="NewFood/Area2D"]
-position = Vector2(12, -0.5)
-shape = SubResource("CircleShape2D_eopj1")
+[node name="customerorder2" parent="." instance=ExtResource("2_qwmg8")]
 
 [node name="PauseMenu" parent="." instance=ExtResource("7_h5tgj")]
 visible = false
@@ -168,6 +230,3 @@ offset_left = 731.0
 offset_top = 498.0
 offset_right = 731.0
 offset_bottom = 498.0
-
-[connection signal="mouse_entered" from="NewFood/Area2D" to="NewFood" method="_on_area_2d_mouse_entered"]
-[connection signal="mouse_exited" from="NewFood/Area2D" to="NewFood" method="_on_area_2d_mouse_exited"]
