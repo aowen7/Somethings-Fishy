@@ -1,3 +1,5 @@
 res://scenes/world.tscn
 res://scenes/pause_menu.gdshader
 res://scripts/Trasition.gdshader
+res://customer.gd
+res://scenes/customer.tscn
