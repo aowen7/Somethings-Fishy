@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=3 uid="uid://dd736nqnm3l6v"]
+[gd_scene load_steps=34 format=3 uid="uid://dd736nqnm3l6v"]
 
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_c7ua5"]
 [ext_resource type="PackedScene" uid="uid://byxhio87yfra4" path="res://scenes/slot.tscn" id="1_mhkxd"]
@@ -11,6 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://bdbmwv1ioekyr" path="res://scenes/level_timer.tscn" id="3_uxpmm"]
 [ext_resource type="PackedScene" uid="uid://bmmapknon0gfq" path="res://scenes/green_tea.tscn" id="4_lmi36"]
 [ext_resource type="PackedScene" uid="uid://dewtyhwhakl24" path="res://scenes/egg.tscn" id="5_a1q48"]
+[ext_resource type="PackedScene" uid="uid://cor6bons2vxoe" path="res://scenes/customer_5.tscn" id="6_1c734"]
 [ext_resource type="PackedScene" uid="uid://cvrh2iw0vaid8" path="res://scenes/salmon.tscn" id="6_5ykpr"]
 [ext_resource type="PackedScene" uid="uid://xmdicpf2kg3k" path="res://scenes/tuna.tscn" id="6_8si5x"]
 [ext_resource type="Texture2D" uid="uid://xiaisokwjels" path="res://assests/egg stack.png" id="6_akbvm"]
@@ -46,6 +47,8 @@ script = ExtResource("1_c7ua5")
 position = Vector2(960, 539)
 scale = Vector2(0.747656, 0.747222)
 texture = ExtResource("2_lfti3")
+
+[node name="customer_5" parent="." instance=ExtResource("6_1c734")]
 
 [node name="customer_4" parent="." instance=ExtResource("7_4v28c")]
 
