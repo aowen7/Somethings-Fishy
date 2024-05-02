@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://pg2bjsjh6mjw"]
+
+[ext_resource type="Script" path="res://scripts/MenuItem.gd" id="1_3ybco"]
+
+[resource]
+resource_name = "SalmonSushi"
+script = ExtResource("1_3ybco")
+foods = Array[int]([1, 2, 3, 4, 5, 6, 7, 8, 9])

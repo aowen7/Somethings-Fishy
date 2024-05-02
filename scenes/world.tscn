@@ -1,8 +1,9 @@
-[gd_scene load_steps=29 format=3 uid="uid://dd736nqnm3l6v"]
+[gd_scene load_steps=38 format=3 uid="uid://dd736nqnm3l6v"]
 
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_c7ua5"]
 [ext_resource type="PackedScene" uid="uid://ce03wtbeq45qw" path="res://scenes/star_bar.tscn" id="2_7cct0"]
 [ext_resource type="Texture2D" uid="uid://cjnt6krl1advq" path="res://assests/sushi resurant no toppings 800.png" id="2_48qfi"]
+[ext_resource type="Resource" uid="uid://pg2bjsjh6mjw" path="res://food items/salmonsushi.tres" id="2_k2fkm"]
 [ext_resource type="Texture2D" uid="uid://d2f6gmwmevtqn" path="res://assests/resurant interior.png" id="2_lfti3"]
 [ext_resource type="PackedScene" uid="uid://kychbxnsdume" path="res://scenes/customerorder.tscn" id="2_qwmg8"]
 [ext_resource type="Texture2D" uid="uid://ogei2tdvq5yt" path="res://assests/resized plate 800.png" id="2_xmtmk"]
@@ -14,23 +15,32 @@
 [ext_resource type="Texture2D" uid="uid://lv1cwogjutwn" path="res://assests/salmon stack.png" id="9_3pbfg"]
 [ext_resource type="PackedScene" uid="uid://bn8pdqx320ih7" path="res://scenes/DragAndDrop.tscn" id="9_jjr1t"]
 [ext_resource type="Texture2D" uid="uid://87cdnhfa2v47" path="res://assests/shrimp stack.png" id="10_2fw5a"]
+[ext_resource type="PackedScene" uid="uid://cbww3nduwnwyb" path="res://scenes/egg_3.tscn" id="10_l2hjo"]
 [ext_resource type="Texture2D" uid="uid://b78ppk1g1u0t3" path="res://assests/bowl of roe-export.png" id="11_2scey"]
 [ext_resource type="Texture2D" uid="uid://cwgksjawr8va2" path="res://assests/egg.png" id="11_wcpxu"]
 [ext_resource type="Texture2D" uid="uid://dl4tvy6p74260" path="res://assests/dead urchin.png" id="12_63m2r"]
+[ext_resource type="PackedScene" uid="uid://cowwwgu0ggfab" path="res://scenes/tea_3.tscn" id="12_mnh6p"]
 [ext_resource type="Texture2D" uid="uid://dpjyct1p7fmsn" path="res://assests/seaweed.png" id="12_oqylb"]
 [ext_resource type="Texture2D" uid="uid://dkjiqk3oc72lq" path="res://assests/uni800-export.png" id="12_xvrrs"]
 [ext_resource type="Texture2D" uid="uid://b6o2ucy7gdnsg" path="res://assests/rice with cooker.png" id="13_0eo3r"]
 [ext_resource type="Texture2D" uid="uid://cpaadh5oyg3hf" path="res://assests/ricenoplate.png" id="13_d86m0"]
+[ext_resource type="PackedScene" uid="uid://7sirok2joiok" path="res://scenes/uni_3.tscn" id="13_xahb6"]
+[ext_resource type="PackedScene" uid="uid://cgdr5gu1ltcdq" path="res://scenes/roe_3.tscn" id="14_7khtg"]
 [ext_resource type="Texture2D" uid="uid://bjv8o2nrnklio" path="res://assests/salmon.png" id="14_xm5lf"]
 [ext_resource type="Texture2D" uid="uid://vcyo17gh66xl" path="res://assests/lumpofroe.png" id="15_0jocu"]
+[ext_resource type="PackedScene" uid="uid://loqxe81d41k6" path="res://scenes/miso_3.tscn" id="15_j8wq4"]
+[ext_resource type="PackedScene" uid="uid://b78k1k2kici88" path="res://scenes/tuna_3.tscn" id="16_1y5qw"]
 [ext_resource type="Texture2D" uid="uid://x2a8m3da3ls1" path="res://assests/tuna800.png" id="16_stvkh"]
-[ext_resource type="Texture2D" uid="uid://csnlrye6f6pqi" path="res://assests/seaweed icon.png" id="17_o0sur"]
+[ext_resource type="PackedScene" uid="uid://dedrnh4ypen3v" path="res://scenes/rice_3.tscn" id="17_vtxuo"]
 [ext_resource type="Texture2D" uid="uid://driar8pa4xyay" path="res://assests/Miso Soup-export-export.png" id="18_7yukt"]
+[ext_resource type="PackedScene" uid="uid://cdejdoha1a4ug" path="res://scenes/salmon_3.tscn" id="18_t2rri"]
+[ext_resource type="PackedScene" uid="uid://b5y0e46hin2nh" path="res://scenes/shrimp_3.tscn" id="19_tyu3d"]
 [ext_resource type="Texture2D" uid="uid://c1n78nic8b0ue" path="res://assests/greentea800-export-export.png" id="19_v3yh4"]
 [ext_resource type="Texture2D" uid="uid://de05g2dhuhs8g" path="res://assests/shrimp topping drag.png" id="30_omiek"]
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_c7ua5")
+possibleItems = Array[Resource]([ExtResource("2_k2fkm")])
 
 [node name="StarBar" parent="." instance=ExtResource("2_7cct0")]
 
@@ -86,95 +96,86 @@ offset_bottom = 351.0
 scale = Vector2(3.4, 3.4)
 stretch_mode = 5
 
-[node name="shrimp" parent="." instance=ExtResource("9_jjr1t")]
-offset_left = 431.0
-offset_top = 741.0
-offset_right = 471.0
-offset_bottom = 781.0
-scale = Vector2(3.4, 3.4)
-texture = ExtResource("30_omiek")
-stretch_mode = 5
-
-[node name="egg" parent="." instance=ExtResource("9_jjr1t")]
-offset_left = 209.0
-offset_top = 730.0
-offset_right = 249.0
-offset_bottom = 770.0
-scale = Vector2(3.4, 3.4)
+[node name="egg3" parent="Slot4" instance=ExtResource("10_l2hjo")]
+layout_mode = 0
+offset_left = -103.529
+offset_top = 123.529
+offset_right = -63.5294
+offset_bottom = 163.529
 texture = ExtResource("11_wcpxu")
-stretch_mode = 5
+ItemType = 1
 
-[node name="uni" parent="." instance=ExtResource("9_jjr1t")]
-offset_left = 1366.0
-offset_top = 742.0
-offset_right = 1406.0
-offset_bottom = 782.0
-scale = Vector2(3.4, 3.4)
-texture = ExtResource("12_xvrrs")
-stretch_mode = 5
-
-[node name="rice" parent="." instance=ExtResource("9_jjr1t")]
-offset_left = 5.99998
-offset_top = 666.0
-offset_right = 46.0
-offset_bottom = 706.0
-scale = Vector2(3.4, 3.4)
-texture = ExtResource("13_d86m0")
-stretch_mode = 5
-
-[node name="salmon" parent="." instance=ExtResource("9_jjr1t")]
-offset_left = 645.0
-offset_top = 738.0
-offset_right = 685.0
-offset_bottom = 778.0
-scale = Vector2(3.4, 3.4)
-texture = ExtResource("14_xm5lf")
-stretch_mode = 5
-
-[node name="roe" parent="." instance=ExtResource("9_jjr1t")]
-offset_left = 1122.0
-offset_top = 735.0
-offset_right = 1162.0
-offset_bottom = 775.0
-scale = Vector2(3.4, 3.4)
-texture = ExtResource("15_0jocu")
-stretch_mode = 5
-
-[node name="tuna" parent="." instance=ExtResource("9_jjr1t")]
-offset_left = 896.0
-offset_top = 746.0
-offset_right = 936.0
-offset_bottom = 786.0
-scale = Vector2(3.4, 3.4)
-texture = ExtResource("16_stvkh")
-stretch_mode = 5
-
-[node name="seaweed" parent="." instance=ExtResource("9_jjr1t")]
-offset_left = 1526.0
-offset_top = 896.0
-offset_right = 1566.0
-offset_bottom = 936.0
-scale = Vector2(3.4, 3.4)
-texture = ExtResource("17_o0sur")
-stretch_mode = 5
-
-[node name="miso" parent="." instance=ExtResource("9_jjr1t")]
-offset_left = 1753.0
-offset_top = 549.0
-offset_right = 1793.0
-offset_bottom = 589.0
-scale = Vector2(3.4, 3.4)
-texture = ExtResource("18_7yukt")
-stretch_mode = 5
-
-[node name="tea2" parent="." instance=ExtResource("9_jjr1t")]
-offset_left = 1578.0
-offset_top = 664.0
-offset_right = 1618.0
-offset_bottom = 704.0
-scale = Vector2(3.4, 3.4)
+[node name="tea3" parent="Slot4" instance=ExtResource("12_mnh6p")]
+layout_mode = 0
+offset_left = 297.059
+offset_top = 104.412
+offset_right = 337.059
+offset_bottom = 144.412
 texture = ExtResource("19_v3yh4")
-stretch_mode = 5
+ItemType = 2
+
+[node name="uni3" parent="Slot4" instance=ExtResource("13_xahb6")]
+layout_mode = 0
+offset_left = 238.824
+offset_top = 128.529
+offset_right = 278.824
+offset_bottom = 168.529
+texture = ExtResource("12_xvrrs")
+ItemType = 3
+
+[node name="roe3" parent="Slot4" instance=ExtResource("14_7khtg")]
+layout_mode = 0
+offset_left = 168.529
+offset_top = 127.647
+offset_right = 208.529
+offset_bottom = 167.647
+texture = ExtResource("15_0jocu")
+ItemType = 4
+
+[node name="miso3" parent="Slot4" instance=ExtResource("15_j8wq4")]
+layout_mode = 0
+offset_left = 354.706
+offset_top = 73.2353
+offset_right = 394.706
+offset_bottom = 113.235
+texture = ExtResource("18_7yukt")
+ItemType = 5
+
+[node name="tuna3" parent="Slot4" instance=ExtResource("16_1y5qw")]
+layout_mode = 0
+offset_left = 99.1177
+offset_top = 127.353
+offset_right = 139.118
+offset_bottom = 167.353
+texture = ExtResource("16_stvkh")
+ItemType = 6
+
+[node name="Rice3" parent="Slot4" instance=ExtResource("17_vtxuo")]
+layout_mode = 0
+offset_left = -167.941
+offset_top = 100.882
+offset_right = -127.941
+offset_bottom = 140.882
+texture = ExtResource("13_d86m0")
+ItemType = 7
+
+[node name="salmon3" parent="Slot4" instance=ExtResource("18_t2rri")]
+layout_mode = 0
+offset_left = 30.8824
+offset_top = 127.941
+offset_right = 70.8824
+offset_bottom = 167.941
+texture = ExtResource("14_xm5lf")
+ItemType = 8
+
+[node name="shrimp3" parent="Slot4" instance=ExtResource("19_tyu3d")]
+layout_mode = 0
+offset_left = -37.0588
+offset_top = 127.059
+offset_right = 2.94117
+offset_bottom = 167.059
+texture = ExtResource("30_omiek")
+ItemType = 9
 
 [node name="customerorder" parent="." instance=ExtResource("2_qwmg8")]
 

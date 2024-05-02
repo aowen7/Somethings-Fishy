@@ -1,5 +1,7 @@
 extends TextureRect
 
+@export var ItemType:int = 0
+
 func _get_drag_data(at_position):
 	# triggers when you click and drag
 	# when you drag slightly away from the box the item you drag with snap back minto position after you let go

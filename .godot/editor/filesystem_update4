@@ -1,16 +1,9 @@
-res://scenes/start_menu.tscn
-res://scripts/Food.gd
-res://default_theme.tres
-res://textbox.tscn
 res://scenes/world.tscn
 res://scenes/shrimp.tscn
 res://scenes/slot.tscn
-res://scenes/level_timer.tscn
-res://scenes/star_bar.tscn
-res://scenes/customerorder.tscn
-res://scenes/catcounter.tscn
-res://drag_n_drop_try_2.tscn
-res://scenes/egg.tscn
-res://scenes/drag_and_drop_test.tscn
+res://scripts/Food.gd
 res://scenes/DragAndDrop.tscn
+res://food items/salmonsushi.tres
+res://scripts/MenuItem.gd
 res://scripts/DragAndDrop.gd
+res://scripts/world.gd

@@ -1,5 +1,6 @@
 extends Node2D
 
+
 var draggable = false
 var is_inside_dropable = false
 var body_ref
