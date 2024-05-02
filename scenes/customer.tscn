@@ -1,6 +1,22 @@
-[gd_scene load_steps=2 format=3 uid="uid://bp3a2ho2i2p13"]
+[gd_scene load_steps=6 format=3 uid="uid://bp3a2ho2i2p13"]
 
 [ext_resource type="Script" path="res://customer.gd" id="1_ha83s"]
+[ext_resource type="Texture2D" uid="uid://d3c24pmj3mj61" path="res://assests/cat with shark costume.png" id="2_54dul"]
+[ext_resource type="Texture2D" uid="uid://crq1j4hxk3mvt" path="res://assests/orderbubble.png" id="3_7knuc"]
+[ext_resource type="Texture2D" uid="uid://cxqvu8k1eyrqs" path="res://assests/ragdoll cat customer.png" id="3_8nxcg"]
+[ext_resource type="Texture2D" uid="uid://vcyo17gh66xl" path="res://assests/lumpofroe.png" id="4_jcpuy"]
 
 [node name="customer" type="Node2D"]
 script = ExtResource("1_ha83s")
+customer_sprites_list = Array[Texture2D]([ExtResource("2_54dul"), ExtResource("3_8nxcg")])
+
+[node name="CustomerSprite" type="Sprite2D" parent="."]
+texture = ExtResource("2_54dul")
+
+[node name="ChatBubble" type="Sprite2D" parent="."]
+position = Vector2(424, -456)
+texture = ExtResource("3_7knuc")
+
+[node name="FoodOrder" type="Sprite2D" parent="."]
+position = Vector2(440, -464)
+texture = ExtResource("4_jcpuy")

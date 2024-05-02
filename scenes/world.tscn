@@ -150,3 +150,9 @@ offset_left = 959.0
 offset_top = 608.0
 offset_right = 959.0
 offset_bottom = 608.0
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+
+[node name="CustomerSlotOne" type="Node2D" parent="."]
+position = Vector2(500, 500)

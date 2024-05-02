@@ -1,5 +1,7 @@
 extends Node2D
 
+@export var customer_sprites_list : Array[Texture2D]
+@onready var customerSprite = $CustomerSprite
 # Variables
 @onready var current_state = CustomerState.IDLE
 @onready var patience_timer = 60  # 60 seconds (1 minute)
@@ -7,7 +9,7 @@ var is_patience_running = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass
+	customerSprite.texture = customer_sprites_list.pick_random()
 
 
 # Customer States
