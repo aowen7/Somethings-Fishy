@@ -1,11 +1,9 @@
-[gd_scene load_steps=38 format=3 uid="uid://dd736nqnm3l6v"]
+[gd_scene load_steps=36 format=3 uid="uid://dd736nqnm3l6v"]
 
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_c7ua5"]
 [ext_resource type="PackedScene" uid="uid://ce03wtbeq45qw" path="res://scenes/star_bar.tscn" id="2_7cct0"]
 [ext_resource type="Texture2D" uid="uid://cjnt6krl1advq" path="res://assests/sushi resurant no toppings 800.png" id="2_48qfi"]
-[ext_resource type="Resource" uid="uid://pg2bjsjh6mjw" path="res://food items/salmonsushi.tres" id="2_k2fkm"]
 [ext_resource type="Texture2D" uid="uid://d2f6gmwmevtqn" path="res://assests/resurant interior.png" id="2_lfti3"]
-[ext_resource type="PackedScene" uid="uid://kychbxnsdume" path="res://scenes/customerorder.tscn" id="2_qwmg8"]
 [ext_resource type="Texture2D" uid="uid://ogei2tdvq5yt" path="res://assests/resized plate 800.png" id="2_xmtmk"]
 [ext_resource type="PackedScene" uid="uid://bdbmwv1ioekyr" path="res://scenes/level_timer.tscn" id="3_uxpmm"]
 [ext_resource type="Texture2D" uid="uid://xiaisokwjels" path="res://assests/egg stack.png" id="6_akbvm"]
@@ -40,7 +38,6 @@
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_c7ua5")
-possibleItems = Array[Resource]([ExtResource("2_k2fkm")])
 
 [node name="StarBar" parent="." instance=ExtResource("2_7cct0")]
 
@@ -103,6 +100,7 @@ offset_top = 123.529
 offset_right = -63.5294
 offset_bottom = 163.529
 texture = ExtResource("11_wcpxu")
+stretch_mode = 5
 ItemType = 1
 
 [node name="tea3" parent="Slot4" instance=ExtResource("12_mnh6p")]
@@ -112,6 +110,7 @@ offset_top = 104.412
 offset_right = 337.059
 offset_bottom = 144.412
 texture = ExtResource("19_v3yh4")
+stretch_mode = 5
 ItemType = 2
 
 [node name="uni3" parent="Slot4" instance=ExtResource("13_xahb6")]
@@ -166,6 +165,7 @@ offset_top = 127.941
 offset_right = 70.8824
 offset_bottom = 167.941
 texture = ExtResource("14_xm5lf")
+stretch_mode = 5
 ItemType = 8
 
 [node name="shrimp3" parent="Slot4" instance=ExtResource("19_tyu3d")]
@@ -176,8 +176,6 @@ offset_right = 2.94117
 offset_bottom = 167.059
 texture = ExtResource("30_omiek")
 ItemType = 9
-
-[node name="customerorder" parent="." instance=ExtResource("2_qwmg8")]
 
 [node name="RiceCooker" type="Sprite2D" parent="."]
 position = Vector2(81.1287, 735)
@@ -222,8 +220,6 @@ texture = ExtResource("11_2scey")
 position = Vector2(1427, 807)
 scale = Vector2(0.678309, 0.746324)
 texture = ExtResource("12_63m2r")
-
-[node name="customerorder2" parent="." instance=ExtResource("2_qwmg8")]
 
 [node name="PauseMenu" parent="." instance=ExtResource("7_h5tgj")]
 visible = false
