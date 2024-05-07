@@ -13,26 +13,26 @@
 [ext_resource type="Texture2D" uid="uid://lv1cwogjutwn" path="res://assests/salmon stack.png" id="9_3pbfg"]
 [ext_resource type="PackedScene" uid="uid://bn8pdqx320ih7" path="res://scenes/DragAndDrop.tscn" id="9_jjr1t"]
 [ext_resource type="Texture2D" uid="uid://87cdnhfa2v47" path="res://assests/shrimp stack.png" id="10_2fw5a"]
-[ext_resource type="PackedScene" uid="uid://cbww3nduwnwyb" path="res://scenes/egg_3.tscn" id="10_l2hjo"]
+[ext_resource type="PackedScene" path="res://scenes/egg_3.tscn" id="10_l2hjo"]
 [ext_resource type="Texture2D" uid="uid://b78ppk1g1u0t3" path="res://assests/bowl of roe-export.png" id="11_2scey"]
 [ext_resource type="Texture2D" uid="uid://cwgksjawr8va2" path="res://assests/egg.png" id="11_wcpxu"]
 [ext_resource type="Texture2D" uid="uid://dl4tvy6p74260" path="res://assests/dead urchin.png" id="12_63m2r"]
-[ext_resource type="PackedScene" uid="uid://cowwwgu0ggfab" path="res://scenes/tea_3.tscn" id="12_mnh6p"]
+[ext_resource type="PackedScene" path="res://scenes/tea_3.tscn" id="12_mnh6p"]
 [ext_resource type="Texture2D" uid="uid://dpjyct1p7fmsn" path="res://assests/seaweed.png" id="12_oqylb"]
 [ext_resource type="Texture2D" uid="uid://dkjiqk3oc72lq" path="res://assests/uni800-export.png" id="12_xvrrs"]
 [ext_resource type="Texture2D" uid="uid://b6o2ucy7gdnsg" path="res://assests/rice with cooker.png" id="13_0eo3r"]
 [ext_resource type="Texture2D" uid="uid://cpaadh5oyg3hf" path="res://assests/ricenoplate.png" id="13_d86m0"]
-[ext_resource type="PackedScene" uid="uid://7sirok2joiok" path="res://scenes/uni_3.tscn" id="13_xahb6"]
-[ext_resource type="PackedScene" uid="uid://cgdr5gu1ltcdq" path="res://scenes/roe_3.tscn" id="14_7khtg"]
+[ext_resource type="PackedScene" path="res://scenes/uni_3.tscn" id="13_xahb6"]
+[ext_resource type="PackedScene" path="res://scenes/roe_3.tscn" id="14_7khtg"]
 [ext_resource type="Texture2D" uid="uid://bjv8o2nrnklio" path="res://assests/salmon.png" id="14_xm5lf"]
 [ext_resource type="Texture2D" uid="uid://vcyo17gh66xl" path="res://assests/lumpofroe.png" id="15_0jocu"]
-[ext_resource type="PackedScene" uid="uid://loqxe81d41k6" path="res://scenes/miso_3.tscn" id="15_j8wq4"]
-[ext_resource type="PackedScene" uid="uid://b78k1k2kici88" path="res://scenes/tuna_3.tscn" id="16_1y5qw"]
+[ext_resource type="PackedScene" path="res://scenes/miso_3.tscn" id="15_j8wq4"]
+[ext_resource type="PackedScene" path="res://scenes/tuna_3.tscn" id="16_1y5qw"]
 [ext_resource type="Texture2D" uid="uid://x2a8m3da3ls1" path="res://assests/tuna800.png" id="16_stvkh"]
-[ext_resource type="PackedScene" uid="uid://dedrnh4ypen3v" path="res://scenes/rice_3.tscn" id="17_vtxuo"]
+[ext_resource type="PackedScene" path="res://scenes/rice_3.tscn" id="17_vtxuo"]
 [ext_resource type="Texture2D" uid="uid://driar8pa4xyay" path="res://assests/Miso Soup-export-export.png" id="18_7yukt"]
-[ext_resource type="PackedScene" uid="uid://cdejdoha1a4ug" path="res://scenes/salmon_3.tscn" id="18_t2rri"]
-[ext_resource type="PackedScene" uid="uid://b5y0e46hin2nh" path="res://scenes/shrimp_3.tscn" id="19_tyu3d"]
+[ext_resource type="PackedScene" path="res://scenes/salmon_3.tscn" id="18_t2rri"]
+[ext_resource type="PackedScene" path="res://scenes/shrimp_3.tscn" id="19_tyu3d"]
 [ext_resource type="Texture2D" uid="uid://c1n78nic8b0ue" path="res://assests/greentea800-export-export.png" id="19_v3yh4"]
 [ext_resource type="Texture2D" uid="uid://de05g2dhuhs8g" path="res://assests/shrimp topping drag.png" id="30_omiek"]
 
@@ -120,6 +120,7 @@ offset_top = 128.529
 offset_right = 278.824
 offset_bottom = 168.529
 texture = ExtResource("12_xvrrs")
+stretch_mode = 5
 ItemType = 3
 
 [node name="roe3" parent="Slot4" instance=ExtResource("14_7khtg")]
@@ -129,6 +130,7 @@ offset_top = 127.647
 offset_right = 208.529
 offset_bottom = 167.647
 texture = ExtResource("15_0jocu")
+stretch_mode = 5
 ItemType = 4
 
 [node name="miso3" parent="Slot4" instance=ExtResource("15_j8wq4")]
@@ -147,6 +149,7 @@ offset_top = 127.353
 offset_right = 139.118
 offset_bottom = 167.353
 texture = ExtResource("16_stvkh")
+stretch_mode = 5
 ItemType = 6
 
 [node name="Rice3" parent="Slot4" instance=ExtResource("17_vtxuo")]

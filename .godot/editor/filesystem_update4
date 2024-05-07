@@ -2,6 +2,4 @@ res://scenes/world.tscn
 res://scripts/DragAndDrop.gd
 res://scripts/Food.gd
 res://scripts/MenuItem.gd
-res://food items/salmonsushi.tres
-res://scripts/world.gd
 res://scenes/salmon_3.tscn
