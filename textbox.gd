@@ -3,7 +3,6 @@ extends CanvasLayer
 const CHAR_READ_RATE = 0.05
 
 
-
 @onready var textbox_container = $TextboxContainer
 @onready var start_symbol = $TextboxContainer/MarginContainer/HBoxContainer/Start
 @onready var end_symbol = $TextboxContainer/MarginContainer/HBoxContainer/End
@@ -69,7 +68,9 @@ func show_textbox():
 func display_text():
 	if text_queue.size() > 0:
 		current_text = text_queue.pop_front()
-		label.text = current_text
+		label.text = ""
+		var current_text_length = current_text.length()
+		text_index = 0
 		show_textbox()
 		change_state(State.READING)
 		print("Displaying text:", current_text)
@@ -92,9 +93,9 @@ func change_state(next_state):
 			print("Changing state to: State.FINISHED")
 			can_progress = false
 			
-
-
 			next_button.show()
+
+
 func _on_next_button_pressed():
 	if current_state == State.FINISHED:
 		if text_queue.size() == 0: 
