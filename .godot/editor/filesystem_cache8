@@ -1,5 +1,5 @@
 3acdcc5cb6df755358dde907981ccea8
-::res://::1715290853
+::res://::1715293581
 default_theme.tres::Theme::7689044766424987818::1715199709::0::1::::<><>::uid://bl14xf3d25n0d::::res://assests/monogram.ttf<>uid://cqrukgree6mu7::::res://assests/hover_9slice.png<>uid://bacbnauj3jpch::::res://assests/9slice_test4.png
 drag_n_drop_try_2.tscn::PackedScene::8442313223392881719::1715290841::0::1::::<><>::uid://bn8pdqx320ih7::::res://scenes/DragAndDrop.tscn<>uid://cwgksjawr8va2::::res://assests/egg.png<>uid://de05g2dhuhs8g::::res://assests/shrimp topping drag.png<>uid://bjv8o2nrnklio::::res://assests/salmon.png<>uid://driar8pa4xyay::::res://assests/Miso Soup-export-export.png
 grandpa.dialogue::Resource::5581260692379673193::1714594000::1714594000::1::::<><>::
@@ -69,7 +69,7 @@ main_view.gd::GDScript::-1::1715290841::0::1::::<>Control<>::
 main_view.tscn::PackedScene::4884668666408697448::1715290841::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u::::res://addons/dialogue_manager/components/code_edit.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn<>uid://ctns6ouwwd68i::::res://addons/dialogue_manager/components/title_list.tscn<>uid://co8yl23idiwbi::::res://addons/dialogue_manager/components/update_button.tscn<>uid://gr8nakpbrhby::::res://addons/dialogue_manager/components/search_and_replace.tscn<>uid://cs8pwrxr5vxix::::res://addons/dialogue_manager/components/errors_panel.tscn<>res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>uid://cpg4lg1r3ff6m::::res://addons/dialogue_manager/views/settings_view.tscn<>uid://0n7hwviyyly4::::res://addons/dialogue_manager/components/find_in_files.tscn
 settings_view.gd::GDScript::-1::1714594000::0::1::::<>TabContainer<>::
 settings_view.tscn::PackedScene::5839841081119266502::1714594000::0::1::::<><>::res://addons/dialogue_manager/views/settings_view.gd
-::res://assests/::1715290841
+::res://assests/::1715293809
 9slice_test4.png::CompressedTexture2D::2390633402857546415::1714594000::1714594000::1::::<><>::
 100.png::CompressedTexture2D::2742689404379866662::1714594000::1714594000::1::::<><>::
 beach background.png::CompressedTexture2D::7337295723205626372::1714594000::1714594000::1::::<><>::
@@ -78,6 +78,7 @@ catcounter.png::CompressedTexture2D::4617926714149263687::1714594000::1714594000
 dead urchin.png::CompressedTexture2D::7992398719674765099::1714594000::1714594000::1::::<><>::
 egg stack.png::CompressedTexture2D::1630873679590139008::1714594000::1714594000::1::::<><>::
 egg.png::CompressedTexture2D::6330021981898995655::1714594000::1714594000::1::::<><>::
+finished (1).png::CompressedTexture2D::2873032695217754564::1715293809::1715293809::1::::<><>::
 greentea800-export-export.png::CompressedTexture2D::6626590783042235624::1710452973::1710452973::1::::<><>::
 hover_9slice.png::CompressedTexture2D::5932189826798210672::1714594000::1714594000::1::::<><>::
 icon.svg::CompressedTexture2D::7715623622668058214::1710452973::1713382498::1::::<><>::
@@ -117,9 +118,14 @@ tuna800.png::CompressedTexture2D::1670141207905365866::1714594000::1714594000::1
 tuna stack.png::CompressedTexture2D::775594178298821084::1714594000::1714594000::1::::<><>::
 uiguide.png::CompressedTexture2D::7989798312293617425::1714594000::1714594000::1::::<><>::
 uni800-export.png::CompressedTexture2D::7880244765018858066::1714594000::1714594000::1::::<><>::
-::res://food items/::1715290841
+::res://food items/::1715293521
+items.gd::GDScript::-1::1715293521::0::1::::items<>Resource<>::
 salmonsushi.tres::Resource::1066860566629580416::1715290841::0::1::::<><>::res://scripts/MenuItem.gd
-::res://scenes/::1715290841
+::res://recipes/::1715293701
+Egg.tres::Resource/items::1442140785322343093::1715293667::0::1::::<><>::uid://cwgksjawr8va2::::res://assests/egg.png<>res://food items/items.gd
+Seaweed.tres::Resource/items::3514694990527138339::1715293701::0::1::::<><>::uid://csnlrye6f6pqi::::res://assests/seaweed icon.png<>res://food items/items.gd
+Rice.tres::Resource/items::7797436998104651472::1715293663::0::1::::<><>::uid://cwgksjawr8va2::::res://assests/egg.png<>res://food items/items.gd
+::res://scenes/::1715293652
 catcounter.tscn::PackedScene::3571157264984372905::1715290841::0::1::::<><>::uid://b617twrj05adb::::res://assests/catcounter.png
 customerorder.tscn::PackedScene::751567525689333380::1715290841::0::1::::<><>::uid://crq1j4hxk3mvt::::res://assests/orderbubble.png
 cutscene.tscn::PackedScene::1786543101153109999::1715290841::0::1::::<><>::uid://cothpnopf3ppb::::res://assests/outside of resturant.png<>uid://rp366ckuvfs8::::res://textbox.tscn<>res://scenes/granpa cat.png
@@ -153,13 +159,13 @@ tuna.tscn::PackedScene::1639312502535426362::1715290841::0::1::::<><>::res://scr
 tuna_3.tscn::PackedScene::4701242313971656499::1715290841::0::1::::<><>::res://scripts/DragAndDrop.gd
 uni.tscn::PackedScene::3857242827448912513::1715290841::0::1::::<><>::res://scripts/Food.gd<>uid://dkjiqk3oc72lq::::res://assests/uni800-export.png
 uni_3.tscn::PackedScene::2283718642442916838::1715290841::0::1::::<><>::res://scripts/DragAndDrop.gd
-world.tscn::PackedScene::7437644813660059295::1715290841::0::1::::<><>::res://scripts/world.gd<>uid://ce03wtbeq45qw::::res://scenes/star_bar.tscn<>uid://cjnt6krl1advq::::res://assests/sushi resurant no toppings 800.png<>uid://d2f6gmwmevtqn::::res://assests/resurant interior.png<>uid://ogei2tdvq5yt::::res://assests/resized plate 800.png<>uid://bdbmwv1ioekyr::::res://scenes/level_timer.tscn<>uid://xiaisokwjels::::res://assests/egg stack.png<>uid://bq45o5167riir::::res://scenes/catcounter.tscn<>uid://d1setqgolsp06::::res://scenes/pause_menu.tscn<>uid://lbx6m01acley::::res://assests/tuna stack.png<>uid://lv1cwogjutwn::::res://assests/salmon stack.png<>uid://bn8pdqx320ih7::::res://scenes/DragAndDrop.tscn<>uid://87cdnhfa2v47::::res://assests/shrimp stack.png<>res://scenes/egg_3.tscn<>uid://b78ppk1g1u0t3::::res://assests/bowl of roe-export.png<>uid://cwgksjawr8va2::::res://assests/egg.png<>uid://dl4tvy6p74260::::res://assests/dead urchin.png<>res://scenes/tea_3.tscn<>uid://dpjyct1p7fmsn::::res://assests/seaweed.png<>uid://dkjiqk3oc72lq::::res://assests/uni800-export.png<>uid://b6o2ucy7gdnsg::::res://assests/rice with cooker.png<>uid://cpaadh5oyg3hf::::res://assests/ricenoplate.png<>res://scenes/uni_3.tscn<>res://scenes/roe_3.tscn<>uid://bjv8o2nrnklio::::res://assests/salmon.png<>uid://vcyo17gh66xl::::res://assests/lumpofroe.png<>res://scenes/miso_3.tscn<>res://scenes/tuna_3.tscn<>uid://x2a8m3da3ls1::::res://assests/tuna800.png<>res://scenes/rice_3.tscn<>uid://driar8pa4xyay::::res://assests/Miso Soup-export-export.png<>res://scenes/salmon_3.tscn<>res://scenes/shrimp_3.tscn<>uid://c1n78nic8b0ue::::res://assests/greentea800-export-export.png<>uid://de05g2dhuhs8g::::res://assests/shrimp topping drag.png
-::res://scripts/::1715290841
-DragAndDrop.gd::GDScript::-1::1715290841::0::1::::<>TextureRect<>::
-Food.gd::GDScript::-1::1715290841::0::1::::<>Node2D<>::
+world.tscn::PackedScene::7437644813660059295::1715293652::0::1::::<><>::res://scripts/world.gd<>uid://ce03wtbeq45qw::::res://scenes/star_bar.tscn<>uid://cjnt6krl1advq::::res://assests/sushi resurant no toppings 800.png<>uid://d2f6gmwmevtqn::::res://assests/resurant interior.png<>uid://ogei2tdvq5yt::::res://assests/resized plate 800.png<>uid://bdbmwv1ioekyr::::res://scenes/level_timer.tscn<>uid://xiaisokwjels::::res://assests/egg stack.png<>uid://bq45o5167riir::::res://scenes/catcounter.tscn<>uid://d1setqgolsp06::::res://scenes/pause_menu.tscn<>uid://lbx6m01acley::::res://assests/tuna stack.png<>uid://lv1cwogjutwn::::res://assests/salmon stack.png<>uid://bn8pdqx320ih7::::res://scenes/DragAndDrop.tscn<>uid://87cdnhfa2v47::::res://assests/shrimp stack.png<>uid://cbww3nduwnwyb::::res://scenes/egg_3.tscn<>uid://b78ppk1g1u0t3::::res://assests/bowl of roe-export.png<>uid://cwgksjawr8va2::::res://assests/egg.png<>uid://dl4tvy6p74260::::res://assests/dead urchin.png<>uid://cowwwgu0ggfab::::res://scenes/tea_3.tscn<>uid://dpjyct1p7fmsn::::res://assests/seaweed.png<>uid://dkjiqk3oc72lq::::res://assests/uni800-export.png<>uid://b6o2ucy7gdnsg::::res://assests/rice with cooker.png<>uid://cpaadh5oyg3hf::::res://assests/ricenoplate.png<>uid://7sirok2joiok::::res://scenes/uni_3.tscn<>uid://cgdr5gu1ltcdq::::res://scenes/roe_3.tscn<>uid://bjv8o2nrnklio::::res://assests/salmon.png<>uid://vcyo17gh66xl::::res://assests/lumpofroe.png<>uid://loqxe81d41k6::::res://scenes/miso_3.tscn<>uid://b78k1k2kici88::::res://scenes/tuna_3.tscn<>uid://x2a8m3da3ls1::::res://assests/tuna800.png<>uid://dedrnh4ypen3v::::res://scenes/rice_3.tscn<>uid://driar8pa4xyay::::res://assests/Miso Soup-export-export.png<>uid://cdejdoha1a4ug::::res://scenes/salmon_3.tscn<>uid://b5y0e46hin2nh::::res://scenes/shrimp_3.tscn<>uid://c1n78nic8b0ue::::res://assests/greentea800-export-export.png<>uid://de05g2dhuhs8g::::res://assests/shrimp topping drag.png
+::res://scripts/::1715291879
+DragAndDrop.gd::GDScript::-1::1715291879::0::1::::<>TextureRect<>::
+Food.gd::GDScript::-1::1715291879::0::1::::<>Node2D<>::
 global.gd::GDScript::-1::1714430116::0::1::::<>Node<>::
 LevelTimer.gd::GDScript::-1::1714594000::0::1::::<>Node<>::
-MenuItem.gd::GDScript::-1::1715290841::0::1::::<>Resource<>::
+MenuItem.gd::GDScript::-1::1715291879::0::1::::<>Resource<>::
 pause_menu.gd::GDScript::-1::1714594000::0::1::::<>Control<>::
 SceneManager.gd::GDScript::-1::1714594000::0::1::::<>Node<>::
 Slot.gd::GDScript::-1::1713911964::0::1::::<>StaticBody2D<>::

@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://d1d7douc8b0bp"]
+
+[ext_resource type="PackedScene" uid="uid://dp66quaqvelus" path="res://recipes/recipe.tscn" id="1_lv2ir"]
+
+[node name="RecipeBook" type="HBoxContainer"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Recipe Slot" parent="." instance=ExtResource("1_lv2ir")]
+layout_mode = 2
+
+[node name="Recipe Slot2" parent="." instance=ExtResource("1_lv2ir")]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 2

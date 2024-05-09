@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="items" load_steps=6 format=3 uid="uid://or22anomgr1x"]
+
+[ext_resource type="Texture2D" uid="uid://bg6yotu85iye3" path="res://assests/finished (1).png" id="1_u4w6p"]
+[ext_resource type="Resource" uid="uid://ust33lfrem42" path="res://recipes/Egg.tres" id="2_f8dmp"]
+[ext_resource type="Resource" uid="uid://djdewbippn16s" path="res://recipes/Rice.tres" id="3_26x66"]
+[ext_resource type="Resource" uid="uid://bqcsrpat3hb7h" path="res://recipes/Seaweed.tres" id="4_a3pgp"]
+[ext_resource type="Script" path="res://food items/items.gd" id="5_qcclc"]
+
+[resource]
+script = ExtResource("5_qcclc")
+icon = ExtResource("1_u4w6p")
+name = "Egg Sushi"
+recipe = Array[ExtResource("5_qcclc")]([ExtResource("2_f8dmp"), ExtResource("3_26x66"), ExtResource("4_a3pgp")])
+type = "egg sushi"
+description = "done"
