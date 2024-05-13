@@ -1,3 +1,5 @@
+VBoxContainer
+Label
 Button
 HBoxContainer
 Panel
@@ -11,4 +13,3 @@ Sprite2D
 Control
 ColorRect
 Node
-AnimationPlayer

@@ -2,10 +2,6 @@ res://scenes/world.tscn
 res://scripts/DragAndDrop.gd
 res://scripts/Food.gd
 res://scripts/MenuItem.gd
-res://food items/items.gd
-res://recipes/Rice.tres
-res://recipes/Seaweed.tres
-res://Slot.gd
-res://Recipe.gd
+res://recipes/slot.tscn
 res://recipes/recipe.tscn
 res://recipes/recipe_book.tscn

@@ -12,5 +12,13 @@ layout_mode = 2
 [node name="Recipe Slot2" parent="." instance=ExtResource("1_lv2ir")]
 layout_mode = 2
 
-[node name="Button" type="Button" parent="."]
+[node name="craft" type="Button" parent="."]
 layout_mode = 2
+disabled = true
+icon_alignment = 1
+
+[node name="Label" type="Label" parent="craft"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "[make]"

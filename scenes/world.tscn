@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=3 uid="uid://dd736nqnm3l6v"]
+[gd_scene load_steps=37 format=3 uid="uid://dd736nqnm3l6v"]
 
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_c7ua5"]
 [ext_resource type="PackedScene" uid="uid://ce03wtbeq45qw" path="res://scenes/star_bar.tscn" id="2_7cct0"]
@@ -35,6 +35,7 @@
 [ext_resource type="PackedScene" uid="uid://b5y0e46hin2nh" path="res://scenes/shrimp_3.tscn" id="19_tyu3d"]
 [ext_resource type="Texture2D" uid="uid://c1n78nic8b0ue" path="res://assests/greentea800-export-export.png" id="19_v3yh4"]
 [ext_resource type="Texture2D" uid="uid://de05g2dhuhs8g" path="res://assests/shrimp topping drag.png" id="30_omiek"]
+[ext_resource type="PackedScene" uid="uid://d1d7douc8b0bp" path="res://recipes/recipe_book.tscn" id="36_cj71l"]
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_c7ua5")
@@ -94,6 +95,7 @@ scale = Vector2(3.4, 3.4)
 stretch_mode = 5
 
 [node name="tea3" parent="Slot4" instance=ExtResource("12_mnh6p")]
+layout_mode = 0
 offset_left = 297.059
 offset_top = 104.412
 offset_right = 337.059
@@ -103,6 +105,7 @@ stretch_mode = 5
 ItemType = 2
 
 [node name="uni3" parent="Slot4" instance=ExtResource("13_xahb6")]
+layout_mode = 0
 offset_left = 238.824
 offset_top = 128.529
 offset_right = 278.824
@@ -112,6 +115,7 @@ stretch_mode = 5
 ItemType = 3
 
 [node name="roe3" parent="Slot4" instance=ExtResource("14_7khtg")]
+layout_mode = 0
 offset_left = 168.529
 offset_top = 127.647
 offset_right = 208.529
@@ -121,6 +125,7 @@ stretch_mode = 5
 ItemType = 4
 
 [node name="miso3" parent="Slot4" instance=ExtResource("15_j8wq4")]
+layout_mode = 0
 offset_left = 354.706
 offset_top = 73.2353
 offset_right = 394.706
@@ -129,6 +134,7 @@ texture = ExtResource("18_7yukt")
 ItemType = 5
 
 [node name="tuna3" parent="Slot4" instance=ExtResource("16_1y5qw")]
+layout_mode = 0
 offset_left = 99.1177
 offset_top = 127.353
 offset_right = 139.118
@@ -138,6 +144,7 @@ stretch_mode = 5
 ItemType = 6
 
 [node name="Rice3" parent="Slot4" instance=ExtResource("17_vtxuo")]
+layout_mode = 0
 offset_left = -167.941
 offset_top = 100.882
 offset_right = -127.941
@@ -146,6 +153,7 @@ texture = ExtResource("13_d86m0")
 ItemType = 7
 
 [node name="salmon3" parent="Slot4" instance=ExtResource("18_t2rri")]
+layout_mode = 0
 offset_left = 30.8824
 offset_top = 127.941
 offset_right = 70.8824
@@ -155,6 +163,7 @@ stretch_mode = 5
 ItemType = 8
 
 [node name="shrimp3" parent="Slot4" instance=ExtResource("19_tyu3d")]
+layout_mode = 0
 offset_left = -37.0588
 offset_top = 127.059
 offset_right = 2.9412
@@ -163,6 +172,7 @@ texture = ExtResource("30_omiek")
 ItemType = 9
 
 [node name="egg3" parent="Slot4" instance=ExtResource("10_l2hjo")]
+layout_mode = 0
 offset_left = -103.529
 offset_top = 123.529
 offset_right = -63.529
@@ -221,3 +231,16 @@ offset_left = 731.0
 offset_top = 498.0
 offset_right = 731.0
 offset_bottom = 498.0
+
+[node name="Recipes" type="VBoxContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="RecipeBook" parent="Recipes" instance=ExtResource("36_cj71l")]
+layout_mode = 2
+
+[node name="RecipeBook2" parent="Recipes" instance=ExtResource("36_cj71l")]
+layout_mode = 2
+
+[node name="RecipeBook3" parent="Recipes" instance=ExtResource("36_cj71l")]
+layout_mode = 2
