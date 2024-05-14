@@ -1,3 +1,3 @@
-items
+Item
 Resource
 Theme

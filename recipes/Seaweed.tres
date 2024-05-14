@@ -1,14 +1,12 @@
-[gd_resource type="Resource" script_class="items" load_steps=5 format=3 uid="uid://bqcsrpat3hb7h"]
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://cfx0qsj2ad7tc"]
 
-[ext_resource type="Texture2D" uid="uid://bg6yotu85iye3" path="res://assests/finished (1).png" id="1_lcd1x"]
-[ext_resource type="Resource" uid="uid://ust33lfrem42" path="res://recipes/Egg.tres" id="2_h5s3d"]
-[ext_resource type="Script" path="res://food items/items.gd" id="2_isg45"]
-[ext_resource type="Resource" uid="uid://djdewbippn16s" path="res://recipes/Rice.tres" id="3_cbqn5"]
+[ext_resource type="Texture2D" uid="uid://csnlrye6f6pqi" path="res://assests/seaweed icon.png" id="1_y66hv"]
+[ext_resource type="Script" path="res://recipes/Item.gd" id="2_d2ax1"]
 
 [resource]
-script = ExtResource("2_isg45")
-icon = ExtResource("1_lcd1x")
-name = "Egg Sushi"
-recipe = Array[ExtResource("2_isg45")]([ExtResource("2_h5s3d"), ExtResource("3_cbqn5"), null])
-type = "egg sushi"
-description = "done"
+script = ExtResource("2_d2ax1")
+icon = ExtResource("1_y66hv")
+name = "Seaweed"
+recipe = Array[ExtResource("2_d2ax1")]([])
+type = "Ingredients"
+description = ""

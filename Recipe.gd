@@ -1,8 +1,8 @@
 extends PanelContainer
 
-var items: items = null:
+var item: Item = null:
 	set(value):
-		items = value
+		item = value
 		
 		if value != null:
 			$TextureRect.texture = value.icon

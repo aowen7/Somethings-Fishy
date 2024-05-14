@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=3 uid="uid://dd736nqnm3l6v"]
+[gd_scene load_steps=36 format=3 uid="uid://dd736nqnm3l6v"]
 
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_c7ua5"]
 [ext_resource type="PackedScene" uid="uid://ce03wtbeq45qw" path="res://scenes/star_bar.tscn" id="2_7cct0"]
@@ -35,7 +35,6 @@
 [ext_resource type="PackedScene" uid="uid://b5y0e46hin2nh" path="res://scenes/shrimp_3.tscn" id="19_tyu3d"]
 [ext_resource type="Texture2D" uid="uid://c1n78nic8b0ue" path="res://assests/greentea800-export-export.png" id="19_v3yh4"]
 [ext_resource type="Texture2D" uid="uid://de05g2dhuhs8g" path="res://assests/shrimp topping drag.png" id="30_omiek"]
-[ext_resource type="PackedScene" uid="uid://d1d7douc8b0bp" path="res://recipes/recipe_book.tscn" id="36_cj71l"]
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_c7ua5")
@@ -231,16 +230,3 @@ offset_left = 731.0
 offset_top = 498.0
 offset_right = 731.0
 offset_bottom = 498.0
-
-[node name="Recipes" type="VBoxContainer" parent="."]
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="RecipeBook" parent="Recipes" instance=ExtResource("36_cj71l")]
-layout_mode = 2
-
-[node name="RecipeBook2" parent="Recipes" instance=ExtResource("36_cj71l")]
-layout_mode = 2
-
-[node name="RecipeBook3" parent="Recipes" instance=ExtResource("36_cj71l")]
-layout_mode = 2

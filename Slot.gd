@@ -3,9 +3,9 @@ class_name Slot
 
 @onready var texture_rect = $TextureRect
 
-@export var items : items = null:
+@export var item : Item = null:
 	set(value):
-		items = value
+		item = value
 		
 		if value != null:
 			$TextureRect.texture = value.icon
@@ -29,6 +29,6 @@ func _can_drop_data(_pos, data):
 	return data is Slot
 	
 func _drop_data(_at_position, data):
-	var temp = items
-	items = data.items
+	var temp = item
+	item = data.item
 	data.items = temp

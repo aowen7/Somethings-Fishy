@@ -5,3 +5,11 @@ res://scripts/MenuItem.gd
 res://recipes/slot.tscn
 res://recipes/recipe.tscn
 res://recipes/recipe_book.tscn
+res://recipes/Item.gd
+res://Recipe.gd
+res://recipes/recipe_book.gd
+res://Slot.gd
+res://test_scene.tscn
+res://Inventory.gd
+res://recipes/Egg.tres
+res://recipes/EggSushi.tres

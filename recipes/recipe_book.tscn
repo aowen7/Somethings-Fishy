@@ -1,24 +1,36 @@
-[gd_scene load_steps=2 format=3 uid="uid://d1d7douc8b0bp"]
+[gd_scene load_steps=3 format=3 uid="uid://d1d7douc8b0bp"]
 
+[ext_resource type="Script" path="res://recipes/recipe_book.gd" id="1_14vdd"]
 [ext_resource type="PackedScene" uid="uid://dp66quaqvelus" path="res://recipes/recipe.tscn" id="1_lv2ir"]
 
 [node name="RecipeBook" type="HBoxContainer"]
+custom_minimum_size = Vector2(200, 200)
 offset_right = 40.0
 offset_bottom = 40.0
+script = ExtResource("1_14vdd")
 
 [node name="Recipe Slot" parent="." instance=ExtResource("1_lv2ir")]
+custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
 [node name="Recipe Slot2" parent="." instance=ExtResource("1_lv2ir")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="Recipe Slot3" parent="." instance=ExtResource("1_lv2ir")]
+custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
 [node name="craft" type="Button" parent="."]
+custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 disabled = true
 icon_alignment = 1
 
 [node name="Label" type="Label" parent="craft"]
+custom_minimum_size = Vector2(200, 200)
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
+theme_override_font_sizes/font_size = 20
 text = "[make]"

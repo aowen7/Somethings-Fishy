@@ -1,12 +1,12 @@
-[gd_resource type="Resource" script_class="items" load_steps=3 format=3 uid="uid://ust33lfrem42"]
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://btuthq5h22w84"]
 
-[ext_resource type="Texture2D" uid="uid://cwgksjawr8va2" path="res://assests/egg.png" id="1_nyh2f"]
-[ext_resource type="Script" path="res://food items/items.gd" id="2_5l86h"]
+[ext_resource type="Texture2D" uid="uid://cwgksjawr8va2" path="res://assests/egg.png" id="1_hn670"]
+[ext_resource type="Script" path="res://recipes/Item.gd" id="2_aal4x"]
 
 [resource]
-script = ExtResource("2_5l86h")
-icon = ExtResource("1_nyh2f")
-name = "Egg"
-recipe = Array[ExtResource("2_5l86h")]([])
-type = "ingredients"
+script = ExtResource("2_aal4x")
+icon = ExtResource("1_hn670")
+name = "Seaweed"
+recipe = Array[ExtResource("2_aal4x")]([])
+type = "Ingredients"
 description = ""
