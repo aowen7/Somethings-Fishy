@@ -1,13 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://d1d7douc8b0bp"]
+[gd_scene load_steps=4 format=3 uid="uid://d1d7douc8b0bp"]
 
 [ext_resource type="Script" path="res://recipes/recipe_book.gd" id="1_14vdd"]
 [ext_resource type="PackedScene" uid="uid://dp66quaqvelus" path="res://recipes/recipe.tscn" id="1_lv2ir"]
+[ext_resource type="Resource" uid="uid://bcrh7kgh4wreg" path="res://recipes/EggSushi.tres" id="2_jdikl"]
 
 [node name="RecipeBook" type="HBoxContainer"]
 custom_minimum_size = Vector2(200, 200)
 offset_right = 40.0
 offset_bottom = 40.0
 script = ExtResource("1_14vdd")
+item = ExtResource("2_jdikl")
 
 [node name="Recipe Slot" parent="." instance=ExtResource("1_lv2ir")]
 custom_minimum_size = Vector2(200, 200)
@@ -34,3 +36,5 @@ offset_right = 40.0
 offset_bottom = 23.0
 theme_override_font_sizes/font_size = 20
 text = "[make]"
+
+[connection signal="pressed" from="craft" to="." method="_on_craft_pressed"]
