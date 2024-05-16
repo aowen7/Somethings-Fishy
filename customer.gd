@@ -3,42 +3,31 @@ extends Node2D
 @export var customer_sprites_list : Array[Texture2D]
 @onready var customerSprite = $CustomerSprite
 # Variables
-@onready var current_state = CustomerState.IDLE
+@onready var current_state = CustomerState.ORDERING
 @onready var patience_timer = 60  # 60 seconds (1 minute)
 var is_patience_running = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	customerSprite.texture = customer_sprites_list.pick_random()
-
+	state_ordering()
 
 # Customer States
 enum CustomerState {
-	IDLE,
-	WALKING_TO_COUNTER,
 	ORDERING,
 	WAITING_FOR_FOOD,
-	EATING,
 	LEAVING
 }
 
 func set_state(new_state: CustomerState) -> void:
 	current_state = new_state
 	match current_state:
-		CustomerState.IDLE:
-			state_idle()
 		CustomerState.ORDERING:
 			state_ordering()
 		CustomerState.WAITING_FOR_FOOD:
 			state_waiting_for_food()
-		CustomerState.EATING:
-			state_eating()
 		CustomerState.LEAVING:
 			state_leaving()
-
-# Example state transition functions
-func state_idle() -> void:
-	pass # Logic for when customer is idle
 
 func state_ordering() -> void:
 	# Logic for when customer is ordering
@@ -71,9 +60,6 @@ func lose_patience():
 	# Add logic here for what happens when the customer loses patience,
 	# such as leaving the restaurant or becoming angry
 	set_state(CustomerState.LEAVING)
-
-func state_eating() -> void:
-	pass # Logic for when customer is eating
 
 func state_leaving() -> void:
 	pass # Logic for when customer is leaving

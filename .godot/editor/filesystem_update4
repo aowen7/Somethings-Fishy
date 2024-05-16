@@ -4,3 +4,7 @@ res://default_theme.tres
 res://scripts/Trasition.gdshader
 res://scenes/customer.tscn
 res://scenes/start_menu.tscn
+res://scripts/world.gd
+res://scripts/transition_scene.gd
+res://scripts/start_menu.gd
+res://customer.gd

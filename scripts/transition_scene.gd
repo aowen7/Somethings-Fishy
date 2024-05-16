@@ -10,7 +10,6 @@ func _ready():
 func transition():
 	$AnimationPlayer.play("FadeToBlack")
 	
-	
 func _on_animation_player_animation_finished(anim_name):
 	if anim_name == "FadeToBlack":
 		$AnimationPlayer.play("FadeFromBlack")
@@ -19,5 +18,4 @@ func _on_animation_player_animation_finished(anim_name):
 		$Interior.visible = true
 	elif anim_name == "FadeFromBlack":
 		emit_signal("transitioned")
-		
 		
