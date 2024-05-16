@@ -1,19 +1,18 @@
-[gd_scene load_steps=30 format=3 uid="uid://dd736nqnm3l6v"]
+[gd_scene load_steps=29 format=3 uid="uid://dd736nqnm3l6v"]
 
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_c7ua5"]
 [ext_resource type="PackedScene" uid="uid://byxhio87yfra4" path="res://scenes/slot.tscn" id="1_mhkxd"]
 [ext_resource type="PackedScene" uid="uid://ce03wtbeq45qw" path="res://scenes/star_bar.tscn" id="2_7cct0"]
-[ext_resource type="Texture2D" uid="uid://cjnt6krl1advq" path="res://assests/sushi resurant no toppings 800.png" id="2_48qfi"]
 [ext_resource type="PackedScene" uid="uid://p4dbl04xfvjv" path="res://scenes/food.tscn" id="2_i0mue"]
-[ext_resource type="Texture2D" uid="uid://d2f6gmwmevtqn" path="res://assests/resurant interior.png" id="2_lfti3"]
-[ext_resource type="PackedScene" uid="uid://kychbxnsdume" path="res://scenes/customerorder.tscn" id="2_qwmg8"]
-[ext_resource type="Texture2D" uid="uid://ogei2tdvq5yt" path="res://assests/resized plate 800.png" id="2_xmtmk"]
 [ext_resource type="PackedScene" uid="uid://bdbmwv1ioekyr" path="res://scenes/level_timer.tscn" id="3_uxpmm"]
 [ext_resource type="PackedScene" uid="uid://bmmapknon0gfq" path="res://scenes/green_tea.tscn" id="4_lmi36"]
+[ext_resource type="Texture2D" uid="uid://bfdaoxk1uwl2b" path="res://assests/mostrecentbg.png" id="5_42ys3"]
 [ext_resource type="PackedScene" uid="uid://dewtyhwhakl24" path="res://scenes/egg.tscn" id="5_a1q48"]
+[ext_resource type="Texture2D" uid="uid://c3vapphlf6yg8" path="res://assests/resurant interior new colors.png" id="5_q2kgh"]
 [ext_resource type="PackedScene" uid="uid://cvrh2iw0vaid8" path="res://scenes/salmon.tscn" id="6_5ykpr"]
 [ext_resource type="PackedScene" uid="uid://xmdicpf2kg3k" path="res://scenes/tuna.tscn" id="6_8si5x"]
 [ext_resource type="Texture2D" uid="uid://xiaisokwjels" path="res://assests/egg stack.png" id="6_akbvm"]
+[ext_resource type="Texture2D" uid="uid://baxbbb1u8hkd1" path="res://assests/craftingsystem (1).png" id="6_ccxyh"]
 [ext_resource type="PackedScene" uid="uid://bq45o5167riir" path="res://scenes/catcounter.tscn" id="7_cfjh0"]
 [ext_resource type="PackedScene" uid="uid://d1setqgolsp06" path="res://scenes/pause_menu.tscn" id="7_h5tgj"]
 [ext_resource type="PackedScene" uid="uid://bu7qhxbsr6s22" path="res://scenes/uni.tscn" id="8_kgvvk"]
@@ -33,8 +32,6 @@
 [node name="World" type="Node2D"]
 script = ExtResource("1_c7ua5")
 
-[node name="customerorder" parent="." instance=ExtResource("2_qwmg8")]
-
 [node name="StarBar" parent="." instance=ExtResource("2_7cct0")]
 
 [node name="LevelTimer" parent="." instance=ExtResource("3_uxpmm")]
@@ -42,18 +39,17 @@ script = ExtResource("1_c7ua5")
 [node name="Interior" type="Sprite2D" parent="."]
 position = Vector2(960, 544)
 scale = Vector2(0.747656, 0.747222)
-texture = ExtResource("2_lfti3")
-
-[node name="Plate" type="Sprite2D" parent="Interior"]
-visible = false
-position = Vector2(-34.7754, 583.495)
-scale = Vector2(1.33751, 1.33829)
-texture = ExtResource("2_xmtmk")
+texture = ExtResource("5_q2kgh")
 
 [node name="WorkStation" type="Sprite2D" parent="Interior"]
 position = Vector2(-2.00647, 0.66919)
 scale = Vector2(1.00157, 1.00093)
-texture = ExtResource("2_48qfi")
+texture = ExtResource("5_42ys3")
+
+[node name="Plate" type="Sprite2D" parent="."]
+position = Vector2(939.621, 983)
+scale = Vector2(0.653044, 0.709473)
+texture = ExtResource("6_ccxyh")
 
 [node name="catcounter" parent="." instance=ExtResource("7_cfjh0")]
 
@@ -134,6 +130,7 @@ scale = Vector2(0.678309, 0.746324)
 texture = ExtResource("12_63m2r")
 
 [node name="Slot" parent="." instance=ExtResource("1_mhkxd")]
+visible = false
 position = Vector2(930, 986)
 
 [node name="Miso" parent="." instance=ExtResource("2_i0mue")]
