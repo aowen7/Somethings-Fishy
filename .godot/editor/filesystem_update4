@@ -4,13 +4,12 @@ res://scripts/Food.gd
 res://scripts/MenuItem.gd
 res://recipes/Egg.tres
 res://recipes/Seaweed.tres
+res://recipes/EggSushi.tres
 res://recipes/slot.tscn
 res://recipes/recipe.tscn
 res://recipes/recipe_book.tscn
 res://test_scene.tscn
-res://recipes/EggSushi.tres
+res://Slot.gd
+res://scenes/DragAndDrop.tscn
 res://recipes/recipe_book.gd
 res://Inventory.gd
-res://Recipe.gd
-res://VboxRecipe.gd
-res://Slot.gd

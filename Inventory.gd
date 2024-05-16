@@ -29,7 +29,7 @@ func add_item(item):
 func remove_item(item):
 	for i in get_children():
 		if i.item == item:
-			i.item == null
+			i.item = null
 			item_changed.emit()
 			return
 			

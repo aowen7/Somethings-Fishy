@@ -3,9 +3,9 @@
 [ext_resource type="PackedScene" uid="uid://d1d7douc8b0bp" path="res://recipes/recipe_book.tscn" id="1_8iut6"]
 [ext_resource type="Script" path="res://Inventory.gd" id="1_nhiu5"]
 [ext_resource type="Resource" uid="uid://cd88eb3pvlp6t" path="res://recipes/Rice.tres" id="2_7j7dd"]
-[ext_resource type="PackedScene" uid="uid://dp66quaqvelus" path="res://recipes/recipe.tscn" id="2_q73ff"]
 [ext_resource type="Resource" uid="uid://btuthq5h22w84" path="res://recipes/Egg.tres" id="2_uwj34"]
 [ext_resource type="Resource" uid="uid://cfx0qsj2ad7tc" path="res://recipes/Seaweed.tres" id="4_luwhq"]
+[ext_resource type="PackedScene" uid="uid://do41n6jgo1dwp" path="res://recipes/slot.tscn" id="6_ebbcb"]
 [ext_resource type="Script" path="res://VboxRecipe.gd" id="6_mxgtw"]
 
 [node name="testScene" type="Node2D"]
@@ -24,27 +24,27 @@ Rice = ExtResource("2_7j7dd")
 Egg = ExtResource("2_uwj34")
 Seaweed = ExtResource("4_luwhq")
 
-[node name="Recipe Slot" parent="UI/Inventory" instance=ExtResource("2_q73ff")]
+[node name="Slot" parent="UI/Inventory" instance=ExtResource("6_ebbcb")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="Recipe Slot2" parent="UI/Inventory" instance=ExtResource("2_q73ff")]
+[node name="Slot2" parent="UI/Inventory" instance=ExtResource("6_ebbcb")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="Recipe Slot3" parent="UI/Inventory" instance=ExtResource("2_q73ff")]
+[node name="Slot3" parent="UI/Inventory" instance=ExtResource("6_ebbcb")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="Recipe Slot4" parent="UI/Inventory" instance=ExtResource("2_q73ff")]
+[node name="Slot4" parent="UI/Inventory" instance=ExtResource("6_ebbcb")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="Recipe Slot5" parent="UI/Inventory" instance=ExtResource("2_q73ff")]
+[node name="Slot5" parent="UI/Inventory" instance=ExtResource("6_ebbcb")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="Recipe Slot6" parent="UI/Inventory" instance=ExtResource("2_q73ff")]
+[node name="Slot6" parent="UI/Inventory" instance=ExtResource("6_ebbcb")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 

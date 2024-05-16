@@ -25,5 +25,6 @@ func _on_craft_pressed():
 	var inventory = get_tree().current_scene.find_child("Inventory")
 	
 	for i in recipe:
+		print("removing item " + i.name)
 		inventory.remove_item(i)
 	inventory.add_item(item)
