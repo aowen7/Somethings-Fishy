@@ -11,13 +11,15 @@
 [node name="testScene" type="Node2D"]
 
 [node name="UI" type="CanvasLayer" parent="."]
+scale = Vector2(0.5, 0.5)
+transform = Transform2D(0.5, 0, 0, 0.5, 0, 0)
 
 [node name="Inventory" type="GridContainer" parent="UI"]
 custom_minimum_size = Vector2(200, 200)
-offset_left = 366.0
-offset_top = 198.0
-offset_right = 1586.0
-offset_bottom = 398.0
+offset_left = 1204.0
+offset_top = 1254.0
+offset_right = 2424.0
+offset_bottom = 1454.0
 columns = 6
 script = ExtResource("1_nhiu5")
 Rice = ExtResource("2_7j7dd")
@@ -49,10 +51,10 @@ custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
 [node name="VboxRecipe" type="VBoxContainer" parent="UI"]
-offset_left = 573.0
-offset_top = 491.0
-offset_right = 1385.0
-offset_bottom = 691.0
+offset_left = 1425.0
+offset_top = 1813.0
+offset_right = 2237.0
+offset_bottom = 2013.0
 script = ExtResource("6_mxgtw")
 
 [node name="RecipeBook" parent="UI/VboxRecipe" instance=ExtResource("1_8iut6")]

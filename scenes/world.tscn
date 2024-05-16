@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=3 uid="uid://dd736nqnm3l6v"]
+[gd_scene load_steps=37 format=3 uid="uid://dd736nqnm3l6v"]
 
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_c7ua5"]
 [ext_resource type="PackedScene" uid="uid://ce03wtbeq45qw" path="res://scenes/star_bar.tscn" id="2_7cct0"]
@@ -34,6 +34,7 @@
 [ext_resource type="PackedScene" uid="uid://cdejdoha1a4ug" path="res://scenes/salmon_3.tscn" id="18_t2rri"]
 [ext_resource type="PackedScene" uid="uid://b5y0e46hin2nh" path="res://scenes/shrimp_3.tscn" id="19_tyu3d"]
 [ext_resource type="Texture2D" uid="uid://c1n78nic8b0ue" path="res://assests/greentea800-export-export.png" id="19_v3yh4"]
+[ext_resource type="PackedScene" uid="uid://benuogm8xbr04" path="res://test_scene.tscn" id="27_m2x2s"]
 [ext_resource type="Texture2D" uid="uid://de05g2dhuhs8g" path="res://assests/shrimp topping drag.png" id="30_omiek"]
 
 [node name="World" type="Node2D"]
@@ -62,6 +63,7 @@ texture = ExtResource("2_48qfi")
 [node name="catcounter" parent="." instance=ExtResource("7_cfjh0")]
 
 [node name="Slot" parent="." instance=ExtResource("9_jjr1t")]
+visible = false
 offset_left = -801.0
 offset_top = 735.0
 offset_right = -761.0
@@ -70,6 +72,7 @@ scale = Vector2(3.4, 3.4)
 stretch_mode = 5
 
 [node name="Slot2" parent="." instance=ExtResource("9_jjr1t")]
+visible = false
 offset_left = 1040.0
 offset_top = 307.0
 offset_right = 1080.0
@@ -78,6 +81,7 @@ scale = Vector2(3.4, 3.4)
 stretch_mode = 5
 
 [node name="Slot3" parent="." instance=ExtResource("9_jjr1t")]
+visible = false
 offset_left = 1513.0
 offset_top = 302.0
 offset_right = 1553.0
@@ -179,6 +183,10 @@ offset_bottom = 163.529
 texture = ExtResource("11_wcpxu")
 stretch_mode = 5
 ItemType = 1
+
+[node name="testScene" parent="." instance=ExtResource("27_m2x2s")]
+position = Vector2(713, 419)
+scale = Vector2(3.4, 3.4)
 
 [node name="RiceCooker" type="Sprite2D" parent="."]
 position = Vector2(81.1287, 735)
