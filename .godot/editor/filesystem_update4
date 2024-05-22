@@ -2,6 +2,6 @@ res://scenes/world.tscn
 res://scenes/pause_menu.gdshader
 res://scripts/Trasition.gdshader
 res://textbox.tscn
-res://default_theme.tres
 res://scenes/start_menu.tscn
 res://scenes/cutscene.tscn
+res://scripts/world.gd

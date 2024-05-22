@@ -4,7 +4,7 @@ extends Node2D
 @onready var world = $"."
 @onready var pause_menu = $PauseMenu
 
-@onready var restaurant_bg = $MusicPack/restaurantbg
+@onready var restaurant_bg = $AudioStreamPlayer
 
 var paused = false
 
